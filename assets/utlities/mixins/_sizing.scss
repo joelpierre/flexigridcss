@@ -4,23 +4,27 @@
     &-auto {
       @if ($direction == 'auto') {
         @if($axis == 'x') {
-          #{$property}-left: auto;
-          #{$property}-right: auto;
+          #{$property}-left: auto !important;
+          #{$property}-right: auto !important;
+          margin-top: 0;
+          margin-bottom: 0;
         } @else if ($axis == 'y') {
-          #{$property}-top: auto;
-          #{$property}-bottom: auto;
+          #{$property}-top: auto !important;
+          #{$property}-bottom: auto !important;
+          margin-left: 0;
+          margin-right: 0;
         }
       } @else {
-        #{$property}-#{$direction}: auto;
+        #{$property}-#{$direction}: auto !important;
       }
     }
   } @else {
     &-#{$size}-auto {
       @if ($direction == 'auto') {
-        #{$property}-left: auto;
-        #{$property}-right: auto;
+        #{$property}-left: auto !important;
+        #{$property}-right: auto !important;
       } @else {
-        #{$property}-#{$direction}: auto;
+        #{$property}-#{$direction}: auto !important;
       }
     }
   }
@@ -31,13 +35,13 @@
   @if($size == null) {
     @for $i from 1 through 10 {
       &-#{$i} {
-        #{$property}-#{$direction}: #{$i}rem;
+        #{$property}-#{$direction}: #{$i}rem !important;
       }
     }
   } @else {
     @for $i from 1 through 10 {
       &-#{$size}-#{$i} {
-        #{$property}-#{$direction}: #{$i}rem;
+        #{$property}-#{$direction}: #{$i}rem !important;
       }
     }
   }

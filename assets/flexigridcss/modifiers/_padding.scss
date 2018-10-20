@@ -1,0 +1,79 @@
+.pl {
+  @include dynamic-sizing(null, 'padding', 'left');
+
+  @include tablet-portrait-up {
+    @include dynamic-sizing('sm', 'padding', 'left');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-sizing('md', 'padding', 'left');
+  }
+
+  @include desktop-up {
+    @include dynamic-sizing('lg', 'padding', 'left');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-sizing('xl', 'padding', 'left');
+  }
+}
+
+.pr {
+  @include dynamic-sizing(null, 'padding', 'right');
+
+  @include tablet-portrait-up {
+    @include dynamic-sizing('sm', 'padding', 'right');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-sizing('md', 'padding', 'right');
+  }
+
+  @include desktop-up {
+    @include dynamic-sizing('lg', 'padding', 'right');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-sizing('xl', 'padding', 'right');
+  }
+}
+
+.pt {
+  @include dynamic-sizing(null, 'padding', 'top');
+
+  @include tablet-portrait-up {
+    @include dynamic-sizing('sm', 'padding', 'top');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-sizing('md', 'padding', 'top');
+  }
+
+  @include desktop-up {
+    @include dynamic-sizing('lg', 'padding', 'top');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-sizing('xl', 'padding', 'top');
+  }
+}
+
+.pb {
+  @include dynamic-sizing(null, 'padding', 'bottom');
+
+  @include tablet-portrait-up {
+    @include dynamic-sizing('sm', 'padding', 'bottom');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-sizing('md', 'padding', 'bottom');
+  }
+
+  @include desktop-up {
+    @include dynamic-sizing('lg', 'padding', 'bottom');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-sizing('xl', 'padding', 'bottom');
+  }
+}

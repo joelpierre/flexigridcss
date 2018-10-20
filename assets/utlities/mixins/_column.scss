@@ -10,12 +10,6 @@
   @supports (display: grid) {
     grid-column: 1 / -1;
   }
-
-  &--auto {
-    @supports (display: grid) {
-      grid-column: auto;
-    }
-  }
 }
 
 @mixin columns($col, $columns: $grid-columns) {
