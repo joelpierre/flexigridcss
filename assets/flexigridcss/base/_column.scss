@@ -9,6 +9,12 @@
 .col {
   @include dynamic-columns();
 
+  &--auto {
+    @supports (display: grid) {
+      grid-column: auto;
+    }
+  }
+
   @include tablet-portrait-up {
     @include dynamic-columns('sm');
   }
