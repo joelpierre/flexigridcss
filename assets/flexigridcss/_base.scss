@@ -1,0 +1,79 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat($grid-columns, 1fr);
+  width: 100%;
+  grid-gap: 2rem;
+  padding: 0 1rem;
+  min-height: 0;
+  min-width: 0;
+}
+
+.container {
+
+}
+
+.grid-row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 0;
+  max-width: calc(100% + 1rem + 1rem);
+  margin: 0 -1rem;
+  align-items: stretch;
+
+  // Grid styles
+  @supports (display: grid) {
+    grid-column: 1 / -1;
+  }
+}
+
+[class|="col"] {
+  @include column-base;
+  margin-top: .5em;
+  margin-bottom: .5em;
+
+  span {
+    padding: 1rem .5rem;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+}
+
+[class|="col-xs"] {
+  span {
+    background-color: orangered;
+    color: white;
+  }
+}
+
+[class|="col-sm"] {
+  span {
+    background-color: violet;
+    color: white;
+  }
+}
+
+[class|="col-md"] {
+  span {
+    background-color: blue;
+    color: white;
+  }
+}
+
+[class|="col-lg"] {
+  span {
+    background-color: green;
+    color: white;
+  }
+}
+
+[class|="col-xl"] {
+  span {
+    background-color: lightcoral;
+    color: white;
+  }
+}

@@ -1,0 +1,47 @@
+// Grid
+$grid-columns: 12;
+
+// Fonts
+$font-default: "Helvetica", Helvetica Neue, Arial, sans-serif;
+
+// Colors
+$color-white: white;
+$color-black: black;
+$color-light-gray: #f7f7f7;
+$color-mid-gray: #9f9f9f;
+$color-dark-gray: #616161;
+
+// Utils
+$font-size-1: 48px;
+$font-size-2: 34px;
+$font-size-3: 24px;
+$font-size-4: 16px;
+$font-size-5: 14px;
+$font-size-6: 12px;
+
+$border-width: 2px;
+$border-style: solid;
+
+$radius-circle: 50%;
+$radius-rounded: 3px;
+
+$transition-slow: .8s ease;
+$transition-normal: .4s ease;
+$transition-fast: .2s ease;
+
+$transition-all: .4s all;
+
+$spacing-small: 1rem;
+$spacing-base: 2.5rem;
+$spacing-large: 5rem;
+
+// Media Query Values
+$mobile-only: (max-width: 599px);
+$tablet-portrait-up: (min-width: 600px);
+$tablet-landscape-up: (min-width: 900px);
+$desktop-up: (min-width: 1200px);
+$big-desktop-up: (min-width: 1800px);
+
+$center: translate(-50%, -50%);
+$centerY: translateY(-50%);
+$centerX: translateX(-50%);
