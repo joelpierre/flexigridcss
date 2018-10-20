@@ -9,7 +9,7 @@
     "gulp-plumber": "^1.2.0",
     "gulp-livereload": "^4.0.0"
   },
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,12 +18,13 @@
     "url": "git@joel_github:joelpierre/flexigridcss.git"
   },
   "keywords": [
+    "Flexigridcss",
     "Flexbox",
     "CSS",
     "Grid",
     "Joel",
     "Pierre"
   ],
-  "author": "Joel Pierre-Powell",
+  "author": "Joel Pierre-Powell <j.pierrepowell@gmail.com> (http://pixeltwist.io)",
   "license": "GNU"
 }

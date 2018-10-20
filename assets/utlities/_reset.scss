@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // We reset to 10px to make it ow so easy for everyone to work out what a REM/EM is...
+}
+
+body {
+  font-family: $font-default;
+}

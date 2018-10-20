@@ -41,8 +41,6 @@
 
   @supports (display: grid) {
     grid-column: span $columns;
-    grid-row: span 1;
-    overflow: hidden;
   }
 }
 

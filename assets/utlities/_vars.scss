@@ -1,5 +1,7 @@
 // Grid
 $grid-columns: 12;
+$grid-space: 1rem;
+$grid-space2x: calc(#{$grid-space} * 2);
 
 // Fonts
 $font-default: "Helvetica", Helvetica Neue, Arial, sans-serif;

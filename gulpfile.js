@@ -22,10 +22,8 @@ gulp.task('sass', () => {
 });
 
 gulp.task('watch', function () {
-
   livereload.listen();
-
-  gulp.watch('assets/sass/**/*.scss', ['sass']);
+  gulp.watch('assets/**/*.scss', ['sass']);
 });
 
 gulp.task('default', ['sass',  'watch']);
