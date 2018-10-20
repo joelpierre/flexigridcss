@@ -1,0 +1,11 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix, .cfx {
+  @include clearfix;
+}

@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 0;
+  max-width: calc(100% + #{$grid-space2x});
+  margin: 0 -1rem;
+  align-items: stretch; // By default we make all items stretch to the row height.
+
+  // Grid styles
+  @supports (display: grid) {
+    grid-column: 1 / -1;
+  }
+}

@@ -1,0 +1,23 @@
+/*
+* Columns.
+ */
+
+.col {
+  @include dynamic-columns('xs');
+
+  @include tablet-portrait-up {
+    @include dynamic-columns('sm');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-columns('md');
+  }
+
+  @include desktop-up {
+    @include dynamic-columns('lg');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-columns('xl');
+  }
+}

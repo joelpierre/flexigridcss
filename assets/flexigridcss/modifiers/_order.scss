@@ -1,0 +1,33 @@
+/*
+* Order classes.
+ */
+
+.order {
+  @include dynamic-order('xs','first');
+  @include dynamic-order('xs','last');
+  @include dynamic-order('xs');
+
+  @include tablet-portrait-up {
+    @include dynamic-order('sm','first');
+    @include dynamic-order('sm','last');
+    @include dynamic-order('sm');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-order('md','first');
+    @include dynamic-order('md','last');
+    @include dynamic-order('md');
+  }
+
+  @include desktop-up {
+    @include dynamic-order('lg','first');
+    @include dynamic-order('lg','last');
+    @include dynamic-order('lg');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-order('xl','first');
+    @include dynamic-order('xl','last');
+    @include dynamic-order('xl');
+  }
+}

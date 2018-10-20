@@ -1,0 +1,34 @@
+// (max-width: 599px)
+@mixin mobile-only {
+  @media #{$mobile-only} {
+    @content;
+  }
+}
+
+// (min-width: 600px)
+@mixin tablet-portrait-up {
+  @media #{$tablet-portrait-up} {
+    @content;
+  }
+}
+
+// (min-width: 900px)
+@mixin tablet-landscape-up {
+  @media #{$tablet-landscape-up} {
+    @content;
+  }
+}
+
+// (min-width: 1200px)
+@mixin desktop-up {
+  @media #{$desktop-up} {
+    @content;
+  }
+}
+
+// (min-width: 1800px)
+@mixin big-desktop-up {
+  @media #{$big-desktop-up} {
+    @content;
+  }
+}

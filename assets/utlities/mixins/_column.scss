@@ -1,0 +1,38 @@
+@mixin column-base {
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+
+  @supports (display: grid) {
+    grid-column: 1 / -1;
+  }
+}
+
+@mixin columns($col, $columns: $grid-columns) {
+  flex: 0 0 calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+  max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+  min-width: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  @supports (display: grid) {
+    grid-column: span $col;
+  }
+}
+
+@mixin dynamic-columns($size, $columns: $grid-columns) {
+  &-#{$size} {
+    @include column-base;
+  }
+
+  @for $i from 1 through $columns {
+    &-#{$size}-#{$i} {
+      @include column-base;
+      @include columns(#{$i});
+    }
+  }
+}

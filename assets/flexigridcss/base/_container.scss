@@ -9,7 +9,7 @@
   margin: auto;
   width: 100%;
 
-  // If doesnt support grid display: block;
+  // If doesn't support grid display: block;
   @supports not (display: grid) {
     display: block;
   }
@@ -33,32 +33,21 @@
     width: 1800px;
     max-width: 1800px;
   }
-
-  &-fluid {
-    display: grid;
-    grid-template-columns: repeat($grid-columns, 1fr);
-    grid-gap: $grid-space2x;
-    padding: 0 1rem;
-    min-height: 0;
-    min-width: 0;
-    margin: auto;
-    width: 100%;
-    max-width: 100%;
-  }
 }
 
-.row {
-  display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
+.container-fluid {
+  display: grid;
+  grid-template-columns: repeat($grid-columns, 1fr);
+  grid-gap: $grid-space2x;
+  padding: 0 1rem;
+  min-height: 0;
   min-width: 0;
-  max-width: calc(100% + #{$grid-space2x});
-  margin: 0 -1rem;
-  align-items: stretch;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
 
-  // Grid styles
-  @supports (display: grid) {
-    grid-column: 1 / -1;
+  // If doesn't support grid display: block;
+  @supports not (display: grid) {
+    display: block;
   }
 }

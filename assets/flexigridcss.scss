@@ -1,12 +1,57 @@
+// Vars
 @import "utlities/vars";
-@import "utlities/reset";
-@import "utlities/mixins";
-@import "utlities/functions";
-
+// Functions
+@import "utlities/functions/functions";
+// Mixins
+@import "utlities/mixins/core";
+@import "utlities/mixins/media-queries";
+@import "utlities/mixins/position";
+@import "utlities/mixins/float";
+@import "utlities/mixins/column";
+@import "utlities/mixins/offset";
+@import "utlities/mixins/order";
+/* Base Styles */
+@import "flexigridcss/base/reset";
+// These are temp styles for colours
 @import "utlities/temp";
-
-
-@import "flexigridcss/base";
-@import "flexigridcss/columns";
-@import "flexigridcss/offset";
-@import "flexigridcss/order";
+// Delete this after
+@import "flexigridcss/base/container";
+@import "flexigridcss/base/row";
+@import "flexigridcss/base/column";
+/* Typography Styles */
+@import "flexigridcss/typography/heading";
+@import "flexigridcss/typography/body";
+@import "flexigridcss/typography/list";
+/* Component Styles */
+@import "flexigridcss/components/hero";
+@import "flexigridcss/components/card";
+@import "flexigridcss/components/alert";
+@import "flexigridcss/components/table";
+@import "flexigridcss/components/form";
+@import "flexigridcss/components/input-group";
+@import "flexigridcss/components/button";
+@import "flexigridcss/components/breadcrumb";
+@import "flexigridcss/components/pagination";
+/* Modifier Styles */
+@import "flexigridcss/modifiers/offset";
+@import "flexigridcss/modifiers/order";
+@import "flexigridcss/modifiers/border";
+@import "flexigridcss/modifiers/border-radius";
+@import "flexigridcss/modifiers/margin";
+@import "flexigridcss/modifiers/padding";
+@import "flexigridcss/modifiers/text";
+@import "flexigridcss/modifiers/align";
+@import "flexigridcss/modifiers/align-items";
+@import "flexigridcss/modifiers/align-self";
+@import "flexigridcss/modifiers/justify-content";
+@import "flexigridcss/modifiers/colour";
+@import "flexigridcss/modifiers/background";
+@import "flexigridcss/modifiers/overflow";
+@import "flexigridcss/modifiers/sizing";
+@import "flexigridcss/modifiers/grid";
+@import "flexigridcss/modifiers/flex";
+@import "flexigridcss/modifiers/float";
+@import "flexigridcss/modifiers/display";
+@import "flexigridcss/modifiers/visibility";
+@import "flexigridcss/modifiers/position";
+@import "flexigridcss/modifiers/screen-reader";

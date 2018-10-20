@@ -1,0 +1,18 @@
+// Mixins
+@mixin dynamic-order($size, $position: null, $columns: $grid-columns) {
+  @if ($position == 'first') {
+    &-#{$size}-#{$position} {
+      order: -1;
+    }
+  } @else if ($position == 'last') {
+    &-#{$size}-#{$position} {
+      order: $columns + 1;
+    }
+  } @else {
+    @for $i from 0 through $columns {
+      &-#{$size}-#{$i} {
+        order: #{$i};
+      }
+    }
+  }
+}

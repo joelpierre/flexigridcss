@@ -1,0 +1,7 @@
+@mixin dynamic-margin($size: 'xs', $columns: $grid-columns) {
+
+}
+
+.mx {
+  @include dynamic-margin('-xs')
+}

@@ -10,6 +10,7 @@ const gulp = require('gulp'),
 // Compress SCSS Task -
 gulp.task('sass', () => {
   gulp.src('assets/**/*.scss')
+    .pipe(sourcemaps.init())
     .pipe(plumber())
     .pipe(sass({
       outputStyle: 'nested' // nested, expanded, compact, compressed
@@ -20,18 +21,17 @@ gulp.task('sass', () => {
       grid: true,
       flexbox: true
     }))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('dist/'))
     .pipe(livereload());
 });
 
 gulp.task('cleanCSS', () => {
   gulp.src('dist/flexigridcss.css')
-    .pipe(sourcemaps.init())
     .pipe(cleanCSS({keepBreaks: true}))
     .pipe(rename({
       basename: 'flexigridcss.min'
     }))
-    .pipe(sourcemaps.write())
     .pipe(gulp.dest('dist/'))
   ;
 });
