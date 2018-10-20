@@ -1,0 +1,29 @@
+{
+  "name": "flexigridcss",
+  "version": "0.0.1",
+  "description": "A flex box and grid css framework",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-livereload": "^4.0.0"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@joel_github:joelpierre/flexigridcss.git"
+  },
+  "keywords": [
+    "Flexbox",
+    "CSS",
+    "Grid",
+    "Joel",
+    "Pierre"
+  ],
+  "author": "Joel Pierre-Powell",
+  "license": "GNU"
+}
