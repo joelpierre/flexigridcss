@@ -5,6 +5,26 @@ $grid-space2x: calc(#{$grid-space} * 2);
 
 // Fonts
 $font-default: "Helvetica", Helvetica Neue, Arial, sans-serif;
+$font-monospace: monospace, monospace;
+
+$font-heading-1: 4.8rem;
+$font-heading-2: 3.4rem;
+$font-heading-3: 2.4rem;
+$font-heading-4: 1.6rem;
+$font-heading-5: 1.4rem;
+$font-heading-6: 1.2rem;
+$font-body: 1.6rem;
+
+$font-weight-base: normal;
+
+$line-height-base: 1.6;
+
+$headings-margin-bottom: 3rem;
+$paragraph-margin-bottom: 2rem;
+
+$table-cell-padding: 1rem;
+
+$label-margin-bottom: 1rem;
 
 // Colors
 $color-white: white;
@@ -13,19 +33,19 @@ $color-light-gray: #f7f7f7;
 $color-mid-gray: #9f9f9f;
 $color-dark-gray: #616161;
 
-// Utils
-$font-size-1: 48px;
-$font-size-2: 34px;
-$font-size-3: 24px;
-$font-size-4: 16px;
-$font-size-5: 14px;
-$font-size-6: 12px;
+$link-color: blue;
+$link-hover-color: darken(blue, 50%);
+$link-decoration: none;
+$link-hover-decoration: underline;
 
+$table-caption-color: green;
+
+// Borders
 $border-width: 2px;
 $border-style: solid;
 
 $radius-circle: 50%;
-$radius-rounded: 3px;
+$radius-rounded: .3rem;
 
 $transition-slow: .8s ease;
 $transition-normal: .4s ease;
@@ -33,9 +53,9 @@ $transition-fast: .2s ease;
 
 $transition-all: .4s all;
 
-$spacing-small: 1rem;
-$spacing-base: 2.5rem;
-$spacing-large: 5rem;
+$spacing-small: 3rem;
+$spacing-base: 5rem;
+$spacing-large: 8rem;
 
 // Media Query Values
 $mobile-only: (max-width: 599px);
