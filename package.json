@@ -1,6 +1,6 @@
 {
   "name": "flexigridcss",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://flexigridcss.pixeltwist.io/",
   "description": "A Modern CSS framework that incorporates grid and flex box",
   "devDependencies": {
