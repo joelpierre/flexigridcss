@@ -1,0 +1,93 @@
+@mixin center-xy {
+  transform: $center;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+@mixin center-x {
+  transform: $centerX;
+  left: 50%;
+  position: absolute;
+}
+
+@mixin center-y {
+  transform: $centerY;
+  top: 50%;
+  position: absolute;
+}
+
+@mixin column-base {
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
+
+  @supports (display: grid) {
+    grid-column: 1 / -1;
+  }
+}
+
+// Create Columns Easy
+@mixin columns($columns, $grid-columns: $grid-columns) {
+  flex: 0 0 calc(100% - ((100% / #{$grid-columns}) * (#{$grid-columns} - #{$columns})));
+  max-width: calc(100% - ((100% / #{$grid-columns}) * (#{$grid-columns} - #{$columns})));
+  min-width: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  @supports (display: grid) {
+    grid-column: span $columns;
+  }
+}
+
+@mixin dynamic-columns($size: 'xs', $grid-columns: $grid-columns) {
+  &#{$size} {
+    @include column-base;
+  }
+
+  @for $i from 1 through $grid-columns {
+    &#{$size}-#{$i} {
+      @include column-base;
+      @include columns(#{$i});
+    }
+  }
+}
+
+// (max-width: 599px)
+@mixin mobile-only {
+  @media #{$mobile-only} {
+    @content;
+  }
+}
+
+// (min-width: 600px)
+@mixin tablet-portrait-up {
+  @media #{$tablet-portrait-up} {
+    @content;
+  }
+}
+
+// (min-width: 900px)
+@mixin tablet-landscape-up {
+  @media #{$tablet-landscape-up} {
+    @content;
+  }
+}
+
+// (min-width: 1200px)
+@mixin desktop-up {
+  @media #{$desktop-up} {
+    @content;
+  }
+}
+
+// (min-width: 1800px)
+@mixin big-desktop-up {
+  @media #{$big-desktop-up} {
+    @content;
+  }
+}
