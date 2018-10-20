@@ -1,9 +1,9 @@
 [class|="col"] {
   margin-top: .5em;
   margin-bottom: .5em;
-  text-align: center;
 
   span {
+    text-align: center;
     padding: 1rem .5rem;
     width: 100%;
     display: block;
@@ -12,30 +12,23 @@
   }
 }
 
-[class|="col-xs"] {
-  span {
-    background-color: orangered;
-    color: white;
-  }
-}
-
-[class|="col-sm"] {
+[class|="col-md"] {
   span {
     background-color: violet;
     color: white;
   }
 }
 
-[class|="col-md"] {
+[class|="col-sm"] {
   span {
-    background-color: blue;
+    background-color: orangered;
     color: white;
   }
 }
 
 [class|="col-lg"] {
   span {
-    background-color: green;
+    background-color: greenyellow;
     color: white;
   }
 }

@@ -1,0 +1,44 @@
+// Auto Only
+@mixin dynamic-sizing-auto($size: null, $axis: null, $property: 'margin', $direction: 'auto', $columns: $grid-columns) {
+  @if ($size == null) {
+    &-auto {
+      @if ($direction == 'auto') {
+        @if($axis == 'x') {
+          #{$property}-left: auto;
+          #{$property}-right: auto;
+        } @else if ($axis == 'y') {
+          #{$property}-top: auto;
+          #{$property}-bottom: auto;
+        }
+      } @else {
+        #{$property}-#{$direction}: auto;
+      }
+    }
+  } @else {
+    &-#{$size}-auto {
+      @if ($direction == 'auto') {
+        #{$property}-left: auto;
+        #{$property}-right: auto;
+      } @else {
+        #{$property}-#{$direction}: auto;
+      }
+    }
+  }
+}
+
+// REM Sizing
+@mixin dynamic-sizing($size: null, $property: null, $direction: null) {
+  @if($size == null) {
+    @for $i from 1 through 10 {
+      &-#{$i} {
+        #{$property}-#{$direction}: #{$i}rem;
+      }
+    }
+  } @else {
+    @for $i from 1 through 10 {
+      &-#{$size}-#{$i} {
+        #{$property}-#{$direction}: #{$i}rem;
+      }
+    }
+  }
+}

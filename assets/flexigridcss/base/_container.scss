@@ -2,16 +2,15 @@
 .container {
   display: grid;
   grid-template-columns: repeat($grid-columns, 1fr);
-  grid-gap: calc(#{$grid-space} * 2);
+  grid-column-gap: calc(#{$grid-space} * 2);
   padding: 0 $grid-space;
   min-height: 0;
   min-width: 0;
   margin: auto;
   width: 100%;
 
-  // If doesn't support grid display: block;
-  @supports not (display: grid) {
-    display: block;
+  &--row-gap {
+    grid-row-gap: $grid-space2x;
   }
 
   @include tablet-portrait-up {
@@ -33,18 +32,27 @@
     width: 1800px;
     max-width: 1800px;
   }
+
+  // If doesn't support grid display: block;
+  @supports not (display: grid) {
+    display: block;
+  }
 }
 
 .container-fluid {
   display: grid;
   grid-template-columns: repeat($grid-columns, 1fr);
-  grid-gap: $grid-space2x;
+  grid-column-gap: $grid-space2x;
   padding: 0 1rem;
   min-height: 0;
   min-width: 0;
   margin: auto;
   width: 100%;
   max-width: 100%;
+
+  &--row-gap {
+    grid-row-gap: $grid-space2x;
+  }
 
   // If doesn't support grid display: block;
   @supports not (display: grid) {

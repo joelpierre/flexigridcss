@@ -1,6 +1,6 @@
 @mixin column-base {
   box-sizing: border-box;
-  flex: 0 0 100%;
+  flex: 1 0 auto;
   padding-right: 1rem;
   padding-left: 1rem;
   min-width: 0;
@@ -10,12 +10,19 @@
   @supports (display: grid) {
     grid-column: 1 / -1;
   }
+
+  &--auto {
+    @supports (display: grid) {
+      grid-column: auto;
+    }
+  }
 }
 
 @mixin columns($col, $columns: $grid-columns) {
   flex: 0 0 calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
   max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
   min-width: 0;
+  min-height: 0;
   padding-right: 1rem;
   padding-left: 1rem;
 
@@ -24,15 +31,18 @@
   }
 }
 
-@mixin dynamic-columns($size, $columns: $grid-columns) {
-  &-#{$size} {
-    @include column-base;
-  }
-
-  @for $i from 1 through $columns {
-    &-#{$size}-#{$i} {
-      @include column-base;
-      @include columns(#{$i});
+@mixin dynamic-columns($size: null, $columns: $grid-columns) {
+  @if ($size == null) {
+    @for $i from 1 through $columns {
+      &-#{$i} {
+        @include columns(#{$i});
+      }
+    }
+  } @else {
+    @for $i from 1 through $columns {
+      &-#{$size}-#{$i} {
+        @include columns(#{$i});
+      }
     }
   }
 }

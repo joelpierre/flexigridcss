@@ -2,8 +2,12 @@
 * Columns.
  */
 
+[class|="col"] {
+  @include column-base;
+}
+
 .col {
-  @include dynamic-columns('xs');
+  @include dynamic-columns();
 
   @include tablet-portrait-up {
     @include dynamic-columns('sm');
@@ -21,3 +25,4 @@
     @include dynamic-columns('xl');
   }
 }
+
