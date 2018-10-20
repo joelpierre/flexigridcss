@@ -1,18 +1,24 @@
 {
   "name": "flexigridcss",
   "version": "0.0.1",
-  "description": "A flex box and grid css framework",
+  "homepage": "http://flexigridcss.pixeltwist.io/",
+  "description": "A Modern CSS framework that incorporates grid and flex box",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-livereload": "^4.0.0",
     "gulp-plumber": "^1.2.0",
-    "gulp-livereload": "^4.0.0"
+    "gulp-sass": "^4.0.2",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-rename": "^1.4.0"
   },
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "assets/flexigridcss.scss",
+  "style": "dist/flexigrid.min.css",
+  "unpkg": "dist/flexigrid.css",
   "repository": {
     "type": "git",
     "url": "git@joel_github:joelpierre/flexigridcss.git"
@@ -25,6 +31,20 @@
     "Joel",
     "Pierre"
   ],
-  "author": "Joel Pierre-Powell <j.pierrepowell@gmail.com> (http://pixeltwist.io)",
-  "license": "GNU"
+  "bugs": {
+    "url": "https://github.com/joelpierre/flexigridcss/issues"
+  },
+  "author": {
+    "name": "Joel Pierre-Powell",
+    "email": "j.pierrepowell@gmail.com",
+    "url": "http://flexigridcss.pixeltwist.io/"
+  },
+  "license": "MIT",
+  "files": [
+    "assets",
+    "dist",
+    "flexigridcss.sass",
+    "LICENSE",
+    "README.md"
+  ]
 }
