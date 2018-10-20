@@ -1,0 +1,64 @@
+// Container will always be grid... If not supported then it will just be the width it needs to be...
+.container {
+  display: grid;
+  grid-template-columns: repeat($grid-columns, 1fr);
+  grid-gap: calc(#{$grid-space} * 2);
+  padding: 0 $grid-space;
+  min-height: 0;
+  min-width: 0;
+  margin: auto;
+  width: 100%;
+
+  // If doesnt support grid display: block;
+  @supports not (display: grid) {
+    display: block;
+  }
+
+  @include tablet-portrait-up {
+    width: 600px;
+    max-width: 600px;
+  }
+
+  @include tablet-landscape-up {
+    width: 900px;
+    max-width: 900px;
+  }
+
+  @include desktop-up {
+    width: 1200px;
+    max-width: 1200px;
+  }
+
+  @include big-desktop-up {
+    width: 1800px;
+    max-width: 1800px;
+  }
+
+  &-fluid {
+    display: grid;
+    grid-template-columns: repeat($grid-columns, 1fr);
+    grid-gap: $grid-space2x;
+    padding: 0 1rem;
+    min-height: 0;
+    min-width: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 0;
+  max-width: calc(100% + #{$grid-space2x});
+  margin: 0 -1rem;
+  align-items: stretch;
+
+  // Grid styles
+  @supports (display: grid) {
+    grid-column: 1 / -1;
+  }
+}
