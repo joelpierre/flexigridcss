@@ -2619,6 +2619,10 @@ dl dd {
   .pb-xl-10 {
     padding: 10bottom !important; } }
 
+.justify-content-center {
+  -webkit-box-pack: center !important;
+          justify-content: center !important; }
+
 .img-fluid {
   width: 100%;
   height: auto; }
