@@ -1,5 +1,8 @@
+body, main {
+  background-color: #f9f9f4; }
+
 .primary-header {
-  background-color: #F5F5F5;
+  background-color: #ff5c5c;
   display: -webkit-box;
   display: flex;
   height: 100px;
@@ -7,11 +10,9 @@
           align-items: center;
   position: relative; }
   .primary-header__brand {
-    width: auto;
-    height: auto;
     overflow: hidden;
-    min-height: 50px;
-    background-color: #ff5c5c; }
+    margin-right: auto;
+    min-height: 50px; }
   .primary-header__menu-toggle {
     overflow: hidden;
     display: none;
@@ -29,10 +30,20 @@
 
 .brand {
   width: 270px; }
+  .brand__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0; }
   .brand__link {
     width: 100%;
     height: 100%;
-    display: block; }
+    display: block;
+    color: white; }
   .brand__img {
     width: auto;
     height: 50px; }
@@ -84,7 +95,7 @@
   padding: 3rem 0; }
 
 .primary-footer {
-  background-color: #BDBDBD;
+  background-color: #ff5c5c;
   padding: 2rem 0 2rem; }
 
 .legal__heading {

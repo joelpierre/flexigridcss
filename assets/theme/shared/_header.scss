@@ -1,16 +1,14 @@
 .primary-header {
-  background-color: $color-light-gray-1;
+  background-color: $color-primary;
   display: flex;
   height: 100px;
   align-items: center;
   position: relative;
 
   &__brand {
-    width: auto;
-    height: auto;
     overflow: hidden;
+    margin-right: auto;
     min-height: 50px;
-    background-color: $color-primary;
   }
 
   &__menu-toggle {

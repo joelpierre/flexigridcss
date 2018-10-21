@@ -40,26 +40,26 @@
 
 .ml {
   @include dynamic-sizing-auto(null, null, 'margin', 'left');
-  @include dynamic-sizing(null, 'margin', 'left');
+  @include dynamic-sizing(null, 'margin-left', 'rem');
 
   @include tablet-portrait-up {
     @include dynamic-sizing-auto('sm', null, 'margin', 'left');
-    @include dynamic-sizing('sm', 'margin', 'left');
+    @include dynamic-sizing('sm', 'margin-left', 'rem');
   }
 
   @include tablet-landscape-up {
     @include dynamic-sizing-auto('md', null, 'margin', 'left');
-    @include dynamic-sizing('md', 'margin', 'left');
+    @include dynamic-sizing('md', 'margin-left', 'rem');
   }
 
   @include desktop-up {
     @include dynamic-sizing-auto('lg', null, 'margin', 'left');
-    @include dynamic-sizing('lg', 'margin', 'left');
+    @include dynamic-sizing('lg', 'margin-left', 'rem');
   }
 
   @include big-desktop-up {
     @include dynamic-sizing-auto('xl', null, 'margin', 'left');
-    @include dynamic-sizing('xl', 'margin', 'left');
+    @include dynamic-sizing('xl', 'margin-left', 'rem');
   }
 }
 
