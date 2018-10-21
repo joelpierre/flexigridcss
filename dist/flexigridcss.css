@@ -108,11 +108,11 @@ sup {
   top: -.8em; }
 
 a {
-  color: blue;
+  color: #2196F3;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: black;
+    color: #010c14;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -154,7 +154,7 @@ table {
 caption {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: green;
+  color: #424242;
   text-align: left;
   caption-side: bottom; }
 

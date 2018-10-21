@@ -1,0 +1,14 @@
+.brand {
+  width: 270px;
+
+  &__link {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  &__img {
+    width: auto;
+    height: 50px;
+  }
+}

@@ -9,57 +9,44 @@
 
   <link rel="author" href="./humans.txt"/>
   <link rel="stylesheet" href="./dist/flexigridcss.css">
+  <link rel="stylesheet" href="./dist/theme/style.css">
 </head>
 <body>
 
 <header class="primary-header">
+  <div class="primary-header__brand">
+    <div class="brand">
 
+    </div>
+  </div>
+
+  <div class="primary-header__menu-toggle">
+    <button type="button" id="js-menu-toggle" class="menu-toggle">
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+    </button>
+  </div>
+
+  <div class="primary-header__nav">
+    <nav class="nav" role="navigation">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" rel="noopener noreferrer" href="/">
+              Home
+            </a>
+          </li>
+        </ul>
+    </nav>
+  </div>
 </header>
 
 <main class="main" role="main">
 
-  <section class="container">
-    <div class="row">
-      <div class="col">
-        <h2>
-          Container
-        </h2>
-      </div>
-    </div>
+  <section class="section">
+    <div class="container">
+      <div class="row">
 
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <span>
-          8
-        </span>
-      </div>
-    </div>
-  </section>
-
-  <section class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <h2>
-          Container Fluid
-        </h2>
-      </div>
-      <div class="col">
-        <p>
-          Lets just put text in here to see if it works
-        </p>
-      </div>
-      <div class="col--auto">
-        <p>
-          Lets just put text in here to see if it works
-        </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xl-10 col-lg-8 col-md-5 col-sm-3 col-12">
-        <span>
-          10, 8, 5, 3, 12
-        </span>
       </div>
     </div>
   </section>
@@ -67,7 +54,11 @@
 </main>
 
 <footer class="primary-footer">
+  <div class="container-fluid">
+    <div class="row">
 
+    </div>
+  </div>
 </footer>
 
 </body>
