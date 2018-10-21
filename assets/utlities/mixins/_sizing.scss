@@ -31,17 +31,18 @@
 }
 
 // REM Sizing
-@mixin dynamic-sizing($size: null, $property: null, $direction: null) {
+// Padding, Margin,
+@mixin dynamic-sizing($size: null, $property: null, $unit: null) {
   @if($size == null) {
     @for $i from 1 through 10 {
       &-#{$i} {
-        #{$property}-#{$direction}: #{$i}rem !important;
+        #{$property}: #{$i}#{$unit} !important;
       }
     }
   } @else {
     @for $i from 1 through 10 {
       &-#{$size}-#{$i} {
-        #{$property}-#{$direction}: #{$i}rem !important;
+        #{$property}: #{$i}#{$unit} !important;
       }
     }
   }

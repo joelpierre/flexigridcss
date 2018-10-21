@@ -4,6 +4,11 @@
 
 [class|="col"] {
   @include column-base;
+  flex: 1 0 100%;
+}
+
+.col {
+  @include column-base;
 }
 
 .col {

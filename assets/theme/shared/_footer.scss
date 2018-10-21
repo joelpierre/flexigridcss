@@ -1,0 +1,11 @@
+.primary-footer {
+  background-color: $color-primary;
+  padding: 2rem 0 2rem;
+}
+
+.legal {
+  &__heading {
+    font-size: $font-heading-6;
+    margin-bottom: 0;
+  }
+}

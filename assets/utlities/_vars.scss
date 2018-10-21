@@ -4,7 +4,9 @@ $grid-space: 1rem;
 $grid-space2x: calc(#{$grid-space} * 2);
 
 // Fonts
-$font-default: "Helvetica", Helvetica Neue, Arial, sans-serif;
+//$font-default: "Helvetica", Helvetica Neue, Arial, sans-serif;
+//$font-lato: 'Lato', sans-serif;
+$font-default: 'Lato', sans-serif;
 $font-monospace: monospace, monospace;
 
 $font-heading-1: 4.8rem;
@@ -19,8 +21,9 @@ $font-weight-base: normal;
 
 $line-height-base: 1.6;
 
-$headings-margin-bottom: 3rem;
+$headings-margin-bottom: 2rem;
 $paragraph-margin-bottom: 2rem;
+$list-margin-bottom: 2rem;
 
 $table-cell-padding: 1rem;
 
@@ -29,23 +32,32 @@ $label-margin-bottom: 1rem;
 // Colors
 $color-white: white;
 $color-black: black;
-$color-light-gray: #f7f7f7;
-$color-mid-gray: #9f9f9f;
-$color-dark-gray: #616161;
+$color-light-gray-1: #F5F5F5;
+$color-mid-gray-1: #BDBDBD;
+$color-dark-gray-1: #424242;
+$color-dark-gray-2: #212121;
 
-$link-color: blue;
-$link-hover-color: darken(blue, 50%);
+$color-primary: #ff5c5c;
+$color-secondary: #3F51B5;
+$color-success: #4CAF50;
+$color-warning: #FFEB3B;
+$color-danger: #FF3D00;
+$color-info: #B3E5FC;
+$color-default: #CFD8DC;
+
+$link-color: #2196F3;
+$link-hover-color: darken($link-color, 50%);
 $link-decoration: none;
 $link-hover-decoration: underline;
 
-$table-caption-color: green;
+$table-caption-color: $color-dark-gray-1;
 
 // Borders
 $border-width: 2px;
 $border-style: solid;
 
 $radius-circle: 50%;
-$radius-rounded: .3rem;
+$radius-rounded: 3px;
 
 $transition-slow: .8s ease;
 $transition-normal: .4s ease;
@@ -59,10 +71,16 @@ $spacing-large: 8rem;
 
 // Media Query Values
 $mobile-only: (max-width: 599px);
+
 $tablet-portrait-up: (min-width: 600px);
 $tablet-landscape-up: (min-width: 900px);
 $desktop-up: (min-width: 1200px);
 $big-desktop-up: (min-width: 1800px);
+
+$tablet-portrait-down: (max-width: 600px);
+$tablet-landscape-down: (max-width: 900px);
+$desktop-down: (max-width: 1200px);
+$big-desktop-down: (max-width: 1800px);
 
 $center: translate(-50%, -50%);
 $centerY: translateY(-50%);

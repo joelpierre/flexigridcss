@@ -1,0 +1,33 @@
+.primary-header {
+  background-color: $color-primary;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  position: relative;
+
+  &__brand {
+    overflow: hidden;
+    margin-right: auto;
+    min-height: 50px;
+  }
+
+  &__menu-toggle {
+    overflow: hidden;
+    display: none;
+    margin-left: auto;
+
+    @include tablet-landscape-down {
+      display: block;
+    }
+  }
+  
+  &__nav {
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+
+    @include tablet-landscape-down {
+      display: none;
+    }
+  }
+}

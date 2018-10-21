@@ -1,6 +1,6 @@
 @mixin column-base {
   box-sizing: border-box;
-  flex: 1 0 auto;
+  flex: 1 0 0;
   padding-right: 1rem;
   padding-left: 1rem;
   min-width: 0;
