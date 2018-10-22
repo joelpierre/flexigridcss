@@ -1,9 +1,10 @@
 ## Team
+Pixel Twist
+http://pixeltwist.io
+London, England
 
-Pixel Twist (Joel Pierre-Powell)
-//pixeltwist.io
-
+## Thanks
+Joel Pierre-Powell
 
 ## Site
-
-Software: Built by Joel Pierre-Powell
+Software: Node, SASS, GULP
