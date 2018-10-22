@@ -2,20 +2,6 @@
 * Offset classes.
  */
 
-// Mixins
-@mixin offsets($col, $columns: $grid-columns) {
-  margin-left: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col}))) !important;
-}
-
-@mixin dynamic-offset($size: 'xs', $columns: $grid-columns) {
-  @for $i from 1 through $columns {
-    &-#{$size}-#{$i} {
-      @include offsets(#{$i})
-    }
-  }
-}
-
-// Styles
 .offset {
   @include dynamic-offset('xs');
 
