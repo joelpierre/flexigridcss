@@ -12,7 +12,7 @@
 }
 
 .col {
-  @include dynamic-columns();
+  @include dynamic-columns(null, $grid-columns-big-desktop);
 
   &--auto {
     @supports (display: grid) {
@@ -21,19 +21,23 @@
   }
 
   @include tablet-portrait-up {
-    @include dynamic-columns('sm');
+    @include dynamic-columns('xs', $grid-columns-mobile);
+  }
+
+  @include tablet-portrait-up {
+    @include dynamic-columns('sm', $grid-columns-portrait-tablet);
   }
 
   @include tablet-landscape-up {
-    @include dynamic-columns('md');
+    @include dynamic-columns('md', $grid-columns-landscape-tablet);
   }
 
   @include desktop-up {
-    @include dynamic-columns('lg');
+    @include dynamic-columns('lg', $grid-columns-desktop);
   }
 
   @include big-desktop-up {
-    @include dynamic-columns('xl');
+    @include dynamic-columns('xl', $grid-columns-big-desktop);
   }
 }
 

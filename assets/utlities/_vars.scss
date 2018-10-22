@@ -1,5 +1,10 @@
 // Grid
-$grid-columns: 12;
+$grid-columns-mobile: 4;
+$grid-columns-portrait-tablet: 8;
+$grid-columns-landscape-tablet: 10;
+$grid-columns-desktop: 12;
+$grid-columns-big-desktop: 16;
+
 $grid-space: 1rem;
 $grid-space2x: calc(#{$grid-space} * 2);
 

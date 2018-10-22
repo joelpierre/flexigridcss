@@ -1,5 +1,5 @@
 // Auto Only
-@mixin dynamic-sizing-auto($size: null, $axis: null, $property: 'margin', $direction: 'auto', $columns: $grid-columns) {
+@mixin dynamic-sizing-auto($size: null, $axis: null, $property: 'margin', $direction: 'auto') {
   @if ($size == null) {
     &-auto {
       @if ($direction == 'auto') {

@@ -3,21 +3,25 @@
  */
 
 .offset {
-  @include dynamic-offset('xs');
+  @include dynamic-offset(null, $grid-columns-big-desktop);
+
+  @include mobile-only {
+  @include dynamic-offset('xs', $grid-columns-mobile);
+  }
 
   @include tablet-portrait-up {
-    @include dynamic-offset('sm');
+    @include dynamic-offset('sm', $grid-columns-portrait-tablet);
   }
 
   @include tablet-landscape-up {
-    @include dynamic-offset('md');
+    @include dynamic-offset('md', $grid-columns-landscape-tablet);
   }
 
   @include desktop-up {
-    @include dynamic-offset('lg');
+    @include dynamic-offset('lg', $grid-columns-desktop);
   }
 
   @include big-desktop-up {
-    @include dynamic-offset('xl');
+    @include dynamic-offset('xl', $grid-columns-big-desktop);
   }
 }

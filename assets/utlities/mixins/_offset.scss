@@ -1,8 +1,8 @@
-@mixin offsets($col, $columns: $grid-columns) {
+@mixin offsets($col, $columns: null) {
   margin-left: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col}))) !important;
 }
 
-@mixin dynamic-offset($size: 'xs', $columns: $grid-columns) {
+@mixin dynamic-offset($size: 'xs', $columns: null) {
   @for $i from 1 through $columns {
     &-#{$size}-#{$i} {
       @include offsets(#{$i})

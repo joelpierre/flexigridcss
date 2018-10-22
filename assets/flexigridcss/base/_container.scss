@@ -1,8 +1,6 @@
 // Container will always be grid... If not supported then it will just be the width it needs to be...
 .container {
   display: grid;
-  grid-template-columns: repeat($grid-columns, 1fr);
-  grid-column-gap: calc(#{$grid-space} * 2);
   padding: 0 $grid-space;
   min-height: 0;
   min-width: 0;
@@ -13,24 +11,49 @@
     grid-row-gap: $grid-space2x;
   }
 
+  @include mobile-only {
+    grid-template-columns: repeat($grid-columns-mobile, 1fr);
+    grid-column-gap: $grid-space2x;
+    width: 100%;
+    max-width: 100%;
+  }
   @include tablet-portrait-up {
+
+    grid-template-columns: repeat($grid-columns-portrait-tablet, 1fr);
+    grid-column-gap: $grid-space2x;
     width: 600px;
     max-width: 600px;
   }
 
   @include tablet-landscape-up {
+    grid-template-columns: repeat($grid-columns-landscape-tablet, 1fr);
+    grid-column-gap: $grid-space2x;
     width: 900px;
     max-width: 900px;
   }
-
   @include desktop-up {
+    grid-template-columns: repeat($grid-columns-desktop, 1fr);
+    grid-column-gap: $grid-space2x;
     width: 1200px;
     max-width: 1200px;
   }
-
   @include big-desktop-up {
+    grid-template-columns: repeat($grid-columns-big-desktop, 1fr);
+    grid-column-gap: $grid-space2x;
     width: 1800px;
     max-width: 1800px;
+  }
+
+  @include tablet-portrait-up {
+  }
+
+  @include tablet-landscape-up {
+  }
+
+  @include desktop-up {
+  }
+
+  @include big-desktop-up {
   }
 
   // If doesn't support grid display: block;
@@ -41,8 +64,6 @@
 
 .container-fluid {
   display: grid;
-  grid-template-columns: repeat($grid-columns, 1fr);
-  grid-column-gap: $grid-space2x;
   padding: 0 1rem;
   min-height: 0;
   min-width: 0;
@@ -57,5 +78,26 @@
   // If doesn't support grid display: block;
   @supports not (display: grid) {
     display: block;
+  }
+
+  @include mobile-only {
+    grid-template-columns: repeat($grid-columns-mobile, 1fr);
+    grid-column-gap: $grid-space2x;
+  }
+  @include tablet-portrait-up {
+    grid-template-columns: repeat($grid-columns-portrait-tablet, 1fr);
+    grid-column-gap: $grid-space2x;
+  }
+  @include tablet-landscape-up {
+    grid-template-columns: repeat($grid-columns-landscape-tablet, 1fr);
+    grid-column-gap: $grid-space2x;
+  }
+  @include desktop-up {
+    grid-template-columns: repeat($grid-columns-desktop, 1fr);
+    grid-column-gap: $grid-space2x;
+  }
+  @include big-desktop-up {
+    grid-template-columns: repeat($grid-columns-big-desktop, 1fr);
+    grid-column-gap: $grid-space2x;
   }
 }

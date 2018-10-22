@@ -3,31 +3,37 @@
  */
 
 .order {
-  @include dynamic-order('xs','first');
-  @include dynamic-order('xs','last');
-  @include dynamic-order('xs');
+  @include dynamic-order(null, 'first', $grid-columns-big-desktop);
+  @include dynamic-order(null, 'last', $grid-columns-big-desktop);
+  @include dynamic-order(null, null, $grid-columns-big-desktop);
+
+  @include mobile-only {
+    @include dynamic-order('xs', 'first', $grid-columns-mobile);
+    @include dynamic-order('xs', 'last', $grid-columns-mobile);
+    @include dynamic-order('xs', null, $grid-columns-mobile);
+  }
 
   @include tablet-portrait-up {
-    @include dynamic-order('sm','first');
-    @include dynamic-order('sm','last');
-    @include dynamic-order('sm');
+    @include dynamic-order('sm', 'first', $grid-columns-portrait-tablet);
+    @include dynamic-order('sm', 'last', $grid-columns-portrait-tablet);
+    @include dynamic-order('sm', null, $grid-columns-portrait-tablet);
   }
 
   @include tablet-landscape-up {
-    @include dynamic-order('md','first');
-    @include dynamic-order('md','last');
-    @include dynamic-order('md');
+    @include dynamic-order('md', 'first', $grid-columns-landscape-tablet);
+    @include dynamic-order('md', 'last', $grid-columns-landscape-tablet);
+    @include dynamic-order('md', null, $grid-columns-landscape-tablet);
   }
 
   @include desktop-up {
-    @include dynamic-order('lg','first');
-    @include dynamic-order('lg','last');
-    @include dynamic-order('lg');
+    @include dynamic-order('lg', 'first', $grid-columns-desktop);
+    @include dynamic-order('lg', 'last', $grid-columns-desktop);
+    @include dynamic-order('lg', null, $grid-columns-desktop);
   }
 
   @include big-desktop-up {
-    @include dynamic-order('xl','first');
-    @include dynamic-order('xl','last');
-    @include dynamic-order('xl');
+    @include dynamic-order('xl', 'first', $grid-columns-big-desktop);
+    @include dynamic-order('xl', 'last', $grid-columns-big-desktop);
+    @include dynamic-order('xl', null, $grid-columns-big-desktop);
   }
 }
