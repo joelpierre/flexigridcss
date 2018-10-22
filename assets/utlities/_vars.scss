@@ -5,8 +5,11 @@ $grid-columns-landscape-tablet: 10;
 $grid-columns-desktop: 12;
 $grid-columns-big-desktop: 16;
 
-$grid-space: 1rem;
-$grid-space2x: calc(#{$grid-space} * 2);
+$grid-space-mobile: .8rem;
+$grid-space-portrait-tablet: .8rem;
+$grid-space-landscape-tablet: 1.2rem;
+$grid-space-desktop: 1.2rem;
+$grid-space-big-desktop: 1.2rem;
 
 // Fonts
 //$font-default: "Helvetica", Helvetica Neue, Arial, sans-serif;
