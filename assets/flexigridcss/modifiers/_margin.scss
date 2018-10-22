@@ -65,75 +65,75 @@
 
 .mr {
   @include dynamic-sizing-auto(null, null, 'margin', 'right');
-  @include dynamic-sizing(null, 'margin', 'right');
+  @include dynamic-sizing(null, 'margin-right', 'rem');
 
   @include tablet-portrait-up {
     @include dynamic-sizing-auto('sm', null, 'margin', 'right');
-    @include dynamic-sizing('sm', 'margin', 'right');
+    @include dynamic-sizing('sm', 'margin-right', 'rem');
   }
 
   @include tablet-landscape-up {
     @include dynamic-sizing-auto('md', null, 'margin', 'right');
-    @include dynamic-sizing('md', 'margin', 'right');
+    @include dynamic-sizing('md', 'margin-right', 'rem');
   }
 
   @include desktop-up {
     @include dynamic-sizing-auto('lg', null, 'margin', 'right');
-    @include dynamic-sizing('lg', 'margin', 'right');
+    @include dynamic-sizing('lg', 'margin-right', 'rem');
   }
 
   @include big-desktop-up {
     @include dynamic-sizing-auto('xl', null, 'margin', 'right');
-    @include dynamic-sizing('xl', 'margin', 'right');
+    @include dynamic-sizing('xl', 'margin-right', 'rem');
   }
 }
 
 .mt {
   @include dynamic-sizing-auto(null, null, 'margin', 'top');
-  @include dynamic-sizing(null, 'margin', 'top');
+  @include dynamic-sizing(null, 'margin-top', 'rem');
 
   @include tablet-portrait-up {
     @include dynamic-sizing-auto('sm', null, 'margin', 'top');
-    @include dynamic-sizing('sm', 'margin', 'top');
+    @include dynamic-sizing('sm', 'margin-top', 'rem');
   }
 
   @include tablet-landscape-up {
     @include dynamic-sizing-auto('md', null, 'margin', 'top');
-    @include dynamic-sizing('md', 'margin', 'top');
+    @include dynamic-sizing('md', 'margin-top', 'rem');
   }
 
   @include desktop-up {
     @include dynamic-sizing-auto('lg', null, 'margin', 'top');
-    @include dynamic-sizing('lg', 'margin', 'top');
+    @include dynamic-sizing('lg', 'margin-top', 'rem');
   }
 
   @include big-desktop-up {
     @include dynamic-sizing-auto('xl', null, 'margin', 'top');
-    @include dynamic-sizing('xl', 'margin', 'top');
+    @include dynamic-sizing('xl', 'margin-top', 'rem');
   }
 }
 
 .mb {
   @include dynamic-sizing-auto(null, null, 'margin', 'bottom');
-  @include dynamic-sizing(null, 'margin', 'bottom');
+  @include dynamic-sizing(null, 'margin-bottom', 'rem');
 
   @include tablet-portrait-up {
     @include dynamic-sizing-auto('sm', null, 'margin', 'bottom');
-    @include dynamic-sizing('sm', 'margin', 'bottom');
+    @include dynamic-sizing('sm', 'margin-bottom', 'rem');
   }
 
   @include tablet-landscape-up {
     @include dynamic-sizing-auto('md', null, 'margin', 'bottom');
-    @include dynamic-sizing('md', 'margin', 'bottom');
+    @include dynamic-sizing('md', 'margin-bottom', 'rem');
   }
 
   @include desktop-up {
     @include dynamic-sizing-auto('lg', null, 'margin', 'bottom');
-    @include dynamic-sizing('lg', 'margin', 'bottom');
+    @include dynamic-sizing('lg', 'margin-bottom', 'rem');
   }
 
   @include big-desktop-up {
     @include dynamic-sizing-auto('xl', null, 'margin', 'bottom');
-    @include dynamic-sizing('xl', 'margin', 'bottom');
+    @include dynamic-sizing('xl', 'margin-bottom', 'rem');
   }
 }

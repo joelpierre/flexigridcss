@@ -1,0 +1,41 @@
+.text {
+  @include dynamic-property(null, 'text-align', 'center');
+  @include dynamic-property(null, 'text-align', 'left');
+  @include dynamic-property(null, 'text-align', 'right');
+  @include dynamic-property(null, 'text-align', 'justify');
+
+  @include mobile-only {
+    @include dynamic-property('xs', 'text-align', 'center');
+    @include dynamic-property('xs', 'text-align', 'left');
+    @include dynamic-property('xs', 'text-align', 'right');
+    @include dynamic-property('xs', 'text-align', 'justify');
+  }
+
+  @include tablet-portrait-up {
+    @include dynamic-property('sm', 'text-align', 'center');
+    @include dynamic-property('sm', 'text-align', 'left');
+    @include dynamic-property('sm', 'text-align', 'right');
+    @include dynamic-property('sm', 'text-align', 'justify');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-property('md', 'text-align', 'center');
+    @include dynamic-property('md', 'text-align', 'left');
+    @include dynamic-property('md', 'text-align', 'right');
+    @include dynamic-property('md', 'text-align', 'justify');
+  }
+
+  @include desktop-up {
+    @include dynamic-property('lg', 'text-align', 'center');
+    @include dynamic-property('lg', 'text-align', 'left');
+    @include dynamic-property('lg', 'text-align', 'right');
+    @include dynamic-property('lg', 'text-align', 'justify');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-property('xl', 'text-align', 'center');
+    @include dynamic-property('xl', 'text-align', 'left');
+    @include dynamic-property('xl', 'text-align', 'right');
+    @include dynamic-property('xl', 'text-align', 'justify');
+  }
+}

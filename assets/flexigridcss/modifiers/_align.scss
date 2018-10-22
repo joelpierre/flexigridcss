@@ -1,0 +1,44 @@
+.align {
+  @include dynamic-property(null, 'align', 'middle');
+  @include dynamic-property(null, 'align', 'top');
+  @include dynamic-property(null, 'align', 'baseline');
+  @include dynamic-property(null, 'align', 'flex-start');
+  @include dynamic-property(null, 'align', 'flex-end');
+
+
+  @include mobile-only {
+    @include dynamic-property('xs', 'align', 'middle');
+    @include dynamic-property('xs', 'align', 'top');
+    @include dynamic-property('xs', 'align', 'baseline');
+    @include dynamic-property('xs', 'align', 'flex-start');
+    @include dynamic-property('xs', 'align', 'flex-end');
+  }
+  @include tablet-portrait-up {
+    @include dynamic-property('sm', 'align', 'middle');
+    @include dynamic-property('sm', 'align', 'top');
+    @include dynamic-property('sm', 'align', 'baseline');
+    @include dynamic-property('sm', 'align', 'flex-start');
+    @include dynamic-property('sm', 'align', 'flex-end');
+  }
+  @include tablet-landscape-up {
+    @include dynamic-property('md', 'align', 'middle');
+    @include dynamic-property('md', 'align', 'top');
+    @include dynamic-property('md', 'align', 'baseline');
+    @include dynamic-property('md', 'align', 'flex-start');
+    @include dynamic-property('md', 'align', 'flex-end');
+  }
+  @include desktop-up {
+    @include dynamic-property('lg', 'align', 'middle');
+    @include dynamic-property('lg', 'align', 'top');
+    @include dynamic-property('lg', 'align', 'baseline');
+    @include dynamic-property('lg', 'align', 'flex-start');
+    @include dynamic-property('lg', 'align', 'flex-end');
+  }
+  @include big-desktop-up {
+    @include dynamic-property('xl', 'align', 'middle');
+    @include dynamic-property('xl', 'align', 'top');
+    @include dynamic-property('xl', 'align', 'baseline');
+    @include dynamic-property('xl', 'align', 'flex-start');
+    @include dynamic-property('xl', 'align', 'flex-end');
+  }
+}

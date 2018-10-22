@@ -1,26 +1,17 @@
-@mixin hover {
-  &:hover { @content; }
-}
-
-@mixin hover-focus {
-  &:hover,
-  &:focus {
-    @content;
+@mixin dynamic-property($size: null, $property: null, $value:null, $unit: null) {
+  @if ($size == null) {
+    &-#{$value} {
+      #{$property}: #{$value} !important;
+    }
+  } @else {
+    &-#{$size}-#{$value} {
+      #{$property}: #{$value} !important;
+    }
   }
 }
 
-@mixin plain-hover-focus {
-  &,
-  &:hover,
-  &:focus {
-    @content;
-  }
-}
-
-@mixin hover-focus-active {
-  &:hover,
-  &:focus,
-  &:active {
-    @content;
-  }
-}
+//@include mobile-only {}
+//@include tablet-portrait-up {}
+//@include tablet-landscape-up {}
+//@include desktop-up {}
+//@include big-desktop-up {}

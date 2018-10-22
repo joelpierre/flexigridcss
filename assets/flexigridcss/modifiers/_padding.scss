@@ -1,79 +1,79 @@
 .pl {
-  @include dynamic-sizing(null, 'padding', 'left');
+  @include dynamic-sizing(null, 'padding-left', 'rem');
 
   @include tablet-portrait-up {
-    @include dynamic-sizing('sm', 'padding', 'left');
+    @include dynamic-sizing('sm', 'padding-left', 'rem');
   }
 
   @include tablet-landscape-up {
-    @include dynamic-sizing('md', 'padding', 'left');
+    @include dynamic-sizing('md', 'padding-left', 'rem');
   }
 
   @include desktop-up {
-    @include dynamic-sizing('lg', 'padding', 'left');
+    @include dynamic-sizing('lg', 'padding-left', 'rem');
   }
 
   @include big-desktop-up {
-    @include dynamic-sizing('xl', 'padding', 'left');
+    @include dynamic-sizing('xl', 'padding-left', 'rem');
   }
 }
 
 .pr {
-  @include dynamic-sizing(null, 'padding', 'right');
+  @include dynamic-sizing(null, 'padding-right', 'rem');
 
   @include tablet-portrait-up {
-    @include dynamic-sizing('sm', 'padding', 'right');
+    @include dynamic-sizing('sm', 'padding-right', 'rem');
   }
 
   @include tablet-landscape-up {
-    @include dynamic-sizing('md', 'padding', 'right');
+    @include dynamic-sizing('md', 'padding-right', 'rem');
   }
 
   @include desktop-up {
-    @include dynamic-sizing('lg', 'padding', 'right');
+    @include dynamic-sizing('lg', 'padding-right', 'rem');
   }
 
   @include big-desktop-up {
-    @include dynamic-sizing('xl', 'padding', 'right');
+    @include dynamic-sizing('xl', 'padding-right', 'rem');
   }
 }
 
 .pt {
-  @include dynamic-sizing(null, 'padding', 'top');
+  @include dynamic-sizing(null, 'padding-top', 'rem');
 
   @include tablet-portrait-up {
-    @include dynamic-sizing('sm', 'padding', 'top');
+    @include dynamic-sizing('sm', 'padding-top', 'rem');
   }
 
   @include tablet-landscape-up {
-    @include dynamic-sizing('md', 'padding', 'top');
+    @include dynamic-sizing('md', 'padding-top', 'rem');
   }
 
   @include desktop-up {
-    @include dynamic-sizing('lg', 'padding', 'top');
+    @include dynamic-sizing('lg', 'padding-top', 'rem');
   }
 
   @include big-desktop-up {
-    @include dynamic-sizing('xl', 'padding', 'top');
+    @include dynamic-sizing('xl', 'padding-top', 'rem');
   }
 }
 
 .pb {
-  @include dynamic-sizing(null, 'padding', 'bottom');
+  @include dynamic-sizing(null, 'padding-bottom', 'rem');
 
   @include tablet-portrait-up {
-    @include dynamic-sizing('sm', 'padding', 'bottom');
+    @include dynamic-sizing('sm', 'padding-bottom', 'rem');
   }
 
   @include tablet-landscape-up {
-    @include dynamic-sizing('md', 'padding', 'bottom');
+    @include dynamic-sizing('md', 'padding-bottom', 'rem');
   }
 
   @include desktop-up {
-    @include dynamic-sizing('lg', 'padding', 'bottom');
+    @include dynamic-sizing('lg', 'padding-bottom', 'rem');
   }
 
   @include big-desktop-up {
-    @include dynamic-sizing('xl', 'padding', 'bottom');
+    @include dynamic-sizing('xl', 'padding-bottom', 'rem');
   }
 }

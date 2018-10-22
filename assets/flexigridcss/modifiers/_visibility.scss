@@ -1,0 +1,25 @@
+.visibility {
+  @include dynamic-property(null, 'visibility', 'visible');
+  @include dynamic-property(null, 'visibility', 'hidden');
+
+  @include mobile-only {
+    @include dynamic-property('xs', 'visibility', 'visible');
+    @include dynamic-property('xs', 'visibility', 'hidden');
+  }
+  @include tablet-portrait-up {
+    @include dynamic-property('sm', 'visibility', 'visible');
+    @include dynamic-property('sm', 'visibility', 'hidden');
+  }
+  @include tablet-landscape-up {
+    @include dynamic-property('md', 'visibility', 'visible');
+    @include dynamic-property('md', 'visibility', 'hidden');
+  }
+  @include desktop-up {
+    @include dynamic-property('lg', 'visibility', 'visible');
+    @include dynamic-property('lg', 'visibility', 'hidden');
+  }
+  @include big-desktop-up {
+    @include dynamic-property('xl', 'visibility', 'visible');
+    @include dynamic-property('xl', 'visibility', 'hidden');
+  }
+}
