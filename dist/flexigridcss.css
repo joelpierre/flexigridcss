@@ -2682,79 +2682,92 @@ dl dd {
     text-align: justify !important; } }
 
 .align-middle {
-  align: middle !important; }
+  vertical-align: middle !important; }
 
 .align-top {
-  align: top !important; }
+  vertical-align: top !important; }
 
 .align-baseline {
-  align: baseline !important; }
+  vertical-align: baseline !important; }
 
-.align-flex-start {
-  align: flex-start !important; }
+.align-bottom {
+  vertical-align: bottom !important; }
 
-.align-flex-end {
-  align: flex-end !important; }
+.align-text-top {
+  vertical-align: text-top !important; }
+
+.align-text-bottom {
+  vertical-align: text-bottom !important; }
 
 @media (max-width: 599px) {
   .align-xs-middle {
-    align: middle !important; }
+    vertical-align: middle !important; }
   .align-xs-top {
-    align: top !important; }
+    vertical-align: top !important; }
   .align-xs-baseline {
-    align: baseline !important; }
-  .align-xs-flex-start {
-    align: flex-start !important; }
-  .align-xs-flex-end {
-    align: flex-end !important; } }
+    vertical-align: baseline !important; }
+  .align-xs-bottom {
+    vertical-align: bottom !important; }
+  .align-xs-text-top {
+    vertical-align: text-top !important; }
+  .align-xs-text-bottom {
+    vertical-align: text-bottom !important; } }
 
 @media (min-width: 600px) {
   .align-sm-middle {
-    align: middle !important; }
+    vertical-align: middle !important; }
   .align-sm-top {
-    align: top !important; }
+    vertical-align: top !important; }
   .align-sm-baseline {
-    align: baseline !important; }
-  .align-sm-flex-start {
-    align: flex-start !important; }
-  .align-sm-flex-end {
-    align: flex-end !important; } }
+    vertical-align: baseline !important; }
+  .align-sm-bottom {
+    vertical-align: bottom !important; }
+  .align-sm-text-top {
+    vertical-align: text-top !important; }
+  .align-sm-text-bottom {
+    vertical-align: text-bottom !important; } }
 
 @media (min-width: 900px) {
   .align-md-middle {
-    align: middle !important; }
+    vertical-align: middle !important; }
   .align-md-top {
-    align: top !important; }
+    vertical-align: top !important; }
   .align-md-baseline {
-    align: baseline !important; }
-  .align-md-flex-start {
-    align: flex-start !important; }
-  .align-md-flex-end {
-    align: flex-end !important; } }
+    vertical-align: baseline !important; }
+  .align-md-bottom {
+    vertical-align: bottom !important; }
+  .align-md-text-top {
+    vertical-align: text-top !important; }
+  .align-md-text-bottom {
+    vertical-align: text-bottom !important; } }
 
 @media (min-width: 1200px) {
   .align-lg-middle {
-    align: middle !important; }
+    vertical-align: middle !important; }
   .align-lg-top {
-    align: top !important; }
+    vertical-align: top !important; }
   .align-lg-baseline {
-    align: baseline !important; }
-  .align-lg-flex-start {
-    align: flex-start !important; }
-  .align-lg-flex-end {
-    align: flex-end !important; } }
+    vertical-align: baseline !important; }
+  .align-lg-bottom {
+    vertical-align: bottom !important; }
+  .align-lg-text-top {
+    vertical-align: text-top !important; }
+  .align-lg-text-bottom {
+    vertical-align: text-bottom !important; } }
 
 @media (min-width: 1800px) {
   .align-xl-middle {
-    align: middle !important; }
+    vertical-align: middle !important; }
   .align-xl-top {
-    align: top !important; }
+    vertical-align: top !important; }
   .align-xl-baseline {
-    align: baseline !important; }
-  .align-xl-flex-start {
-    align: flex-start !important; }
-  .align-xl-flex-end {
-    align: flex-end !important; } }
+    vertical-align: baseline !important; }
+  .align-xl-bottom {
+    vertical-align: bottom !important; }
+  .align-xl-text-top {
+    vertical-align: text-top !important; }
+  .align-xl-text-bottom {
+    vertical-align: text-bottom !important; } }
 
 .align-items-center {
   -webkit-box-align: center !important;

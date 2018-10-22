@@ -1,44 +1,50 @@
 .align {
-  @include dynamic-property(null, 'align', 'middle');
-  @include dynamic-property(null, 'align', 'top');
-  @include dynamic-property(null, 'align', 'baseline');
-  @include dynamic-property(null, 'align', 'flex-start');
-  @include dynamic-property(null, 'align', 'flex-end');
+  @include dynamic-property(null, 'vertical-align', 'middle');
+  @include dynamic-property(null, 'vertical-align', 'top');
+  @include dynamic-property(null, 'vertical-align', 'baseline');
+  @include dynamic-property(null, 'vertical-align', 'bottom');
+  @include dynamic-property(null, 'vertical-align', 'text-top');
+  @include dynamic-property(null, 'vertical-align', 'text-bottom');
 
 
   @include mobile-only {
-    @include dynamic-property('xs', 'align', 'middle');
-    @include dynamic-property('xs', 'align', 'top');
-    @include dynamic-property('xs', 'align', 'baseline');
-    @include dynamic-property('xs', 'align', 'flex-start');
-    @include dynamic-property('xs', 'align', 'flex-end');
+    @include dynamic-property('xs', 'vertical-align', 'middle');
+    @include dynamic-property('xs', 'vertical-align', 'top');
+    @include dynamic-property('xs', 'vertical-align', 'baseline');
+    @include dynamic-property('xs', 'vertical-align', 'bottom');
+    @include dynamic-property('xs', 'vertical-align', 'text-top');
+    @include dynamic-property('xs', 'vertical-align', 'text-bottom');
   }
   @include tablet-portrait-up {
-    @include dynamic-property('sm', 'align', 'middle');
-    @include dynamic-property('sm', 'align', 'top');
-    @include dynamic-property('sm', 'align', 'baseline');
-    @include dynamic-property('sm', 'align', 'flex-start');
-    @include dynamic-property('sm', 'align', 'flex-end');
+    @include dynamic-property('sm', 'vertical-align', 'middle');
+    @include dynamic-property('sm', 'vertical-align', 'top');
+    @include dynamic-property('sm', 'vertical-align', 'baseline');
+    @include dynamic-property('sm', 'vertical-align', 'bottom');
+    @include dynamic-property('sm', 'vertical-align', 'text-top');
+    @include dynamic-property('sm', 'vertical-align', 'text-bottom');
   }
   @include tablet-landscape-up {
-    @include dynamic-property('md', 'align', 'middle');
-    @include dynamic-property('md', 'align', 'top');
-    @include dynamic-property('md', 'align', 'baseline');
-    @include dynamic-property('md', 'align', 'flex-start');
-    @include dynamic-property('md', 'align', 'flex-end');
+    @include dynamic-property('md', 'vertical-align', 'middle');
+    @include dynamic-property('md', 'vertical-align', 'top');
+    @include dynamic-property('md', 'vertical-align', 'baseline');
+    @include dynamic-property('md', 'vertical-align', 'bottom');
+    @include dynamic-property('md', 'vertical-align', 'text-top');
+    @include dynamic-property('md', 'vertical-align', 'text-bottom');
   }
   @include desktop-up {
-    @include dynamic-property('lg', 'align', 'middle');
-    @include dynamic-property('lg', 'align', 'top');
-    @include dynamic-property('lg', 'align', 'baseline');
-    @include dynamic-property('lg', 'align', 'flex-start');
-    @include dynamic-property('lg', 'align', 'flex-end');
+    @include dynamic-property('lg', 'vertical-align', 'middle');
+    @include dynamic-property('lg', 'vertical-align', 'top');
+    @include dynamic-property('lg', 'vertical-align', 'baseline');
+    @include dynamic-property('lg', 'vertical-align', 'bottom');
+    @include dynamic-property('lg', 'vertical-align', 'text-top');
+    @include dynamic-property('lg', 'vertical-align', 'text-bottom');
   }
   @include big-desktop-up {
-    @include dynamic-property('xl', 'align', 'middle');
-    @include dynamic-property('xl', 'align', 'top');
-    @include dynamic-property('xl', 'align', 'baseline');
-    @include dynamic-property('xl', 'align', 'flex-start');
-    @include dynamic-property('xl', 'align', 'flex-end');
+    @include dynamic-property('xl', 'vertical-align', 'middle');
+    @include dynamic-property('xl', 'vertical-align', 'top');
+    @include dynamic-property('xl', 'vertical-align', 'baseline');
+    @include dynamic-property('xl', 'vertical-align', 'bottom');
+    @include dynamic-property('xl', 'vertical-align', 'text-top');
+    @include dynamic-property('xl', 'vertical-align', 'text-bottom');
   }
 }
