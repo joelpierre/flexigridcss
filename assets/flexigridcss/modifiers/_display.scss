@@ -1,0 +1,91 @@
+.display {
+
+  &-block {
+    display: block !important;
+  }
+
+  &-inline-block {
+    display: inline-block !important;
+  }
+
+  &-none {
+    display: none !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-block {
+        display: block !important;
+      }
+
+      &-inline-block {
+        display: inline-block !important;
+      }
+
+      &-none {
+        display: none !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-block {
+        display: block !important;
+      }
+
+      &-inline-block {
+        display: inline-block !important;
+      }
+
+      &-none {
+        display: none !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-block {
+        display: block !important;
+      }
+
+      &-inline-block {
+        display: inline-block !important;
+      }
+
+      &-none {
+        display: none !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-block {
+        display: block !important;
+      }
+
+      &-inline-block {
+        display: inline-block !important;
+      }
+
+      &-none {
+        display: none !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-block {
+        display: block !important;
+      }
+
+      &-inline-block {
+        display: inline-block !important;
+      }
+
+      &-none {
+        display: none !important;
+      }
+    }
+  }
+
+}

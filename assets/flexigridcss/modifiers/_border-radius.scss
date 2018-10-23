@@ -1,7 +1,312 @@
 .rounded {
   border-radius: $radius-rounded !important;
+
+  @include mobile-only {
+    &-xs {
+      border-radius: $radius-rounded !important;
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      border-radius: $radius-rounded !important;
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      border-radius: $radius-rounded !important;
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      border-radius: $radius-rounded !important;
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      border-radius: $radius-rounded !important;
+    }
+  }
 }
 
-.rounded-circle {
-  border-radius: $radius-circle !important;
+.rounded {
+  &-0 {
+    border-radius: 0 !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-0 {
+        border-radius: 0 !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      &-0 {
+        border-radius: 0 !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-0 {
+        border-radius: 0 !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-0 {
+        border-radius: 0 !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-0 {
+        border-radius: 0 !important;
+      }
+    }
+  }
+}
+
+.rounded {
+  &-top {
+    border-top-left-radius: $radius-rounded !important;
+    border-top-right-radius: $radius-rounded !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-top {
+        border-top-left-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      &-top {
+        border-top-left-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-top {
+        border-top-left-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-top {
+        border-top-left-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-top {
+        border-top-left-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+}
+
+.rounded {
+  &-bottom {
+    border-bottom-left-radius: $radius-rounded !important;
+    border-bottom-right-radius: $radius-rounded !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-bottom {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-bottom-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      &-bottom {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-bottom-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-bottom {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-bottom-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-bottom {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-bottom-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-bottom {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-bottom-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+}
+
+.rounded {
+  &-left {
+    border-bottom-left-radius: $radius-rounded !important;
+    border-top-left-radius: $radius-rounded !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-left {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-top-left-radius: $radius-rounded !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      &-left {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-top-left-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-left {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-top-left-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-left {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-top-left-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-left {
+        border-bottom-left-radius: $radius-rounded !important;
+        border-top-left-radius: $radius-rounded !important;
+      }
+    }
+  }
+}
+
+.rounded {
+  &-right {
+    border-bottom-right-radius: $radius-rounded !important;
+    border-top-right-radius: $radius-rounded !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-right {
+        border-bottom-right-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      &-right {
+        border-bottom-right-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-right {
+        border-bottom-right-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-right {
+        border-bottom-right-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-right {
+        border-bottom-right-radius: $radius-rounded !important;
+        border-top-right-radius: $radius-rounded !important;
+      }
+    }
+  }
+}
+
+.rounded {
+  &-circle {
+    border-radius: $radius-circle !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-circle {
+        border-radius: $radius-circle !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      &-circle {
+        border-radius: $radius-circle !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-circle {
+        border-radius: $radius-circle !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-circle {
+        border-radius: $radius-circle !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-circle {
+        border-radius: $radius-circle !important;
+      }
+    }
+  }
 }

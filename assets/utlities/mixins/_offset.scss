@@ -5,7 +5,7 @@
 @mixin dynamic-offset($size: 'xs', $columns: null) {
   @for $i from 1 through $columns {
     &-#{$size}-#{$i} {
-      @include offsets(#{$i})
+      @include offsets(#{$i}, $columns)
     }
   }
 }

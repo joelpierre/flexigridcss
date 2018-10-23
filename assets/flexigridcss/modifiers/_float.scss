@@ -1,9 +1,63 @@
-.float-left {
-  float: left;
-}
+.float {
+  &-left {
+    float: left !important;
+  }
 
-.float-right {
-  float: right;
+  @include mobile-only {
+    &-xs-left {
+      float: left !important;
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm-left {
+      float: left !important;
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-left {
+      float: left !important;
+    }
+  }
+  @include desktop-up {
+    &-lg-left {
+      float: left !important;
+    }
+  }
+  @include big-desktop-up {
+    &-xl-left {
+      float: left !important;
+    }
+  }
+
+  &-right {
+    float: right !important;
+  }
+
+  @include mobile-only {
+    &-xs-right {
+      float: right !important;
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm-right {
+      float: right !important;
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-right {
+      float: right !important;
+    }
+  }
+  @include desktop-up {
+    &-lg-right {
+      float: right !important;
+    }
+  }
+  @include big-desktop-up {
+    &-xl-right {
+      float: right !important;
+    }
+  }
 }
 
 .clearfix, .cfx {

@@ -1,0 +1,59 @@
+.display {
+  &-grid {
+    display: grid !important;
+  }
+  &-inline-grid {
+    display: inline-grid !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-grid {
+        display: grid !important;
+      }
+      &-inline-grid {
+        display: inline-grid !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-grid {
+        display: grid !important;
+      }
+      &-inline-grid {
+        display: inline-grid !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-grid {
+        display: grid !important;
+      }
+      &-inline-grid {
+        display: inline-grid !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-grid {
+        display: grid !important;
+      }
+      &-inline-grid {
+        display: inline-grid !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-grid {
+        display: grid !important;
+      }
+      &-inline-grid {
+        display: inline-grid !important;
+      }
+    }
+  }
+}

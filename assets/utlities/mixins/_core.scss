@@ -10,8 +10,23 @@
   }
 }
 
-//@include mobile-only {}
-//@include tablet-portrait-up {}
-//@include tablet-landscape-up {}
-//@include desktop-up {}
-//@include big-desktop-up {}
+//@include mobile-only {
+//  &-xs {
+//  }
+//}
+//@include tablet-portrait-up {
+//  &-sm {
+//  }
+//}
+//@include tablet-landscape-up {
+//  &-md {
+//  }
+//}
+//@include desktop-up {
+//  &-lg {
+//  }
+//}
+//@include big-desktop-up {
+//  &-xl {
+//  }
+//}

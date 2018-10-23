@@ -1,0 +1,283 @@
+.border {
+  border: $border-width $border-style $color-mid-gray-1 !important;
+
+  &-0 {
+    border: 0 !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      border: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border: 0 !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm {
+      border: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border: 0 !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      border: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border: 0 !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      border: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border: 0 !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      border: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border: 0 !important;
+      }
+    }
+  }
+}
+
+.border {
+  &-left {
+    border-left: $border-width $border-style $color-mid-gray-1 !important;
+
+    &-0 {
+      border-left: 0 !important;
+    }
+  }
+
+  @include mobile-only {
+    &-xs-left {
+      border-left: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-left: 0 !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm-left {
+      border-left: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-left: 0 !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-left {
+      border-left: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-left: 0 !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg-left {
+      border-left: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-left: 0 !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl-left {
+      border-left: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-left: 0 !important;
+      }
+    }
+  }
+}
+
+.border {
+  &-right {
+    border-right: $border-width $border-style $color-mid-gray-1 !important;
+
+    &-0 {
+      border-right: 0 !important;
+    }
+  }
+
+  @include mobile-only {
+    &-xs-right {
+      border-right: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-right: 0 !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm-right {
+      border-right: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-right: 0 !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-right {
+      border-right: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-right: 0 !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg-right {
+      border-right: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-right: 0 !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl-right {
+      border-right: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-right: 0 !important;
+      }
+    }
+  }
+}
+
+.border {
+  &-top {
+    border-top: $border-width $border-style $color-mid-gray-1 !important;
+
+    &-0 {
+      border-top: 0 !important;
+    }
+  }
+
+  @include mobile-only {
+    &-xs-top {
+      border-top: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-top: 0 !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm-top {
+      border-top: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-top: 0 !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-top {
+      border-top: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-top: 0 !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg-top {
+      border-top: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-top: 0 !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl-top {
+      border-top: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-top: 0 !important;
+      }
+    }
+  }
+}
+
+.border {
+  &-bottom {
+    border-bottom: $border-width $border-style $color-mid-gray-1 !important;
+
+    &-0 {
+      border-bottom: 0 !important;
+    }
+  }
+
+  @include mobile-only {
+    &-xs-bottom {
+      border-bottom: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-bottom: 0 !important;
+      }
+    }
+  }
+
+  @include tablet-portrait-up {
+    &-sm-bottom {
+      border-bottom: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-bottom: 0 !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-bottom {
+      border-bottom: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-bottom: 0 !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg-bottom {
+      border-bottom: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-bottom: 0 !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl-bottom {
+      border-bottom: $border-width $border-style $color-mid-gray-1 !important;
+
+      &-0 {
+        border-bottom: 0 !important;
+      }
+    }
+  }
+}
+

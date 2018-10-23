@@ -1,0 +1,121 @@
+.o {
+  &-hidden {
+    overflow: hidden !important;
+  }
+
+  @include mobile-only {
+    &-xs-hidden {
+      overflow: hidden !important;
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm-hidden {
+      overflow: hidden !important;
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-hidden {
+      overflow: hidden !important;
+    }
+  }
+  @include desktop-up {
+    &-lg-hidden {
+      overflow: hidden !important;
+    }
+  }
+  @include big-desktop-up {
+    &-xl-hidden {
+      overflow: hidden !important;
+    }
+  }
+
+  &-scroll {
+    overflow: scroll !important;
+  }
+
+  @include mobile-only {
+    &-xs-scroll {
+      overflow: scroll !important;
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm-scroll {
+      overflow: scroll !important;
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-scroll {
+      overflow: scroll !important;
+    }
+  }
+  @include desktop-up {
+    &-lg-scroll {
+      overflow: scroll !important;
+    }
+  }
+  @include big-desktop-up {
+    &-xl-scroll {
+      overflow: scroll !important;
+    }
+  }
+
+  &-visible {
+    overflow: visible !important;
+  }
+
+  @include mobile-only {
+    &-xs-visible {
+      overflow: visible !important;
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm-visible {
+      overflow: visible !important;
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-visible {
+      overflow: visible !important;
+    }
+  }
+  @include desktop-up {
+    &-lg-visible {
+      overflow: visible !important;
+    }
+  }
+  @include big-desktop-up {
+    &-xl-visible {
+      overflow: visible !important;
+    }
+  }
+
+  &-auto {
+    overflow: auto !important;
+  }
+
+  @include mobile-only {
+    &-xs-auto {
+      overflow: auto !important;
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm-auto {
+      overflow: auto !important;
+    }
+  }
+  @include tablet-landscape-up {
+    &-md-auto {
+      overflow: auto !important;
+    }
+  }
+  @include desktop-up {
+    &-lg-auto {
+      overflow: auto !important;
+    }
+  }
+  @include big-desktop-up {
+    &-xl-auto {
+      overflow: auto !important;
+    }
+  }
+}

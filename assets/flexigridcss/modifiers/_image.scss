@@ -1,4 +1,16 @@
-.img-fluid {
-  width: 100%;
-  height: auto;
+.img {
+  &-fluid {
+    width: 100%;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  &-thumbnail {
+    padding: .5rem;
+    background-color: white;
+    border: 1px solid $color-mid-gray-1;
+    border-radius: $radius-rounded;
+    max-width: 100%;
+    height: auto;
+  }
 }
