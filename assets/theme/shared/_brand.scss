@@ -1,8 +1,12 @@
 .brand {
-  width: 270px;
+  //width: 270px;
+  text-align: center;
 
   &__title {
-    @include sr-only;
+    //@include sr-only;
+    margin-bottom: .8rem;
+    line-height: 1.2;
+    text-transform: uppercase;
   }
 
   &__link {
@@ -10,10 +14,16 @@
     height: 100%;
     display: block;
     color:white;
+    
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
   }
 
   &__img {
     width: auto;
     height: 50px;
+    display: none;
   }
 }
