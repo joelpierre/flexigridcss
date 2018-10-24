@@ -16,7 +16,7 @@ npm install flexigridcss
 ### Yarn
 
 ```sh
-yarn add FlexigridCSS
+yarn add flexigridcss
 ```
 ### Import
 After installation, you can import the CSS file into your project using this snippet:
@@ -29,13 +29,51 @@ Feel free to raise an issue or submit a pull request.
 
 ## The "Out-of-the-box" Grid
 
+We are working on "out-of-the-box" layout bodies using CSS Grid alone. These will typically follow the following markup:
 
+````html
+...
+
+<body class="some-grid-class-name">
+  <header class="header"></header>
+  
+  <main class="main" role="main"></main>
+  
+  <footer class="footer"></footer>
+</body>
+
+...
+````
+
+and at times...
+
+````html
+...
+
+<body class="some-grid-class-name">
+  <header class="header"></header>
+  
+  nav
+  
+  <main class="main" role="main"></main>
+  
+  <footer class="footer"></footer>
+</body>
+
+...
+````
+
+Where applying a class name to the ``<body>`` will then structure the ``<header>, <main> and <footer>`` accordingly. Using the correct properties so that these layouts are responsive and then having ``@supports`` fallbacks.
+
+We can then go a step further and create layouts for the ``<header>`` & ``<footer>`` tags in order to have great ready made layouts. Again to reiterate the plan is not to make a super boiler plated framework but an easy to use helper class full framework for quickly building layouts for client projects. 
+
+WATCH THIS SPACE!
 
 ## CSS only
 
 FlexigridCSS is a **CSS** framework. As a result, the sole output is a single CSS file, with a min variation. [flexigridcss.css](https://github.com/joelpierre/flexigridcss/blob/master/dist/flexigridcss.css)
 
-You can either use that file, "out of the box", or download the Sass source files to customize the variables and change the default grid structure.
+You can either use that file or download the Sass source files to customize the variables and change the default grid structure.
 
 There is **no** JavaScript included. This is just a helpful style layer to add to your development and is not a full proof solution. It was made for developers needing a solid foundation and a foundation only. 
 

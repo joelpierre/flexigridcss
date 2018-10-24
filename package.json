@@ -1,5 +1,5 @@
 {
-  "name": "@flexigridcss/flexigridcss",
+  "name": "flexigridcss",
   "version": "0.0.9",
   "homepage": "http://flexigridcss.pixeltwist.io/",
   "description": "A Modern CSS framework that incorporates grid and flex box",
