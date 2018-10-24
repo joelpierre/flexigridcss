@@ -16,10 +16,10 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
+      "label": "FlexigridCSS Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
-      "referenceUrl": "",
+      "url": "http://flexigridcss.test",
+      "referenceUrl": "http://flexigridcss.test",
       "readyEvent": "",
       "readySelector": "",
       "delay": 0,
