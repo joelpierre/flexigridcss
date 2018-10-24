@@ -407,9 +407,6 @@ template {
   margin: 0 -1rem;
   -webkit-box-align: stretch;
           align-items: stretch; }
-  @supports ((display: -ms-grid) or (display: grid)) {
-    .row {
-      grid-column: 1 / -1; } }
   @media (max-width: 599px) {
     .row {
       max-width: calc(100% + 0.8rem * 2); } }

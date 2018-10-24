@@ -19,13 +19,13 @@ npm install flexigridcss
 yarn add flexigridcss
 ```
 ### Import
-After installation, you can import the CSS file into your project using this snippet:
+After installation, you can import the CSS file into your project using either of these snippet:
 
 ```sh
 import 'flexigridcss/dist/flexigridcss.css'
-
-// or
-
+```
+or
+```sh
 import 'flexigridcss/dist/flexigridcss.min.css'
 ```
 
@@ -33,14 +33,14 @@ Feel free to raise an issue or submit a pull request.
 
 ## The Grid
 
-#### Whats in place now?
-At present **``v.0.0.10``** we have the basic ``.container.row.flex-x-x`` setup. 
+#### What do we have as of now?
+At present **``v.0.0.10``** we have the basic ``.container > .row > .flex-x-x`` setup. 
 
-##### .container / .container-fluid
+##### Container/Container-fluid
 All ``.container / .container-fluid``'s are ``display: grid;``
 with different column numbers based on the device type. ``.container`` having a fixed width and ``.container-fluid`` having the width of the entire viewport.
 
-##### Rows/Columns
+##### Rows/Column
 All ``.row``'s are 
 ````scss
 .row {
@@ -63,7 +63,7 @@ Similarly to all ``.row``'s, all ``.column``'s are
 ```` 
 this changes the flex items from moving across the x-axis to the y-axis.
 
-We believe that due to Flexbox and Grid the way we look at "columns" need to change. With flexbox we can change the ``flex-direction`` property so our ``col-x-x`` then becomes a ``row`` like element which can get confusing but fundamentally it means it goes from following the x-axis to tracking along the y-axis.
+We believe that due to Flexbox and Grid the way we look at "columns" need to change. With flexbox we can change the ``flex-direction`` property so our ``col-x-x`` then becomes a ``row`` like element so why pre-fix it with ``.col-``?
 
 ---
 
