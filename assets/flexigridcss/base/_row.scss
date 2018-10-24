@@ -7,6 +7,11 @@
   margin: 0 -1rem;
   align-items: stretch; // By default we make all items stretch to the row height.
 
+  // Grid styles
+  @supports (display: grid) {
+    grid-column: 1 / -1;
+  }
+
   @include mobile-only {
     max-width: calc(100% + #{$grid-space-mobile} * 2);
   }
