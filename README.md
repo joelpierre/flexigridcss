@@ -53,14 +53,14 @@ There is an optional modifier of ```.container--grid```, ```.container-fluid--gr
 
 ##### Rows
 All ``.row``'s are 
-````scss
+```scss
 .row {
   ...
   display: flex; 
   flex-direction: row;
   ...
 }
-```` 
+```
 
 we have also built in modifiers for the row element. They carry the core row styling so can be used without adding two classes.
 ```scss
@@ -206,7 +206,7 @@ We cater for both desktop first builds and mobile first build.
 #### Whats to come?
 We are working on "out-of-the-box" layout bodies using CSS Grid alone. These will typically follow the following markup:
 
-````html
+```html
 ...
 
 <body class="some-grid-class-name">
@@ -218,11 +218,11 @@ We are working on "out-of-the-box" layout bodies using CSS Grid alone. These wil
 </body>
 
 ...
-````
+```
 
 and at times...
 
-````html
+```html
 ...
 
 <body class="some-grid-class-name">
@@ -236,7 +236,7 @@ and at times...
 </body>
 
 ...
-````
+```
 
 Where applying a class name to the ``<body>`` we will then structure the ``<header>, <main> and <footer>`` accordingly. Using the correct properties so that these layouts are responsive and then having ``@supports`` fallbacks.
 
