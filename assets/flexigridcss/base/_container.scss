@@ -1,58 +1,69 @@
 // Container will always be grid... If not supported then it will just be the width it needs to be...
-.container,
-.container-fluid {
-  display: grid;
+%container-core {
+  margin: auto;
   min-height: 0;
   min-width: 0;
-  margin: auto;
+  max-width: 100%;
+}
 
-  &--row-gap {
+.container,
+.container-fluid {
+  display: flex;
+  flex: 0 0 0;
+  flex-wrap: wrap;
+  @extend %container-core;
+
+  &--grid {
+    display: grid;
+    @extend %container-core;
+
     @include mobile-only {
-      grid-row-gap: calc(#{$grid-space-mobile} * 2);
+      grid-template-columns: repeat($grid-columns-mobile, 1fr);
+      grid-column-gap: calc(#{$grid-space-mobile} * 2);
+      padding: 0 $grid-space-mobile;
     }
-
     @include tablet-portrait-up {
-      grid-row-gap: calc(#{$grid-space-portrait-tablet} * 2);
+      grid-template-columns: repeat($grid-columns-portrait-tablet, 1fr);
+      grid-column-gap: calc(#{$grid-space-portrait-tablet} * 2);
+      padding: 0 $grid-space-portrait-tablet;
     }
 
     @include tablet-landscape-up {
-      grid-row-gap: calc(#{$grid-space-landscape-tablet} * 2);
+      grid-template-columns: repeat($grid-columns-landscape-tablet, 1fr);
+      grid-column-gap: calc(#{$grid-space-landscape-tablet} * 2);
+      padding: 0 $grid-space-landscape-tablet;
     }
-
     @include desktop-up {
-      grid-row-gap: calc(#{$grid-space-desktop} * 2);
+      grid-template-columns: repeat($grid-columns-desktop, 1fr);
+      grid-column-gap: calc(#{$grid-space-desktop} * 2);
+      padding: 0 $grid-space-desktop;
     }
-
     @include big-desktop-up {
-      grid-row-gap: calc(#{$grid-space-big-desktop} * 2);
+      grid-template-columns: repeat($grid-columns-big-desktop, 1fr);
+      grid-column-gap: calc(#{$grid-space-big-desktop} * 2);
+      padding: 0 $grid-space-big-desktop;
     }
-  }
 
-  @include mobile-only {
-    grid-template-columns: repeat($grid-columns-mobile, 1fr);
-    grid-column-gap: calc(#{$grid-space-mobile} * 2);
-    padding: 0 $grid-space-mobile;
-  }
-  @include tablet-portrait-up {
-    grid-template-columns: repeat($grid-columns-portrait-tablet, 1fr);
-    grid-column-gap: calc(#{$grid-space-portrait-tablet} * 2);
-    padding: 0 $grid-space-portrait-tablet;
-  }
+    .row {
+      grid-column: 1 / -1;
 
-  @include tablet-landscape-up {
-    grid-template-columns: repeat($grid-columns-landscape-tablet, 1fr);
-    grid-column-gap: calc(#{$grid-space-landscape-tablet} * 2);
-    padding: 0 $grid-space-landscape-tablet;
-  }
-  @include desktop-up {
-    grid-template-columns: repeat($grid-columns-desktop, 1fr);
-    grid-column-gap: calc(#{$grid-space-desktop} * 2);
-    padding: 0 $grid-space-desktop;
-  }
-  @include big-desktop-up {
-    grid-template-columns: repeat($grid-columns-big-desktop, 1fr);
-    grid-column-gap: calc(#{$grid-space-big-desktop} * 2);
-    padding: 0 $grid-space-big-desktop;
+      @include mobile-only {
+        margin: 0px #{-$grid-space-mobile};
+      }
+      @include tablet-portrait-up {
+        margin: 0px #{-$grid-space-portrait-tablet};
+      }
+
+      @include tablet-landscape-up {
+        margin: 0px #{-$grid-space-landscape-tablet};
+      }
+      @include desktop-up {
+        margin: 0px #{-$grid-space-desktop};
+      }
+      @include big-desktop-up {
+        margin: 0px #{-$grid-space-big-desktop};
+      }
+    }
   }
 }
 
@@ -92,5 +103,27 @@
   // If doesn't support grid display: block;
   @supports not (display: grid) {
     display: block;
+  }
+}
+
+.grid-gap {
+  @include mobile-only {
+    grid-gap: calc(#{$grid-space-mobile} * 2);
+  }
+
+  @include tablet-portrait-up {
+    grid-gap: calc(#{$grid-space-portrait-tablet} * 2);
+  }
+
+  @include tablet-landscape-up {
+    grid-gap: calc(#{$grid-space-landscape-tablet} * 2);
+  }
+
+  @include desktop-up {
+    grid-gap: calc(#{$grid-space-desktop} * 2);
+  }
+
+  @include big-desktop-up {
+    grid-gap: calc(#{$grid-space-big-desktop} * 2);
   }
 }
