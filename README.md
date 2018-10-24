@@ -22,13 +22,54 @@ yarn add flexigridcss
 After installation, you can import the CSS file into your project using this snippet:
 
 ```sh
-import 'flexigridcss/css/flexigridcss.min.css'
+import 'flexigridcss/dist/flexigridcss.css'
+
+// or
+
+import 'flexigridcss/dist/flexigridcss.min.css'
 ```
 
 Feel free to raise an issue or submit a pull request.
 
-## The "Out-of-the-box" Grid
+## The Grid
 
+#### Whats in place now?
+At present **``v.0.0.10``** we have the basic ``.container.row.flex-x-x`` setup. 
+
+##### .container / .container-fluid
+All ``.container / .container-fluid``'s are ``display: grid;``
+with different column numbers based on the device type. ``.container`` having a fixed width and ``.container-fluid`` having the width of the entire viewport.
+
+##### Rows/Columns
+All ``.row``'s are 
+````scss
+.row {
+  ...
+  display: flex; 
+  flex-direction: row;
+  ...
+}
+```` 
+with a 100% width. Which is used to encapsulate the flex items. 
+
+Similarly to all ``.row``'s, all ``.column``'s are
+````scss
+.column {
+  ...
+  display: flex; 
+  flex-direction: column;
+  ...
+}
+```` 
+this changes the flex items from moving across the x-axis to the y-axis.
+
+We believe that due to Flexbox and Grid the way we look at "columns" need to change. With flexbox we can change the ``flex-direction`` property so our ``col-x-x`` then becomes a ``row`` like element which can get confusing but fundamentally it means it goes from following the x-axis to tracking along the y-axis.
+
+---
+
+#### Breakpoints and "Columns"
+
+#### Whats to come?
 We are working on "out-of-the-box" layout bodies using CSS Grid alone. These will typically follow the following markup:
 
 ````html
