@@ -75,7 +75,7 @@ we have also built in modifiers for the row element. They carry the core row sty
 }
 ```
 
-#####Flex Items
+##### Flex Items
 We swap the ``.col-`` for ``.flex-`` and in turn we introduce ``.grid-`` for new grid helper classes.
 
 Similar to Bootstrap our flex items are named:
@@ -88,7 +88,7 @@ Similar to Bootstrap our flex items are named:
 .flex-sm-1 ... 4 {} // Tablet Portrait
 ```
 
-#####Grid Items
+##### Grid Items
 Our grid item naming is **TBD**
 
 #### Breakpoints
