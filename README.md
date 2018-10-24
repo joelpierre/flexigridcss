@@ -44,13 +44,14 @@ There are planned components to be styled and built however not enough to build 
 ## The Grid
 
 #### What do we have as of now?
-At present **``v.0.0.10``** we have the basic ``.container > .row > .flex-x-x`` setup. 
+At present **``v.0.0.11``** we have the basic ``.container > .row > .flex-x-x`` setup. 
 
 ##### Container/Container-fluid
-All ``.container / .container-fluid``'s are ``display: grid;``
-with different column numbers based on the device type. ``.container`` having a fixed width and ``.container-fluid`` having the width of the entire viewport.
+All ``.container / .container-fluid``'s are ``display: flex;``. With ``.container`` having a fixed width and ``.container-fluid`` having the width of the entire viewport.
 
-##### Rows/Column
+There is an optional modifier of ```.container--grid```, ```.container-fluid--grid``` which applies a grid layout to the container following our column structure.
+
+##### Rows
 All ``.row``'s are 
 ````scss
 .row {
@@ -60,53 +61,47 @@ All ``.row``'s are
   ...
 }
 ```` 
-with a 100% width. Which is used to encapsulate the flex items. 
 
-Similarly to all ``.row``'s, all ``.column``'s are
-````scss
-.column {
-  ...
-  display: flex; 
-  flex-direction: column;
-  ...
+we have also built in modifiers for the row element. They carry the core row styling so can be used without adding two classes.
+```scss
+.row--reverse {
+  flex-direction:row-reverse;
 }
-```` 
-this changes the flex items from moving across the x-axis to the y-axis.
-
-We believe that due to Flexbox and Grid the way we look at "columns" need to change. With flexbox we can change the ``flex-direction`` property so our ``col-x-x`` then becomes a ``row`` like element so why pre-fix it with ``.col-``? This brings us to our next nugget of information. We swap the ``.col-`` for ``.flex-`` and in turn we introduce ``.grid-`` for new grid helper classes.
+.row--column {
+  flex-direction:column;
+}
+.row--column-reverse {
+  flex-direction:column-reverse;
+}
+```
 
 #####Flex Items
+We swap the ``.col-`` for ``.flex-`` and in turn we introduce ``.grid-`` for new grid helper classes.
+
 Similar to Bootstrap our flex items are named:
+
 ```scss
-.flex-1 ...n {} // No Breakpoint - Has the same value
-.flex-xl-1 ...n {} // Big desktop
-.flex-lg-1 ...n {} // Desktop
-.flex-md-1 ...n {} // Tablet Landscape
-.flex-sm-1 ...n {} // Tablet Portrait
-.flex-xs-1 ...n {} // Mobile 
+.flex-1 ... 16 {} // No Breakpoint - Has 16 columns
+.flex-xl-1 ... 16 {} // Big desktop
+.flex-lg-1 ... 12 {} // Desktop
+.flex-md-1 ... 8 {} // Tablet Landscape
+.flex-sm-1 ... 4 {} // Tablet Portrait
 ```
-when complete our grid items should follow the following conventions but this is **TBD**:
-```scss
-.grid-1 ...n {} // No Breakpoint - Has the same value
-.grid-xl-1 ...n {} // Big desktop
-.grid-lg-1 ...n {} // Desktop
-.grid-md-1 ...n {} // Tablet Landscape
-.grid-sm-1 ...n {} // Tablet Portrait
-.grid-xs-1 ...n {} // Mobile 
-```
+
+#####Grid Items
+Our grid item naming is **TBD**
 
 #### Breakpoints
-We use a responsive grid layout for all containers as you can see from the table below:
+We change our layout oclumns based on the breakpoint. Please see below:
 
 <table>
-<thead>
 <tbody>
 <tr>
 <td>
 <strong>Breakpoint</strong>
 </td>
 <td>
-<strong>Size (px)</strong>
+<strong>Size&nbsp;(px)</strong>
 </td>
 <td>
 <strong>min-width</strong>
@@ -132,10 +127,9 @@ Mobile
 Y
 </td>
 <td>
-4
+-
 </td>
 </tr>
-
 <tr>
 <td>
 Tablet Portrait
@@ -150,10 +144,9 @@ Y
 Y
 </td>
 <td>
-8
+4
 </td>
 </tr>
-
 <tr>
 <td>
 Tablet Landscape
@@ -168,10 +161,9 @@ Y
 Y
 </td>
 <td>
-10
+8
 </td>
 </tr>
-
 <tr>
 <td>
 Desktop
@@ -189,7 +181,6 @@ Y
 12
 </td>
 </tr>
-
 <tr>
 <td>
 Big Desktop
@@ -207,7 +198,6 @@ Y
 16
 </td>
 </tr>
-
 </tbody>
 </table>
 
@@ -250,11 +240,13 @@ and at times...
 
 Where applying a class name to the ``<body>`` we will then structure the ``<header>, <main> and <footer>`` accordingly. Using the correct properties so that these layouts are responsive and then having ``@supports`` fallbacks.
 
-We can then go a step further and create component layouts for the ``<header>`` & ``<footer>``.
+You can then use flex items inside these core layouts to achieve your desired designs.
+
+We can then go a step further and create component layouts for the ``<header>`` & ``<footer>``, using grid.
 
 ## Browser Support
 
-FlexigridCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make (most) Flexbox features compatible with earlier browser versions. According to [Can I use](https://caniuse.com/#feat=flexbox), FlexigridCSS is compatible with **recent** versions of:
+FlexigridCSS uses [autoprefixer](https://github.com/postcss/autoprefixer) to make (most) Flexbox and Grid features compatible with earlier browser versions. According to Can I use [flexbox](https://caniuse.com/#feat=flexbox) &amp; [grid](https://caniuse.com/#search=grid), FlexigridCSS is compatible with **recent** versions of:
 
 * Chrome
 * Edge

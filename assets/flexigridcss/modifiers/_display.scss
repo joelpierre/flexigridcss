@@ -88,4 +88,125 @@
     }
   }
 
+  &-flex {
+    display: flex !important;
+  }
+
+  &-inline-flex {
+    display: inline-flex !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-flex {
+        display: flex !important;
+      }
+
+      &-inline-flex {
+        display: inline-flex !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-flex {
+        display: flex !important;
+      }
+
+      &-inline-flex {
+        display: inline-flex !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-flex {
+        display: flex !important;
+      }
+
+      &-inline-flex {
+        display: inline-flex !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-flex {
+        display: flex !important;
+      }
+
+      &-inline-flex {
+        display: inline-flex !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-flex {
+        display: flex !important;
+      }
+
+      &-inline-flex {
+        display: inline-flex !important;
+      }
+    }
+
+    &-grid {
+      display: grid !important;
+    }
+    &-inline-grid {
+      display: inline-grid !important;
+    }
+
+    @include mobile-only {
+      &-xs {
+        &-grid {
+          display: grid !important;
+        }
+        &-inline-grid {
+          display: inline-grid !important;
+        }
+      }
+    }
+    @include tablet-portrait-up {
+      &-sm {
+        &-grid {
+          display: grid !important;
+        }
+        &-inline-grid {
+          display: inline-grid !important;
+        }
+      }
+    }
+    @include tablet-landscape-up {
+      &-md {
+        &-grid {
+          display: grid !important;
+        }
+        &-inline-grid {
+          display: inline-grid !important;
+        }
+      }
+    }
+    @include desktop-up {
+      &-lg {
+        &-grid {
+          display: grid !important;
+        }
+        &-inline-grid {
+          display: inline-grid !important;
+        }
+      }
+    }
+    @include big-desktop-up {
+      &-xl {
+        &-grid {
+          display: grid !important;
+        }
+        &-inline-grid {
+          display: inline-grid !important;
+        }
+      }
+    }
+  }
 }

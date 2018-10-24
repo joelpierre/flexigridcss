@@ -1,31 +1,86 @@
-@mixin column-base {
+@mixin column-flex-base {
   box-sizing: border-box;
   flex: 1 0 0;
-  padding-right: 1rem;
-  padding-left: 1rem;
   min-width: 0;
   min-height: 0;
   max-width: 100%;
 
-  @supports (display: grid) {
-    grid-column: 1 / -1;
+  @include mobile-only {
+    padding: 0 $grid-space-mobile;
   }
+  @include tablet-portrait-up {
+    padding: 0 $grid-space-portrait-tablet;
+  }
+
+  @include tablet-landscape-up {
+    padding: 0 $grid-space-landscape-tablet;
+  }
+  @include desktop-up {
+    padding: 0 $grid-space-desktop;
+  }
+  @include big-desktop-up {
+    padding: 0 $grid-space-big-desktop;
+  }
+}
+
+@mixin row-flex-base {
+  box-sizing: border-box;
+  flex: 1 0 0;
+  min-width: 0;
+  min-height: 0;
+  max-width: 100%;
 }
 
 @mixin columns($col, $columns: null) {
-  flex: 0 0 calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
-  max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+  box-sizing: border-box;
   min-width: 0;
   min-height: 0;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  flex: 0 0 calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+  max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
 
-  @supports (display: grid) {
-    grid-column: span $col;
+  @include mobile-only {
+    padding: 0 $grid-space-mobile;
+  }
+  @include tablet-portrait-up {
+    padding: 0 $grid-space-portrait-tablet;
+  }
+
+  @include tablet-landscape-up {
+    padding: 0 $grid-space-landscape-tablet;
+  }
+  @include desktop-up {
+    padding: 0 $grid-space-desktop;
+  }
+  @include big-desktop-up {
+    padding: 0 $grid-space-big-desktop;
   }
 }
 
-@mixin dynamic-columns($size: null, $columns: null) {
+@mixin rows($col, $columns: null) {
+  box-sizing: border-box;
+  @include mobile-only {
+    padding: $grid-space-mobile 0;
+  }
+  @include tablet-portrait-up {
+    padding: $grid-space-portrait-tablet 0;
+  }
+
+  @include tablet-landscape-up {
+    padding: $grid-space-landscape-tablet 0;
+  }
+  @include desktop-up {
+    padding: $grid-space-desktop 0;
+  }
+  @include big-desktop-up {
+    padding: $grid-space-big-desktop 0;
+  }
+  min-width: 0;
+  min-height: 0;
+  flex: 0 0 calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+  max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+}
+
+@mixin dynamic-flex-columns($size: null, $columns: null) {
   @if ($size == null) {
     @for $i from 1 through $columns {
       &-#{$i} {
@@ -36,6 +91,22 @@
     @for $i from 1 through $columns {
       &-#{$size}-#{$i} {
         @include columns(#{$i}, #{$columns});
+      }
+    }
+  }
+}
+
+@mixin dynamic-flex-rows($size: null, $columns: null) {
+  @if ($size == null) {
+    @for $i from 1 through $columns {
+      &-#{$i} {
+        @include rows(#{$i}, #{$columns});
+      }
+    }
+  } @else {
+    @for $i from 1 through $columns {
+      &-#{$size}-#{$i} {
+        @include rows(#{$i}, #{$columns});
       }
     }
   }

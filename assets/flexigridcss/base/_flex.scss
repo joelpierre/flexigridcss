@@ -1,0 +1,81 @@
+/*
+ * Flex Item.
+ */
+
+.row  {
+  [class|="flex"] {
+    @include column-flex-base;
+    flex: 1 0 100%;
+  }
+
+  .flex {
+    @include column-flex-base;
+  }
+
+  .flex {
+    @include dynamic-flex-columns(null, $grid-columns-big-desktop);
+
+    &--auto {
+      @supports (display: grid) {
+        grid-column: auto;
+      }
+    }
+
+    @include tablet-portrait-up {
+      @include dynamic-flex-columns('sm', $grid-columns-portrait-tablet);
+    }
+
+    @include tablet-landscape-up {
+      @include dynamic-flex-columns('md', $grid-columns-landscape-tablet);
+    }
+
+    @include desktop-up {
+      @include dynamic-flex-columns('lg', $grid-columns-desktop);
+    }
+
+    @include big-desktop-up {
+      @include dynamic-flex-columns('xl', $grid-columns-big-desktop);
+    }
+  }
+}
+
+//.column {
+//  [class|="flex"] {
+//    @include row-flex-base;
+//    flex: 1 0 100%;
+//  }
+//
+//  .flex {
+//    @include row-flex-base;
+//  }
+//
+//  .flex {
+//    @include dynamic-flex-rows(null, $grid-columns-big-desktop);
+//
+//    &--auto {
+//      @supports (display: grid) {
+//        grid-row: auto;
+//      }
+//    }
+//
+//    @include tablet-portrait-up {
+//      @include dynamic-flex-rows('xs', $grid-columns-mobile);
+//    }
+//
+//    @include tablet-portrait-up {
+//      @include dynamic-flex-rows('sm', $grid-columns-portrait-tablet);
+//    }
+//
+//    @include tablet-landscape-up {
+//      @include dynamic-flex-rows('md', $grid-columns-landscape-tablet);
+//    }
+//
+//    @include desktop-up {
+//      @include dynamic-flex-rows('lg', $grid-columns-desktop);
+//    }
+//
+//    @include big-desktop-up {
+//      @include dynamic-flex-rows('xl', $grid-columns-big-desktop);
+//    }
+//  }
+//}

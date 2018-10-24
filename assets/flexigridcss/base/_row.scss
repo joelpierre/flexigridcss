@@ -1,15 +1,29 @@
-.row {
+%row-core {
   display: flex;
-  flex: 0 1 auto;
+  flex: 0 1 100%;
   flex-direction: row;
   flex-wrap: wrap;
   min-width: 0;
-  margin: 0 -1rem;
+  margin: auto;
   align-items: stretch; // By default we make all items stretch to the row height.
+}
 
-  // Grid styles
-  @supports (display: grid) {
-    grid-column: 1 / -1;
+.row {
+  @extend %row-core;
+
+  &--reverse {
+    @extend %row-core;
+    flex-direction: row-reverse;
+  }
+
+  &--column {
+    @extend %row-core;
+    flex-direction: row-reverse;
+  }
+
+  &--column-reverse {
+    @extend %row-core;
+    flex-direction: row-reverse;
   }
 
   @include mobile-only {
