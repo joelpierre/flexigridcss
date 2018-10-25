@@ -6,20 +6,25 @@
   max-width: 100%;
 
   @include mobile-only {
-    padding: 0 $grid-space-mobile;
+    padding-left: $grid-space-mobile;
+    padding-right: $grid-space-mobile;
   }
   @include tablet-portrait-up {
-    padding: 0 $grid-space-portrait-tablet;
+    padding-left: $grid-space-portrait-tablet;
+    padding-right: $grid-space-portrait-tablet;
   }
 
   @include tablet-landscape-up {
-    padding: 0 $grid-space-landscape-tablet;
+    padding-left: $grid-space-landscape-tablet;
+    padding-right: $grid-space-landscape-tablet;
   }
   @include desktop-up {
-    padding: 0 $grid-space-desktop;
+    padding-left: $grid-space-desktop;
+    padding-right: $grid-space-desktop;
   }
   @include big-desktop-up {
-    padding: 0 $grid-space-big-desktop;
+    padding-left: $grid-space-big-desktop;
+    padding-right: $grid-space-big-desktop;
   }
 }
 
@@ -39,46 +44,51 @@
   max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
 
   @include mobile-only {
-    padding: 0 $grid-space-mobile;
+    padding-left: $grid-space-mobile;
+    padding-right: $grid-space-mobile;
   }
   @include tablet-portrait-up {
-    padding: 0 $grid-space-portrait-tablet;
+    padding-left: $grid-space-portrait-tablet;
+    padding-right: $grid-space-portrait-tablet;
   }
 
   @include tablet-landscape-up {
-    padding: 0 $grid-space-landscape-tablet;
+    padding-left: $grid-space-landscape-tablet;
+    padding-right: $grid-space-landscape-tablet;
   }
   @include desktop-up {
-    padding: 0 $grid-space-desktop;
+    padding-left: $grid-space-desktop;
+    padding-right: $grid-space-desktop;
   }
   @include big-desktop-up {
-    padding: 0 $grid-space-big-desktop;
+    padding-left: $grid-space-big-desktop;
+    padding-right: $grid-space-big-desktop;
   }
 }
 
-@mixin rows($col, $columns: null) {
-  box-sizing: border-box;
-  @include mobile-only {
-    padding: $grid-space-mobile 0;
-  }
-  @include tablet-portrait-up {
-    padding: $grid-space-portrait-tablet 0;
-  }
-
-  @include tablet-landscape-up {
-    padding: $grid-space-landscape-tablet 0;
-  }
-  @include desktop-up {
-    padding: $grid-space-desktop 0;
-  }
-  @include big-desktop-up {
-    padding: $grid-space-big-desktop 0;
-  }
-  min-width: 0;
-  min-height: 0;
-  flex: 0 0 calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
-  max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
-}
+//@mixin rows($col, $columns: null) {
+//  box-sizing: border-box;
+//  @include mobile-only {
+//    padding: $grid-space-mobile 0;
+//  }
+//  @include tablet-portrait-up {
+//    padding: $grid-space-portrait-tablet 0;
+//  }
+//
+//  @include tablet-landscape-up {
+//    padding: $grid-space-landscape-tablet 0;
+//  }
+//  @include desktop-up {
+//    padding: $grid-space-desktop 0;
+//  }
+//  @include big-desktop-up {
+//    padding: $grid-space-big-desktop 0;
+//  }
+//  min-width: 0;
+//  min-height: 0;
+//  flex: 0 0 calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+//  max-width: calc(100% - ((100% / #{$columns}) * (#{$columns} - #{$col})));
+//}
 
 @mixin dynamic-flex-columns($size: null, $columns: null) {
   @if ($size == null) {
