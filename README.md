@@ -44,7 +44,7 @@ There are planned components to be styled and built however not enough to build 
 ## The Grid
 
 #### What do we have as of now?
-At present **``v.0.0.11``** we have the basic ``.container > .row > .flex-x-x`` setup. 
+At present we have the basic ``.container > .row > .flex-x-x`` setup. 
 
 ##### Container/Container-fluid
 All ``.container / .container-fluid``'s are ``display: flex;``. With ``.container`` having a fixed width and ``.container-fluid`` having the width of the entire viewport.
