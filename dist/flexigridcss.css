@@ -3103,19 +3103,24 @@ dl dd {
   flex: 1 0 100%; }
   @media (max-width: 599px) {
     .row [class|="flex"] {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row [class|="flex"] {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row [class|="flex"] {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row [class|="flex"] {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row [class|="flex"] {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex {
   box-sizing: border-box;
@@ -3126,19 +3131,24 @@ dl dd {
   max-width: 100%; }
   @media (max-width: 599px) {
     .row .flex {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-1 {
   box-sizing: border-box;
@@ -3149,19 +3159,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 1))); }
   @media (max-width: 599px) {
     .row .flex-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-2 {
   box-sizing: border-box;
@@ -3172,19 +3187,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 2))); }
   @media (max-width: 599px) {
     .row .flex-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-3 {
   box-sizing: border-box;
@@ -3195,19 +3215,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 3))); }
   @media (max-width: 599px) {
     .row .flex-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-4 {
   box-sizing: border-box;
@@ -3218,19 +3243,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 4))); }
   @media (max-width: 599px) {
     .row .flex-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-5 {
   box-sizing: border-box;
@@ -3241,19 +3271,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 5))); }
   @media (max-width: 599px) {
     .row .flex-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-6 {
   box-sizing: border-box;
@@ -3264,19 +3299,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 6))); }
   @media (max-width: 599px) {
     .row .flex-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-7 {
   box-sizing: border-box;
@@ -3287,19 +3327,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 7))); }
   @media (max-width: 599px) {
     .row .flex-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-8 {
   box-sizing: border-box;
@@ -3310,19 +3355,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 8))); }
   @media (max-width: 599px) {
     .row .flex-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-9 {
   box-sizing: border-box;
@@ -3333,19 +3383,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 9))); }
   @media (max-width: 599px) {
     .row .flex-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-10 {
   box-sizing: border-box;
@@ -3356,19 +3411,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 10))); }
   @media (max-width: 599px) {
     .row .flex-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-11 {
   box-sizing: border-box;
@@ -3379,19 +3439,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 11))); }
   @media (max-width: 599px) {
     .row .flex-11 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-11 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-12 {
   box-sizing: border-box;
@@ -3402,19 +3467,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 12))); }
   @media (max-width: 599px) {
     .row .flex-12 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-12 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-13 {
   box-sizing: border-box;
@@ -3425,19 +3495,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 13))); }
   @media (max-width: 599px) {
     .row .flex-13 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-13 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-13 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-13 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-13 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-14 {
   box-sizing: border-box;
@@ -3448,19 +3523,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 14))); }
   @media (max-width: 599px) {
     .row .flex-14 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-14 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-14 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-14 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-14 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-15 {
   box-sizing: border-box;
@@ -3471,19 +3551,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 15))); }
   @media (max-width: 599px) {
     .row .flex-15 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-15 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-15 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-15 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-15 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .row .flex-16 {
   box-sizing: border-box;
@@ -3494,19 +3579,24 @@ dl dd {
   max-width: calc(100% - ((100% / 16) * (16 - 16))); }
   @media (max-width: 599px) {
     .row .flex-16 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) {
     .row .flex-16 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) {
     .row .flex-16 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) {
     .row .flex-16 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) {
     .row .flex-16 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @supports ((display: -ms-grid) or (display: grid)) {
   .row .flex--auto {
@@ -3522,19 +3612,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 1))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 600px) {
   .row .flex-sm-2 {
@@ -3546,19 +3641,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 2))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 600px) {
   .row .flex-sm-3 {
@@ -3570,19 +3670,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 3))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 600px) {
   .row .flex-sm-4 {
@@ -3594,19 +3699,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 4))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 600px) {
   .row .flex-sm-5 {
@@ -3618,19 +3728,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 5))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 600px) {
   .row .flex-sm-6 {
@@ -3642,19 +3757,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 6))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 600px) {
   .row .flex-sm-7 {
@@ -3666,19 +3786,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 7))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 600px) {
   .row .flex-sm-8 {
@@ -3690,19 +3815,24 @@ dl dd {
     max-width: calc(100% - ((100% / 8) * (8 - 8))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .row .flex-sm-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .row .flex-sm-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .row .flex-sm-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .row .flex-sm-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .row .flex-sm-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-1 {
@@ -3714,19 +3844,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 1))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-2 {
@@ -3738,19 +3873,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 2))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-3 {
@@ -3762,19 +3902,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 3))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-4 {
@@ -3786,19 +3931,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 4))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-5 {
@@ -3810,19 +3960,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 5))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-6 {
@@ -3834,19 +3989,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 6))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-7 {
@@ -3858,19 +4018,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 7))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-8 {
@@ -3882,19 +4047,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 8))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-9 {
@@ -3906,19 +4076,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 9))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 900px) {
   .row .flex-md-10 {
@@ -3930,19 +4105,24 @@ dl dd {
     max-width: calc(100% - ((100% / 10) * (10 - 10))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .row .flex-md-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .row .flex-md-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .row .flex-md-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .row .flex-md-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .row .flex-md-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-1 {
@@ -3954,19 +4134,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 1))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-2 {
@@ -3978,19 +4163,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 2))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-3 {
@@ -4002,19 +4192,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 3))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-4 {
@@ -4026,19 +4221,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 4))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-5 {
@@ -4050,19 +4250,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 5))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-6 {
@@ -4074,19 +4279,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 6))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-7 {
@@ -4098,19 +4308,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 7))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-8 {
@@ -4122,19 +4337,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 8))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-9 {
@@ -4146,19 +4366,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 9))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-10 {
@@ -4170,19 +4395,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 10))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-11 {
@@ -4194,19 +4424,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 11))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-11 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-11 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1200px) {
   .row .flex-lg-12 {
@@ -4218,19 +4453,24 @@ dl dd {
     max-width: calc(100% - ((100% / 12) * (12 - 12))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .row .flex-lg-12 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .row .flex-lg-12 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .row .flex-lg-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .row .flex-lg-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .row .flex-lg-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-1 {
@@ -4242,19 +4482,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 1))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-1 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-1 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-2 {
@@ -4266,19 +4511,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 2))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-2 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-2 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-3 {
@@ -4290,19 +4540,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 3))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-3 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-3 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-4 {
@@ -4314,19 +4569,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 4))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-4 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-4 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-5 {
@@ -4338,19 +4598,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 5))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-5 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-5 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-6 {
@@ -4362,19 +4627,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 6))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-6 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-6 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-7 {
@@ -4386,19 +4656,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 7))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-7 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-7 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-8 {
@@ -4410,19 +4685,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 8))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-8 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-8 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-9 {
@@ -4434,19 +4714,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 9))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-9 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-9 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-10 {
@@ -4458,19 +4743,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 10))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-10 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-10 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-11 {
@@ -4482,19 +4772,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 11))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-11 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-11 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-11 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-12 {
@@ -4506,19 +4801,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 12))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-12 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-12 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-12 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-13 {
@@ -4530,19 +4830,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 13))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-13 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-13 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-13 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-13 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-13 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-14 {
@@ -4554,19 +4859,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 14))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-14 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-14 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-14 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-14 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-14 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-15 {
@@ -4578,19 +4888,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 15))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-15 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-15 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-15 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-15 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-15 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 @media (min-width: 1800px) {
   .row .flex-xl-16 {
@@ -4602,19 +4917,24 @@ dl dd {
     max-width: calc(100% - ((100% / 16) * (16 - 16))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .row .flex-xl-16 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .row .flex-xl-16 {
-      padding: 0 0.8rem; } }
+      padding-left: 0.8rem;
+      padding-right: 0.8rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .row .flex-xl-16 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .row .flex-xl-16 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .row .flex-xl-16 {
-      padding: 0 1.2rem; } }
+      padding-left: 1.2rem;
+      padding-right: 1.2rem; } }
 
 .float-left {
   float: left !important; }

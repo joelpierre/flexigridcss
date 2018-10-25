@@ -1,7 +1,7 @@
 {
   "name": "flexigridcss",
-  "version": "0.0.11",
-  "homepage": "http://flexigridcss.pixeltwist.io/",
+  "version": "0.1.1",
+  "homepage": "https://github.com/joelpierre/flexigridcss",
   "description": "A Modern CSS framework that incorporates grid and flex box",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -39,7 +39,7 @@
   "author": {
     "name": "Joel Pierre-Powell",
     "email": "j.pierrepowell@gmail.com",
-    "url": "http://flexigridcss.pixeltwist.io/"
+    "url": "https://github.com/joelpierre/flexigridcss"
   },
   "license": "MIT",
   "files": [
