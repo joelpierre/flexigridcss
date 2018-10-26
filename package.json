@@ -1,6 +1,6 @@
 {
   "name": "flexigridcss",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "homepage": "https://github.com/joelpierre/flexigridcss",
   "description": "A Modern CSS framework that incorporates grid and flex box",
   "devDependencies": {
