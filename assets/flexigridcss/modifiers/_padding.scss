@@ -78,78 +78,42 @@
   }
 }
 
-@mixin padding-axis($size:null, $axis: null) {
-  @if ($size == null) {
-    @if ($axis == 'x') {
-      @for $i from 1 through 10 {
-        &-#{$i} {
-          padding-left: #{$i}rem !important;
-          padding-right: #{$i}rem !important;
-        }
-      }
-    } @else {
-      @for $i from 1 through 10 {
-        &-#{$i} {
-          padding-top: #{$i}rem !important;
-          padding-bottom: #{$i}rem !important;
-        }
-      }
-    }
-  } @else {
-    @if ($axis == 'x') {
-      @for $i from 1 through 10 {
-        &-#{$size}-#{$i} {
-          padding-left: #{$i}rem !important;
-          padding-right: #{$i}rem !important;
-        }
-      }
-    } @else {
-      @for $i from 1 through 10 {
-        &-#{$size}-#{$i} {
-          padding-top: #{$i}rem !important;
-          padding-bottom: #{$i}rem !important;
-        }
-      }
-    }
-  }
-}
-
 .px {
-  @include padding-axis(null, 'x');
+  @include sizing-axis('padding', null, 'x');
 
   @include tablet-portrait-up {
-    @include padding-axis('sm', 'x');
+    @include sizing-axis('padding', 'sm', 'x');
   }
 
   @include tablet-landscape-up {
-    @include padding-axis('md', 'x');
+    @include sizing-axis('padding', 'md', 'x');
   }
 
   @include desktop-up {
-    @include padding-axis('lg', 'x');
+    @include sizing-axis('padding', 'lg', 'x');
   }
 
   @include big-desktop-up {
-    @include padding-axis('xl', 'x');
+    @include sizing-axis('padding', 'xl', 'x');
   }
 }
 
 .py {
-  @include padding-axis(null, 'y');
+  @include sizing-axis('padding', null, 'y');
 
   @include tablet-portrait-up {
-    @include padding-axis('sm', 'y');
+    @include sizing-axis('padding', 'sm', 'y');
   }
 
   @include tablet-landscape-up {
-    @include padding-axis('md', 'y');
+    @include sizing-axis('padding', 'md', 'y');
   }
 
   @include desktop-up {
-    @include padding-axis('lg', 'y');
+    @include sizing-axis('padding', 'lg', 'y');
   }
 
   @include big-desktop-up {
-    @include padding-axis('xl', 'y');
+    @include sizing-axis('padding', 'xl', 'y');
   }
 }

@@ -1,40 +1,50 @@
 .mx {
   @include dynamic-sizing-auto(null, 'x');
+  @include sizing-axis('margin', null, 'x');
 
   @include tablet-portrait-up {
     @include dynamic-sizing-auto('sm', 'x');
+    @include sizing-axis('margin', 'sm', 'x');
   }
 
   @include tablet-landscape-up {
     @include dynamic-sizing-auto('md', 'x');
+    @include sizing-axis('margin', 'md', 'x');
   }
 
   @include desktop-up {
     @include dynamic-sizing-auto('lg', 'x');
+    @include sizing-axis('margin', 'lg', 'x');
   }
 
   @include big-desktop-up {
     @include dynamic-sizing-auto('xl', 'x');
+    @include sizing-axis('margin', 'xl', 'x');
   }
 }
 
 .my {
   @include dynamic-sizing-auto(null, 'y');
+  @include sizing-axis('margin', null, 'y');
 
   @include tablet-portrait-up {
     @include dynamic-sizing-auto('sm', 'y');
+    @include sizing-axis('margin', 'sm', 'y');
   }
 
   @include tablet-landscape-up {
     @include dynamic-sizing-auto('md', 'y');
+    @include sizing-axis('margin', 'md', 'y');
   }
 
   @include desktop-up {
     @include dynamic-sizing-auto('lg', 'y');
+    @include sizing-axis('margin', 'lg', 'y');
   }
 
   @include big-desktop-up {
     @include dynamic-sizing-auto('xl', 'y');
+    @include sizing-axis('margin', 'xl', 'y');
   }
 }
 

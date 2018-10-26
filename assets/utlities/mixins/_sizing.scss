@@ -47,3 +47,39 @@
     }
   }
 }
+
+@mixin sizing-axis($property, $size:null, $axis: null) {
+  @if ($size == null) {
+    @if ($axis == 'x') {
+      @for $i from 1 through 10 {
+        &-#{$i} {
+          #{$property}-left: #{$i}rem !important;
+          #{$property}-right: #{$i}rem !important;
+        }
+      }
+    } @else {
+      @for $i from 1 through 10 {
+        &-#{$i} {
+          #{$property}-top: #{$i}rem !important;
+          #{$property}-bottom: #{$i}rem !important;
+        }
+      }
+    }
+  } @else {
+    @if ($axis == 'x') {
+      @for $i from 1 through 10 {
+        &-#{$size}-#{$i} {
+          #{$property}-left: #{$i}rem !important;
+          #{$property}-right: #{$i}rem !important;
+        }
+      }
+    } @else {
+      @for $i from 1 through 10 {
+        &-#{$size}-#{$i} {
+          #{$property}-top: #{$i}rem !important;
+          #{$property}-bottom: #{$i}rem !important;
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
  * Flex Item.
  */
 
-.row  {
+//.row  {
   [class|="flex"] {
     @include column-flex-base;
     flex: 1 0 100%;
@@ -37,7 +37,7 @@
       @include dynamic-flex-columns('xl', $grid-columns-big-desktop);
     }
   }
-}
+//}
 
 //.column {
 //  [class|="flex"] {
