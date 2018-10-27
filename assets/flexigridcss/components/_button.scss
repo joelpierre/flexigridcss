@@ -1,0 +1,142 @@
+.btn {
+  appearance: none;
+  font-size: 1.6rem;
+  border-radius: $radius-rounded;
+  text-decoration: none;
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: $transition-all;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &--full {
+    display: block;
+    width: 100%;
+    font-size: 100%;
+    padding: 8px 0;
+  }
+
+  &--xs {
+    font-size: 80%;
+    padding: 3px 10px;
+  }
+
+  &--sm {
+    font-size: 90%;
+    padding: 5px 15px;
+  }
+
+  &--md {
+    font-size: 100%;
+    padding: 8px 20px;
+  }
+
+  &--lg {
+    font-size: 110%;
+    padding: 10px 25px;
+  }
+
+  &--xl {
+    font-size: 120%;
+    padding: 10px 30px;
+  }
+}
+
+// Colours
+
+.btn {
+  &--primary {
+    background-color: $color-primary;
+    color: white;
+
+    &:hover, &:focus {
+      background-color: darken($color-primary, 10%);
+      color: white;
+    }
+  }
+
+  &--default {
+    background-color: $color-default;
+    color: darken($color-default, 50%);
+
+    &:hover, &:focus {
+      background-color: darken($color-default, 40%);
+      color: white;
+    }
+  }
+
+  &--white {
+    background-color: white;
+    color: black;
+
+    &:hover, &:focus {
+      background-color: darken(white, 20%);
+      color: lighten(black, 30%);
+    }
+  }
+
+  &--black {
+    background-color: black;
+    color: white;
+
+    &:hover, &:focus {
+      background-color: lighten(black, 40%);
+      color: darken(white, 10%);
+    }
+  }
+
+  &--info {
+    background-color: $color-info;
+    color: lighten(black, 30%);
+
+    &:hover, &:focus {
+      background-color: darken($color-info, 40%);
+      color: darken(white, 5%);
+    }
+  }
+
+  &--secondary {
+    background-color: $color-secondary;
+    color: white;
+
+    &:hover, &:focus {
+      background-color: darken($color-secondary, 10%);
+      color: white;
+    }
+  }
+
+  &--success {
+    background-color: $color-success;
+    color: white;
+
+    &:hover, &:focus {
+      background-color: darken($color-success, 10%);
+      color: white;
+    }
+  }
+
+  &--warning {
+    background-color: $color-warning;
+    color: lighten(black, 20%);
+
+    &:hover, &:focus {
+      background-color: $color-warning-dark;
+      color: lighten(black, 20%);
+    }
+  }
+
+  &--danger {
+    background-color: $color-danger;
+    color: white;
+
+    &:hover, &:focus {
+      background-color: darken($color-danger, 5%);
+      color: white;
+    }
+  }
+}
