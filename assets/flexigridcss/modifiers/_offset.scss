@@ -6,7 +6,7 @@
   @include dynamic-offset(null, $grid-columns-big-desktop);
 
   @include mobile-only {
-  @include dynamic-offset('xs', $grid-columns-mobile);
+    @include dynamic-offset('xs', $grid-columns-mobile);
   }
 
   @include tablet-portrait-up {

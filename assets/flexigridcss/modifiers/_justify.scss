@@ -1,0 +1,597 @@
+.justify-content {
+  &-center {
+    justify-content: center !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-center {
+        justify-content: center !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-center {
+        justify-content: center !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-center {
+        justify-content: center !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-center {
+        justify-content: center !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-center {
+        justify-content: center !important;
+      }
+    }
+  }
+
+  &-start {
+    justify-content: start !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-start {
+        justify-content: start !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-start {
+        justify-content: start !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-start {
+        justify-content: start !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-start {
+        justify-content: start !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-start {
+        justify-content: start !important;
+      }
+    }
+  }
+
+  &-end {
+    justify-content: end !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-end {
+        justify-content: end !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-end {
+        justify-content: end !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-end {
+        justify-content: end !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-end {
+        justify-content: end !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-end {
+        justify-content: end !important;
+      }
+    }
+  }
+
+  &-flex-start {
+    justify-content: flex-start !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-flex-start {
+        justify-content: flex-start !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-flex-start {
+        justify-content: flex-start !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-flex-start {
+        justify-content: flex-start !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-flex-start {
+        justify-content: flex-start !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-flex-start {
+        justify-content: flex-start !important;
+      }
+    }
+  }
+
+  &-flex-end {
+    justify-content: flex-end !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-flex-end {
+        justify-content: flex-end !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-flex-end {
+        justify-content: flex-end !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-flex-end {
+        justify-content: flex-end !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-flex-end {
+        justify-content: flex-end !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-flex-end {
+        justify-content: flex-end !important;
+      }
+    }
+  }
+
+  &-space-between {
+    justify-content: space-between !important;
+  }
+
+  @include mobile-only {
+    &-xs {
+      &-space-between {
+        justify-content: space-between !important;
+      }
+    }
+  }
+  @include tablet-portrait-up {
+    &-sm {
+      &-space-between {
+        justify-content: space-between !important;
+      }
+    }
+  }
+  @include tablet-landscape-up {
+    &-md {
+      &-space-between {
+        justify-content: space-between !important;
+      }
+    }
+  }
+  @include desktop-up {
+    &-lg {
+      &-space-between {
+        justify-content: space-between !important;
+      }
+    }
+  }
+  @include big-desktop-up {
+    &-xl {
+      &-space-between {
+        justify-content: space-between !important;
+      }
+    }
+  }
+}
+
+/////////////////////
+/// Justify Self ///
+///////////////////
+
+.justify-self {
+  @include dynamic-property(null, 'justify-self', 'auto');
+  @include dynamic-property(null, 'justify-self', 'normal');
+  @include dynamic-property(null, 'justify-self', 'stretch');
+  @include dynamic-property(null, 'justify-self', 'center');
+  @include dynamic-property(null, 'justify-self', 'start');
+  @include dynamic-property(null, 'justify-self', 'end');
+  @include dynamic-property(null, 'justify-self', 'flex-start');
+  @include dynamic-property(null, 'justify-self', 'flex-end');
+  @include dynamic-property(null, 'justify-self', 'self-start');
+  @include dynamic-property(null, 'justify-self', 'self-end');
+  @include dynamic-property(null, 'justify-self', 'left');
+  @include dynamic-property(null, 'justify-self', 'right');
+  @include dynamic-property(null, 'justify-self', 'baseline');
+
+  &-first-baseline {
+    justify-self: first baseline;
+  }
+  &-last-baseline {
+    justify-self: last baseline;
+  }
+  &-safe-center {
+    justify-self: safe center;
+  }
+  &-unsafe-center {
+    justify-self: unsafe center;
+  }
+
+  @include mobile-only {
+    @include dynamic-property('xs', 'justify-self', 'auto');
+    @include dynamic-property('xs', 'justify-self', 'normal');
+    @include dynamic-property('xs', 'justify-self', 'stretch');
+    @include dynamic-property('xs', 'justify-self', 'center');
+    @include dynamic-property('xs', 'justify-self', 'start');
+    @include dynamic-property('xs', 'justify-self', 'end');
+    @include dynamic-property('xs', 'justify-self', 'flex-start');
+    @include dynamic-property('xs', 'justify-self', 'flex-end');
+    @include dynamic-property('xs', 'justify-self', 'self-start');
+    @include dynamic-property('xs', 'justify-self', 'self-end');
+    @include dynamic-property('xs', 'justify-self', 'left');
+    @include dynamic-property('xs', 'justify-self', 'right');
+    @include dynamic-property('xs', 'justify-self', 'baseline');
+
+    &-xs-first-baseline {
+      justify-self: first baseline;
+    }
+    &-xs-last-baseline {
+      justify-self: last baseline;
+    }
+    &-xs-safe-center {
+      justify-self: safe center;
+    }
+    &-xs-unsafe-center {
+      justify-self: unsafe center;
+    }
+  }
+
+  @include tablet-portrait-up {
+    @include dynamic-property('sm', 'justify-self', 'auto');
+    @include dynamic-property('sm', 'justify-self', 'normal');
+    @include dynamic-property('sm', 'justify-self', 'stretch');
+    @include dynamic-property('sm', 'justify-self', 'center');
+    @include dynamic-property('sm', 'justify-self', 'start');
+    @include dynamic-property('sm', 'justify-self', 'end');
+    @include dynamic-property('sm', 'justify-self', 'flex-start');
+    @include dynamic-property('sm', 'justify-self', 'flex-end');
+    @include dynamic-property('sm', 'justify-self', 'self-start');
+    @include dynamic-property('sm', 'justify-self', 'self-end');
+    @include dynamic-property('sm', 'justify-self', 'left');
+    @include dynamic-property('sm', 'justify-self', 'right');
+    @include dynamic-property('sm', 'justify-self', 'baseline');
+
+    &-sm-first-baseline {
+      justify-self: first baseline;
+    }
+    &-sm-last-baseline {
+      justify-self: last baseline;
+    }
+    &-sm-safe-center {
+      justify-self: safe center;
+    }
+    &-sm-unsafe-center {
+      justify-self: unsafe center;
+    }
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-property('md', 'justify-self', 'auto');
+    @include dynamic-property('md', 'justify-self', 'normal');
+    @include dynamic-property('md', 'justify-self', 'stretch');
+    @include dynamic-property('md', 'justify-self', 'center');
+    @include dynamic-property('md', 'justify-self', 'start');
+    @include dynamic-property('md', 'justify-self', 'end');
+    @include dynamic-property('md', 'justify-self', 'flex-start');
+    @include dynamic-property('md', 'justify-self', 'flex-end');
+    @include dynamic-property('md', 'justify-self', 'self-start');
+    @include dynamic-property('md', 'justify-self', 'self-end');
+    @include dynamic-property('md', 'justify-self', 'left');
+    @include dynamic-property('md', 'justify-self', 'right');
+    @include dynamic-property('md', 'justify-self', 'baseline');
+
+    &-md-first-baseline {
+      justify-self: first baseline;
+    }
+    &-md-last-baseline {
+      justify-self: last baseline;
+    }
+    &-md-safe-center {
+      justify-self: safe center;
+    }
+    &-md-unsafe-center {
+      justify-self: unsafe center;
+    }
+  }
+
+  @include desktop-up {
+    @include dynamic-property('lg', 'justify-self', 'auto');
+    @include dynamic-property('lg', 'justify-self', 'normal');
+    @include dynamic-property('lg', 'justify-self', 'stretch');
+    @include dynamic-property('lg', 'justify-self', 'center');
+    @include dynamic-property('lg', 'justify-self', 'start');
+    @include dynamic-property('lg', 'justify-self', 'end');
+    @include dynamic-property('lg', 'justify-self', 'flex-start');
+    @include dynamic-property('lg', 'justify-self', 'flex-end');
+    @include dynamic-property('lg', 'justify-self', 'self-start');
+    @include dynamic-property('lg', 'justify-self', 'self-end');
+    @include dynamic-property('lg', 'justify-self', 'left');
+    @include dynamic-property('lg', 'justify-self', 'right');
+    @include dynamic-property('lg', 'justify-self', 'baseline');
+
+    &-lg-first-baseline {
+      justify-self: first baseline;
+    }
+    &-lg-last-baseline {
+      justify-self: last baseline;
+    }
+    &-lg-safe-center {
+      justify-self: safe center;
+    }
+    &-lg-unsafe-center {
+      justify-self: unsafe center;
+    }
+  }
+
+  @include big-desktop-up {
+    @include dynamic-property('xl', 'justify-self', 'auto');
+    @include dynamic-property('xl', 'justify-self', 'normal');
+    @include dynamic-property('xl', 'justify-self', 'stretch');
+    @include dynamic-property('xl', 'justify-self', 'center');
+    @include dynamic-property('xl', 'justify-self', 'start');
+    @include dynamic-property('xl', 'justify-self', 'end');
+    @include dynamic-property('xl', 'justify-self', 'flex-start');
+    @include dynamic-property('xl', 'justify-self', 'flex-end');
+    @include dynamic-property('xl', 'justify-self', 'self-start');
+    @include dynamic-property('xl', 'justify-self', 'self-end');
+    @include dynamic-property('xl', 'justify-self', 'left');
+    @include dynamic-property('xl', 'justify-self', 'right');
+    @include dynamic-property('xl', 'justify-self', 'baseline');
+
+    &-xl-first-baseline {
+      justify-self: first baseline;
+    }
+    &-xl-last-baseline {
+      justify-self: last baseline;
+    }
+    &-xl-safe-center {
+      justify-self: safe center;
+    }
+    &-xl-unsafe-center {
+      justify-self: unsafe center;
+    }
+  }
+}
+
+//////////////////////
+/// Justify Items ///
+////////////////////
+
+.justify-items {
+  @include dynamic-property(null, 'justify-items', 'auto');
+  @include dynamic-property(null, 'justify-items', 'normal');
+  @include dynamic-property(null, 'justify-items', 'stretch');
+  @include dynamic-property(null, 'justify-items', 'center');
+  @include dynamic-property(null, 'justify-items', 'start');
+  @include dynamic-property(null, 'justify-items', 'end');
+  @include dynamic-property(null, 'justify-items', 'flex-start');
+  @include dynamic-property(null, 'justify-items', 'flex-end');
+  @include dynamic-property(null, 'justify-items', 'self-start');
+  @include dynamic-property(null, 'justify-items', 'self-end');
+  @include dynamic-property(null, 'justify-items', 'left');
+  @include dynamic-property(null, 'justify-items', 'right');
+  @include dynamic-property(null, 'justify-items', 'baseline');
+
+  &-first-baseline {
+    justify-items: first baseline;
+  }
+  &-last-baseline {
+    justify-items: last baseline;
+  }
+  &-safe-center {
+    justify-items: safe center;
+  }
+  &-unsafe-center {
+    justify-items: unsafe center;
+  }
+
+  @include mobile-only {
+    @include dynamic-property('xs', 'justify-items', 'auto');
+    @include dynamic-property('xs', 'justify-items', 'normal');
+    @include dynamic-property('xs', 'justify-items', 'stretch');
+    @include dynamic-property('xs', 'justify-items', 'center');
+    @include dynamic-property('xs', 'justify-items', 'start');
+    @include dynamic-property('xs', 'justify-items', 'end');
+    @include dynamic-property('xs', 'justify-items', 'flex-start');
+    @include dynamic-property('xs', 'justify-items', 'flex-end');
+    @include dynamic-property('xs', 'justify-items', 'self-start');
+    @include dynamic-property('xs', 'justify-items', 'self-end');
+    @include dynamic-property('xs', 'justify-items', 'left');
+    @include dynamic-property('xs', 'justify-items', 'right');
+    @include dynamic-property('xs', 'justify-items', 'baseline');
+
+    &-xs-first-baseline {
+      justify-items: first baseline;
+    }
+    &-xs-last-baseline {
+      justify-items: last baseline;
+    }
+    &-xs-safe-center {
+      justify-items: safe center;
+    }
+    &-xs-unsafe-center {
+      justify-items: unsafe center;
+    }
+  }
+
+  @include tablet-portrait-up {
+    @include dynamic-property('sm', 'justify-items', 'auto');
+    @include dynamic-property('sm', 'justify-items', 'normal');
+    @include dynamic-property('sm', 'justify-items', 'stretch');
+    @include dynamic-property('sm', 'justify-items', 'center');
+    @include dynamic-property('sm', 'justify-items', 'start');
+    @include dynamic-property('sm', 'justify-items', 'end');
+    @include dynamic-property('sm', 'justify-items', 'flex-start');
+    @include dynamic-property('sm', 'justify-items', 'flex-end');
+    @include dynamic-property('sm', 'justify-items', 'self-start');
+    @include dynamic-property('sm', 'justify-items', 'self-end');
+    @include dynamic-property('sm', 'justify-items', 'left');
+    @include dynamic-property('sm', 'justify-items', 'right');
+    @include dynamic-property('sm', 'justify-items', 'baseline');
+
+    &-sm-first-baseline {
+      justify-items: first baseline;
+    }
+    &-sm-last-baseline {
+      justify-items: last baseline;
+    }
+    &-sm-safe-center {
+      justify-items: safe center;
+    }
+    &-sm-unsafe-center {
+      justify-items: unsafe center;
+    }
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-property('md', 'justify-items', 'auto');
+    @include dynamic-property('md', 'justify-items', 'normal');
+    @include dynamic-property('md', 'justify-items', 'stretch');
+    @include dynamic-property('md', 'justify-items', 'center');
+    @include dynamic-property('md', 'justify-items', 'start');
+    @include dynamic-property('md', 'justify-items', 'end');
+    @include dynamic-property('md', 'justify-items', 'flex-start');
+    @include dynamic-property('md', 'justify-items', 'flex-end');
+    @include dynamic-property('md', 'justify-items', 'self-start');
+    @include dynamic-property('md', 'justify-items', 'self-end');
+    @include dynamic-property('md', 'justify-items', 'left');
+    @include dynamic-property('md', 'justify-items', 'right');
+    @include dynamic-property('md', 'justify-items', 'baseline');
+
+    &-md-first-baseline {
+      justify-items: first baseline;
+    }
+    &-md-last-baseline {
+      justify-items: last baseline;
+    }
+    &-md-safe-center {
+      justify-items: safe center;
+    }
+    &-md-unsafe-center {
+      justify-items: unsafe center;
+    }
+  }
+
+  @include desktop-up {
+    @include dynamic-property('lg', 'justify-items', 'auto');
+    @include dynamic-property('lg', 'justify-items', 'normal');
+    @include dynamic-property('lg', 'justify-items', 'stretch');
+    @include dynamic-property('lg', 'justify-items', 'center');
+    @include dynamic-property('lg', 'justify-items', 'start');
+    @include dynamic-property('lg', 'justify-items', 'end');
+    @include dynamic-property('lg', 'justify-items', 'flex-start');
+    @include dynamic-property('lg', 'justify-items', 'flex-end');
+    @include dynamic-property('lg', 'justify-items', 'self-start');
+    @include dynamic-property('lg', 'justify-items', 'self-end');
+    @include dynamic-property('lg', 'justify-items', 'left');
+    @include dynamic-property('lg', 'justify-items', 'right');
+    @include dynamic-property('lg', 'justify-items', 'baseline');
+
+    &-lg-first-baseline {
+      justify-items: first baseline;
+    }
+    &-lg-last-baseline {
+      justify-items: last baseline;
+    }
+    &-lg-safe-center {
+      justify-items: safe center;
+    }
+    &-lg-unsafe-center {
+      justify-items: unsafe center;
+    }
+  }
+
+  @include big-desktop-up {
+    @include dynamic-property('xl', 'justify-items', 'auto');
+    @include dynamic-property('xl', 'justify-items', 'normal');
+    @include dynamic-property('xl', 'justify-items', 'stretch');
+    @include dynamic-property('xl', 'justify-items', 'center');
+    @include dynamic-property('xl', 'justify-items', 'start');
+    @include dynamic-property('xl', 'justify-items', 'end');
+    @include dynamic-property('xl', 'justify-items', 'flex-start');
+    @include dynamic-property('xl', 'justify-items', 'flex-end');
+    @include dynamic-property('xl', 'justify-items', 'self-start');
+    @include dynamic-property('xl', 'justify-items', 'self-end');
+    @include dynamic-property('xl', 'justify-items', 'left');
+    @include dynamic-property('xl', 'justify-items', 'right');
+    @include dynamic-property('xl', 'justify-items', 'baseline');
+
+    &-xl-first-baseline {
+      justify-items: first baseline;
+    }
+    &-xl-last-baseline {
+      justify-items: last baseline;
+    }
+    &-xl-safe-center {
+      justify-items: safe center;
+    }
+    &-xl-unsafe-center {
+      justify-items: unsafe center;
+    }
+  }
+}
