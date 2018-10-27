@@ -21,6 +21,10 @@
       }
     }
 
+    @include mobile-only {
+      @include dynamic-flex-columns('xs', $grid-columns-mobile);
+    }
+
     @include tablet-portrait-up {
       @include dynamic-flex-columns('sm', $grid-columns-portrait-tablet);
     }
