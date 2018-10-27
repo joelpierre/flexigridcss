@@ -3127,6 +3127,30 @@ dl dd {
 .text-justify {
   text-align: justify !important; }
 
+.text-uppercase {
+  text-transform: uppercase !important; }
+
+.text-capitalize {
+  text-transform: capitalize !important; }
+
+.text-lowercase {
+  text-transform: lowercase !important; }
+
+.text-none {
+  text-transform: none !important; }
+
+.text-none {
+  text-decoration: none !important; }
+
+.text-line-through {
+  text-decoration: line-through !important; }
+
+.text-overline {
+  text-decoration: overline !important; }
+
+.text-underline {
+  text-decoration: underline !important; }
+
 @media (max-width: 599px) {
   .text-xs-center {
     text-align: center !important; }
@@ -3135,7 +3159,23 @@ dl dd {
   .text-xs-right {
     text-align: right !important; }
   .text-xs-justify {
-    text-align: justify !important; } }
+    text-align: justify !important; }
+  .text-xs-uppercase {
+    text-transform: uppercase !important; }
+  .text-xs-capitalize {
+    text-transform: capitalize !important; }
+  .text-xs-lowercase {
+    text-transform: lowercase !important; }
+  .text-xs-none {
+    text-transform: none !important; }
+  .text-xs-none {
+    text-decoration: none !important; }
+  .text-xs-line-through {
+    text-decoration: line-through !important; }
+  .text-xs-overline {
+    text-decoration: overline !important; }
+  .text-xs-underline {
+    text-decoration: underline !important; } }
 
 @media (min-width: 600px) {
   .text-sm-center {
@@ -3145,7 +3185,23 @@ dl dd {
   .text-sm-right {
     text-align: right !important; }
   .text-sm-justify {
-    text-align: justify !important; } }
+    text-align: justify !important; }
+  .text-sm-uppercase {
+    text-transform: uppercase !important; }
+  .text-sm-capitalize {
+    text-transform: capitalize !important; }
+  .text-sm-lowercase {
+    text-transform: lowercase !important; }
+  .text-sm-none {
+    text-transform: none !important; }
+  .text-sm-none {
+    text-decoration: none !important; }
+  .text-sm-line-through {
+    text-decoration: line-through !important; }
+  .text-sm-overline {
+    text-decoration: overline !important; }
+  .text-sm-underline {
+    text-decoration: underline !important; } }
 
 @media (min-width: 900px) {
   .text-md-center {
@@ -3155,7 +3211,23 @@ dl dd {
   .text-md-right {
     text-align: right !important; }
   .text-md-justify {
-    text-align: justify !important; } }
+    text-align: justify !important; }
+  .text-md-uppercase {
+    text-transform: uppercase !important; }
+  .text-md-capitalize {
+    text-transform: capitalize !important; }
+  .text-md-lowercase {
+    text-transform: lowercase !important; }
+  .text-md-none {
+    text-transform: none !important; }
+  .text-md-none {
+    text-decoration: none !important; }
+  .text-md-line-through {
+    text-decoration: line-through !important; }
+  .text-md-overline {
+    text-decoration: overline !important; }
+  .text-md-underline {
+    text-decoration: underline !important; } }
 
 @media (min-width: 1200px) {
   .text-lg-center {
@@ -3165,7 +3237,23 @@ dl dd {
   .text-lg-right {
     text-align: right !important; }
   .text-lg-justify {
-    text-align: justify !important; } }
+    text-align: justify !important; }
+  .text-lg-uppercase {
+    text-transform: uppercase !important; }
+  .text-lg-capitalize {
+    text-transform: capitalize !important; }
+  .text-lg-lowercase {
+    text-transform: lowercase !important; }
+  .text-lg-none {
+    text-transform: none !important; }
+  .text-lg-none {
+    text-decoration: none !important; }
+  .text-lg-line-through {
+    text-decoration: line-through !important; }
+  .text-lg-overline {
+    text-decoration: overline !important; }
+  .text-lg-underline {
+    text-decoration: underline !important; } }
 
 @media (min-width: 1800px) {
   .text-xl-center {
@@ -3175,7 +3263,23 @@ dl dd {
   .text-xl-right {
     text-align: right !important; }
   .text-xl-justify {
-    text-align: justify !important; } }
+    text-align: justify !important; }
+  .text-xl-uppercase {
+    text-transform: uppercase !important; }
+  .text-xl-capitalize {
+    text-transform: capitalize !important; }
+  .text-xl-lowercase {
+    text-transform: lowercase !important; }
+  .text-xl-none {
+    text-transform: none !important; }
+  .text-xl-none {
+    text-decoration: none !important; }
+  .text-xl-line-through {
+    text-decoration: line-through !important; }
+  .text-xl-overline {
+    text-decoration: overline !important; }
+  .text-xl-underline {
+    text-decoration: underline !important; } }
 
 .align-middle {
   vertical-align: middle !important; }

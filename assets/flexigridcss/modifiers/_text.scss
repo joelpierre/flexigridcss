@@ -4,11 +4,31 @@
   @include dynamic-property(null, 'text-align', 'right');
   @include dynamic-property(null, 'text-align', 'justify');
 
+  @include dynamic-property(null, 'text-transform', 'uppercase');
+  @include dynamic-property(null, 'text-transform', 'capitalize');
+  @include dynamic-property(null, 'text-transform', 'lowercase');
+  @include dynamic-property(null, 'text-transform', 'none');
+
+  @include dynamic-property(null, 'text-decoration', 'none');
+  @include dynamic-property(null, 'text-decoration', 'line-through');
+  @include dynamic-property(null, 'text-decoration', 'overline');
+  @include dynamic-property(null, 'text-decoration', 'underline');
+
   @include mobile-only {
     @include dynamic-property('xs', 'text-align', 'center');
     @include dynamic-property('xs', 'text-align', 'left');
     @include dynamic-property('xs', 'text-align', 'right');
     @include dynamic-property('xs', 'text-align', 'justify');
+
+    @include dynamic-property('xs', 'text-transform', 'uppercase');
+    @include dynamic-property('xs', 'text-transform', 'capitalize');
+    @include dynamic-property('xs', 'text-transform', 'lowercase');
+    @include dynamic-property('xs', 'text-transform', 'none');
+
+    @include dynamic-property('xs', 'text-decoration', 'none');
+    @include dynamic-property('xs', 'text-decoration', 'line-through');
+    @include dynamic-property('xs', 'text-decoration', 'overline');
+    @include dynamic-property('xs', 'text-decoration', 'underline');
   }
 
   @include tablet-portrait-up {
@@ -16,6 +36,16 @@
     @include dynamic-property('sm', 'text-align', 'left');
     @include dynamic-property('sm', 'text-align', 'right');
     @include dynamic-property('sm', 'text-align', 'justify');
+
+    @include dynamic-property('sm', 'text-transform', 'uppercase');
+    @include dynamic-property('sm', 'text-transform', 'capitalize');
+    @include dynamic-property('sm', 'text-transform', 'lowercase');
+    @include dynamic-property('sm', 'text-transform', 'none');
+
+    @include dynamic-property('sm', 'text-decoration', 'none');
+    @include dynamic-property('sm', 'text-decoration', 'line-through');
+    @include dynamic-property('sm', 'text-decoration', 'overline');
+    @include dynamic-property('sm', 'text-decoration', 'underline');
   }
 
   @include tablet-landscape-up {
@@ -23,6 +53,16 @@
     @include dynamic-property('md', 'text-align', 'left');
     @include dynamic-property('md', 'text-align', 'right');
     @include dynamic-property('md', 'text-align', 'justify');
+
+    @include dynamic-property('md', 'text-transform', 'uppercase');
+    @include dynamic-property('md', 'text-transform', 'capitalize');
+    @include dynamic-property('md', 'text-transform', 'lowercase');
+    @include dynamic-property('md', 'text-transform', 'none');
+
+    @include dynamic-property('md', 'text-decoration', 'none');
+    @include dynamic-property('md', 'text-decoration', 'line-through');
+    @include dynamic-property('md', 'text-decoration', 'overline');
+    @include dynamic-property('md', 'text-decoration', 'underline');
   }
 
   @include desktop-up {
@@ -30,6 +70,16 @@
     @include dynamic-property('lg', 'text-align', 'left');
     @include dynamic-property('lg', 'text-align', 'right');
     @include dynamic-property('lg', 'text-align', 'justify');
+
+    @include dynamic-property('lg', 'text-transform', 'uppercase');
+    @include dynamic-property('lg', 'text-transform', 'capitalize');
+    @include dynamic-property('lg', 'text-transform', 'lowercase');
+    @include dynamic-property('lg', 'text-transform', 'none');
+
+    @include dynamic-property('lg', 'text-decoration', 'none');
+    @include dynamic-property('lg', 'text-decoration', 'line-through');
+    @include dynamic-property('lg', 'text-decoration', 'overline');
+    @include dynamic-property('lg', 'text-decoration', 'underline');
   }
 
   @include big-desktop-up {
@@ -37,5 +87,15 @@
     @include dynamic-property('xl', 'text-align', 'left');
     @include dynamic-property('xl', 'text-align', 'right');
     @include dynamic-property('xl', 'text-align', 'justify');
+
+    @include dynamic-property('xl', 'text-transform', 'uppercase');
+    @include dynamic-property('xl', 'text-transform', 'capitalize');
+    @include dynamic-property('xl', 'text-transform', 'lowercase');
+    @include dynamic-property('xl', 'text-transform', 'none');
+
+    @include dynamic-property('xl', 'text-decoration', 'none');
+    @include dynamic-property('xl', 'text-decoration', 'line-through');
+    @include dynamic-property('xl', 'text-decoration', 'overline');
+    @include dynamic-property('xl', 'text-decoration', 'underline');
   }
 }
