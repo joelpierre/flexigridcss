@@ -442,6 +442,7 @@ template {
   flex-wrap: wrap;
   min-width: 0;
   margin: auto;
+  height: 100%;
   -webkit-box-align: stretch;
           align-items: stretch; }
 
