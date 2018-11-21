@@ -1,5 +1,15 @@
 body.layout-default {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: min-content;
+    grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+  }
+
+  @supports not (display: grid) {
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+  }
 }

@@ -3,6 +3,7 @@
   height: auto;
   align-items: center;
   position: relative;
+  padding: 5px 0;
 
   &__brand {
     overflow: hidden;
@@ -16,7 +17,7 @@
       display: block;
     }
   }
-  
+
   &__nav {
     overflow: hidden;
     display: block;
