@@ -1,0 +1,5 @@
+body.layout-default {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+}

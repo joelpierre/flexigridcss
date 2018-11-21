@@ -521,6 +521,14 @@ ol li {
 dl dd {
   margin-bottom: 2rem; }
 
+/* Layout Styles */
+body.layout-default {
+  display: -ms-grid;
+  display: grid;
+      -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
+
 /* Component Styles */
 .btn {
   -webkit-appearance: none;
@@ -534,8 +542,8 @@ dl dd {
   border: none;
   cursor: pointer;
   margin: 1rem 0;
-  -webkit-transition: 0.4s all;
-  transition: 0.4s all; }
+  -webkit-transition: background-color 0.4s ease, color 0.4s ease;
+  transition: background-color 0.4s ease, color 0.4s ease; }
   .btn:hover, .btn:focus {
     text-decoration: none;
     color: inherit; }

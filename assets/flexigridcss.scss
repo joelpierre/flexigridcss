@@ -12,7 +12,6 @@
 @import "utlities/mixins/offset";
 @import "utlities/mixins/order";
 @import "utlities/mixins/hover";
-
 /* Base Styles */
 @import "flexigridcss/base/reset";
 // These are temp styles for colours
@@ -25,6 +24,9 @@
 @import "flexigridcss/typography/heading";
 @import "flexigridcss/typography/body";
 @import "flexigridcss/typography/list";
+/* Layout Styles */
+@import "flexigridcss/layouts/grid-layouts";
+@import "flexigridcss/layouts/flex-layouts";
 /* Component Styles */
 @import "flexigridcss/components/hero";
 @import "flexigridcss/components/card";
