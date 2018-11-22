@@ -34,13 +34,13 @@
 // Padding, Margin,
 @mixin dynamic-sizing($size: null, $property: null, $unit: null) {
   @if($size == null) {
-    @for $i from 1 through 10 {
+    @for $i from 0 through 10 {
       &-#{$i} {
         #{$property}: #{$i}#{$unit} !important;
       }
     }
   } @else {
-    @for $i from 1 through 10 {
+    @for $i from 0 through 10 {
       &-#{$size}-#{$i} {
         #{$property}: #{$i}#{$unit} !important;
       }
@@ -51,14 +51,14 @@
 @mixin sizing-axis($property, $size:null, $axis: null) {
   @if ($size == null) {
     @if ($axis == 'x') {
-      @for $i from 1 through 10 {
+      @for $i from 0 through 10 {
         &-#{$i} {
           #{$property}-left: #{$i}rem !important;
           #{$property}-right: #{$i}rem !important;
         }
       }
     } @else {
-      @for $i from 1 through 10 {
+      @for $i from 0 through 10 {
         &-#{$i} {
           #{$property}-top: #{$i}rem !important;
           #{$property}-bottom: #{$i}rem !important;
@@ -67,14 +67,14 @@
     }
   } @else {
     @if ($axis == 'x') {
-      @for $i from 1 through 10 {
+      @for $i from 0 through 10 {
         &-#{$size}-#{$i} {
           #{$property}-left: #{$i}rem !important;
           #{$property}-right: #{$i}rem !important;
         }
       }
     } @else {
-      @for $i from 1 through 10 {
+      @for $i from 0 through 10 {
         &-#{$size}-#{$i} {
           #{$property}-top: #{$i}rem !important;
           #{$property}-bottom: #{$i}rem !important;
