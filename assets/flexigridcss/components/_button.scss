@@ -6,7 +6,6 @@
   display: inline-flex;
   border: none;
   cursor: pointer;
-  margin: 1rem 0;
   transition: background-color $transition-normal, color $transition-normal;
 
   &:hover, &:focus {
