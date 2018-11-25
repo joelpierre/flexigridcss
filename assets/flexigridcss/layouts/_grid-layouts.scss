@@ -1,15 +1,49 @@
-body.layout-default {
+.layout-default {
   @supports (display: grid) {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: min-content;
-    grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+    grid-template-areas:
+      "header header header header header header header header header header header header"
+      "main main main main main main main main main main main main"
+      "footer footer footer footer footer footer footer footer footer footer footer footer";
+  }
+}
+
+.layout-side-header {
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: 100px repeat(11, 1fr);
+    grid-template-rows: min-content;
+    grid-template-areas:
+      "header main main main main main main main main main main main"
+      "header main main main main main main main main main main main"
+      "header footer footer footer footer footer footer footer footer footer footer footer";
+
+    @include mobile-only {
+      grid-template-areas:
+        "header header header header header header header header header header header header"
+        "main main main main main main main main main main main main"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
   }
 
-  @supports not (display: grid) {
-    display: flex;
-    width: 100%;
-    flex: 0 0 100%;
-    flex-wrap: wrap;
+  &--reverse {
+    @supports (display: grid) {
+      display: grid;
+      grid-template-columns: repeat(11, 1fr) 100px;
+      grid-template-rows: min-content;
+      grid-template-areas:
+        "main main main main main main main main main main main header"
+        "main main main main main main main main main main main header"
+        "footer footer footer footer footer footer footer footer footer footer footer header";
+
+      @include mobile-only {
+        grid-template-areas:
+          "header header header header header header header header header header header header"
+          "main main main main main main main main main main main main"
+          "footer footer footer footer footer footer footer footer footer footer footer footer";
+      }
+    }
   }
 }

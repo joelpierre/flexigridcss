@@ -115,12 +115,12 @@
     & > .custom-select,
     & > .custom-file,
     & > .form-control {
-      min-height: 35px;
+      height: auto;
       padding: 5px 10px;
     }
 
     .custom-file-label {
-      padding: 11px 16px;
+      padding: 14px 16px;
 
       &:after {
         padding: 11px 10px 0;
@@ -144,15 +144,15 @@
     & > .custom-select,
     & > .custom-file,
     & > .form-control {
-      min-height: 35px;
+      height: auto;
       padding: 15px 25px;
     }
 
     .custom-file-label {
-      padding: 25px;
+      padding: 29px 1.6rem;
 
       &:after {
-        padding: 25px;
+        padding: 25px 20px;
       }
     }
   }

@@ -2,11 +2,81 @@ form {
   width: 100%;
 }
 
+.flex-form-label {
+  height: 40px;
+  padding: 8px 16px;
+  line-height: 1.5;
+
+  &--small {
+    font-size: 1.4rem;
+    height: 30px;
+    padding: 3px 10px;
+  }
+
+  &--medium {
+    font-size: 1.6rem;
+    height: 40px;
+    padding: 8px 16px;
+  }
+
+  &--large {
+    font-size: 1.8rem;
+    height: 50px;
+    padding: 10px 20px;
+  }
+}
+
 .form {
   width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
+
+  &-row {
+    position: relative;
+    display: flex;
+    flex: 0 1 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+    margin: auto;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    align-items: stretch; // By default we make all items stretch to the row height.
+
+    & > .flex,
+    & > [class*="flex-"] {
+      @include mobile-only {
+        padding-left: calc(#{$grid-space-mobile} / 2);
+        padding-right: calc(#{$grid-space-mobile} / 2);
+      }
+
+      @include tablet-portrait-up {
+        padding-left: calc(#{$grid-space-portrait-tablet} / 2);
+        padding-right: calc(#{$grid-space-portrait-tablet} / 2);
+      }
+
+      @include tablet-landscape-up {
+        padding-left: calc(#{$grid-space-landscape-tablet} / 2);
+        padding-right: calc(#{$grid-space-landscape-tablet} / 2);
+      }
+
+      @include desktop-up {
+        padding-left: calc(#{$grid-space-desktop} / 2);
+        padding-right: calc(#{$grid-space-desktop} / 2);
+      }
+
+      @include big-desktop-up {
+        padding-left: calc(#{$grid-space-big-desktop} / 2);
+        padding-right: calc(#{$grid-space-big-desktop} / 2);
+      }
+    }
+  }
+
+  &-group {
+    margin-bottom: 2rem;
+  }
 
   &-control {
     width: 100%;
@@ -14,20 +84,22 @@ form {
     border: 1px solid $color-mid-gray-1;
     background-color: white;
     line-height: 1.2;
-    margin-bottom: 2rem;
-    padding: 12px 16px;
-    min-height: 45px;
+    padding: 8px 16px;
+    height: 40px;
 
     &--small {
-      padding: 5px 10px;
+      height: 30px;
+      padding: 2px 10px;
     }
 
     &--medium {
-      padding: 12px 16px;
+      height: 40px;
+      padding: 8px 16px;
     }
 
     &--large {
-      padding: 15px 16px;
+      height: 50px;
+      padding: 10px 20px;
     }
 
     &[type='text'] {
@@ -95,7 +167,7 @@ form {
       height: 100%;
       left: 0;
       right: 0;
-      padding: 16px;
+      padding: 18px 16px;
       transform: translateY(-50%);
       z-index: 1;
       line-height: 1;
@@ -112,7 +184,8 @@ form {
         z-index: 3;
         line-height: 1.5;
         display: block;
-        padding: 1.6rem;
+        padding: 1.4rem 1.6rem;
+        text-align: center;
         border-radius: 0 $radius-rounded $radius-rounded 0;
         background-color: $color-light-gray-1;
       }
