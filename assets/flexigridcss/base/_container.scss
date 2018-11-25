@@ -51,46 +51,50 @@
       grid-column: 1 / -1;
 
       @include mobile-only {
-        margin: 0px #{-$grid-space-mobile};
+        margin: 0 #{-$grid-space-mobile};
       }
       @include tablet-portrait-up {
-        margin: 0px #{-$grid-space-portrait-tablet};
+        margin: 0 #{-$grid-space-portrait-tablet};
       }
 
       @include tablet-landscape-up {
-        margin: 0px #{-$grid-space-landscape-tablet};
+        margin: 0 #{-$grid-space-landscape-tablet};
       }
       @include desktop-up {
-        margin: 0px #{-$grid-space-desktop};
+        margin: 0 #{-$grid-space-desktop};
       }
       @include big-desktop-up {
-        margin: 0px #{-$grid-space-big-desktop};
+        margin: 0 #{-$grid-space-big-desktop};
       }
     }
   }
 }
 
 .container {
-  @include mobile-only {
-    width: 100%;
-    max-width: 100%;
-  }
+  width: 100%;
+  max-width: 100%;
+  padding: 0 #{$grid-space-big-desktop};
+
   @include tablet-portrait-up {
     width: 600px;
     max-width: 600px;
+    padding: 0 #{$grid-space-portrait-tablet};
   }
 
   @include tablet-landscape-up {
     width: 900px;
     max-width: 900px;
+    padding: 0 #{$grid-space-landscape-tablet};
   }
   @include desktop-up {
     width: 1200px;
     max-width: 1200px;
+    padding: 0 #{$grid-space-desktop};
   }
   @include big-desktop-up {
     width: 1800px;
     max-width: 1800px;
+    padding: 0 #{$grid-space-big-desktop};
   }
 
   // If doesn't support grid display: block;
@@ -102,6 +106,20 @@
 .container-fluid {
   width: 100%;
   max-width: 100%;
+
+  @include tablet-portrait-up {
+    padding: 0 #{$grid-space-portrait-tablet};
+  }
+
+  @include tablet-landscape-up {
+    padding: 0 #{$grid-space-landscape-tablet};
+  }
+  @include desktop-up {
+    padding: 0 #{$grid-space-desktop};
+  }
+  @include big-desktop-up {
+    padding: 0 #{$grid-space-big-desktop};
+  }
 
   // If doesn't support grid display: block;
   @supports not (display: grid) {
