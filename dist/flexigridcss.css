@@ -2964,11 +2964,6 @@ form {
   .btn:hover, .btn:focus {
     text-decoration: none;
     color: inherit; }
-  .btn--full {
-    display: block;
-    width: 100%;
-    font-size: 100%;
-    padding: 8px 0; }
   .btn--xs {
     font-size: 80%;
     padding: 3px 10px; }
@@ -2984,6 +2979,20 @@ form {
   .btn--xl {
     font-size: 120%;
     padding: 10px 30px; }
+  .btn--full {
+    display: block;
+    width: 100%;
+    font-size: 100%;
+    padding: 8px 0; }
+  .btn--small {
+    height: 30px;
+    font-size: 1.4rem; }
+  .btn--medium {
+    height: 40px;
+    font-size: 1.6rem; }
+  .btn--large {
+    height: 50px;
+    font-size: 1.8rem; }
 
 .btn--primary {
   background-color: #ff5c5c;
