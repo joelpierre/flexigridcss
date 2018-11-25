@@ -47,3 +47,24 @@
     }
   }
 }
+
+.layout-side-header,
+.layout-side-header--reverse {
+  .container {
+    @include tablet-landscape-up {
+      width: 800px;
+      max-width: 900px;
+      padding: 0 #{$grid-space-landscape-tablet};
+    }
+    @include desktop-up {
+      width: 1100px;
+      max-width: 1200px;
+      padding: 0 #{$grid-space-desktop};
+    }
+    @include big-desktop-up {
+      width: 1600px;
+      max-width: 1800px;
+      padding: 0 #{$grid-space-big-desktop};
+    }
+  }
+}
