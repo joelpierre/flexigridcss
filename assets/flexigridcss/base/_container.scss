@@ -3,7 +3,7 @@
   margin: auto;
   min-height: 0;
   min-width: 0;
-  max-width: 100%;
+  width: 100%;
   max-height: 100%;
   height: 100%;
   position: relative;
@@ -11,9 +11,6 @@
 
 .container,
 .container-fluid {
-  display: flex;
-  flex: 0 0 0;
-  flex-wrap: wrap;
   @extend %container-core;
 
   &--grid {
@@ -75,6 +72,12 @@
   max-width: 100%;
   padding: 0 #{$grid-space-big-desktop};
 
+  @include mobile-only {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 #{$grid-space-mobile};
+  }
+
   @include tablet-portrait-up {
     width: 600px;
     max-width: 600px;
@@ -106,6 +109,10 @@
 .container-fluid {
   width: 100%;
   max-width: 100%;
+
+  @include mobile-only {
+    padding: 0 #{$grid-space-mobile};
+  }
 
   @include tablet-portrait-up {
     padding: 0 #{$grid-space-portrait-tablet};
