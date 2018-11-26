@@ -448,8 +448,6 @@ template {
 .row, .row--reverse, .row--column, .row--column-reverse {
   display: -webkit-box;
   display: flex;
-  -webkit-box-flex: 0;
-          flex: 0 1 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
           flex-direction: row;
@@ -478,23 +476,28 @@ template {
 
 @media (max-width: 599px) {
   .row {
-    margin: 0 -0.8rem; } }
+    margin: 0 -0.8rem;
+    max-width: calc(100% + (2 * 0.8rem)); } }
 
 @media (min-width: 600px) {
   .row {
-    margin: 0 -0.8rem; } }
+    margin: 0 -0.8rem;
+    max-width: calc(100% + (2 * 0.8rem)); } }
 
 @media (min-width: 900px) {
   .row {
-    margin: 0 -1.2rem; } }
+    margin: 0 -1.2rem;
+    max-width: calc(100% + (2 * 1.2rem)); } }
 
 @media (min-width: 1200px) {
   .row {
-    margin: 0 -1.2rem; } }
+    margin: 0 -1.2rem;
+    max-width: calc(100% + (2 * 1.2rem)); } }
 
 @media (min-width: 1800px) {
   .row {
-    margin: 0 -1.2rem; } }
+    margin: 0 -1.2rem;
+    max-width: calc(100% + (2 * 1.2rem)); } }
 
 /*
  * Flex Item.
