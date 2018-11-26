@@ -12,7 +12,6 @@
 @import "utlities/mixins/offset";
 @import "utlities/mixins/order";
 @import "utlities/mixins/hover";
-
 /* Base Styles */
 @import "flexigridcss/base/reset";
 // These are temp styles for colours
@@ -20,11 +19,16 @@
 // Delete this after
 @import "flexigridcss/base/container";
 @import "flexigridcss/base/row";
-@import "flexigridcss/base/column";
+@import "flexigridcss/base/grid";
+@import "flexigridcss/base/flex";
+@import "flexigridcss/base/grid-core";
 /* Typography Styles */
 @import "flexigridcss/typography/heading";
 @import "flexigridcss/typography/body";
 @import "flexigridcss/typography/list";
+/* Layout Styles */
+@import "flexigridcss/layouts/grid-layouts";
+@import "flexigridcss/layouts/flex-layouts";
 /* Component Styles */
 @import "flexigridcss/components/hero";
 @import "flexigridcss/components/card";
@@ -51,8 +55,6 @@
 @import "flexigridcss/modifiers/background";
 @import "flexigridcss/modifiers/overflow";
 @import "flexigridcss/modifiers/image";
-@import "flexigridcss/base/grid";
-@import "flexigridcss/base/flex";
 @import "flexigridcss/modifiers/float";
 @import "flexigridcss/modifiers/display";
 @import "flexigridcss/modifiers/visibility";

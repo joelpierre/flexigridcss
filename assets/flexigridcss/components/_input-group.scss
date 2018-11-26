@@ -1,0 +1,159 @@
+.input-group {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+
+  &__append,
+  &__prepend {
+    display: flex;
+    align-items: center;
+  }
+
+  &__prepend {
+    .btn,
+    .input-group__text {
+      border-radius: $radius-rounded 0 0 $radius-rounded;
+
+      &:first-child {
+        border-right: none;
+      }
+
+      &:not(:first-child) {
+        border-right: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+
+      &:not(:last-child) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
+
+  &__append {
+    .btn,
+    .input-group__text {
+      border-radius: 0 $radius-rounded $radius-rounded 0;
+
+      &:not(:first-child) {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+
+      &:not(:last-child) {
+        border-right: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
+
+  .btn,
+  &__text {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    white-space: nowrap;
+    font-size: inherit;
+    padding: 1.5rem;
+  }
+
+  &__text {
+    background-color: $color-light-gray-1;
+    border: 1px solid $color-mid-gray-1;
+    line-height: 1;
+  }
+
+  & > .custom-select,
+  & > .custom-file,
+  & > .form-control {
+    position: relative;
+    flex: 1 1 auto;
+    margin-bottom: 0;
+    width: 1%;
+  }
+
+  .custom-file-label,
+  & > .custom-select,
+  & > .custom-file,
+  & > .form-control {
+
+    &:not(:first-child) {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    &:not(:last-child) {
+      border-right: none;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  .custom-file-label {
+    &:after {
+      border-left: 1px solid $color-mid-gray-1;
+    }
+  }
+
+  // Sizing Additions
+
+  &--small {
+    font-size: 1.4rem;
+
+    .btn,
+    .input-group__text {
+      font-size: 1.4rem;
+      padding: 1.1rem;
+    }
+
+    & > .custom-select,
+    & > .custom-file,
+    & > .form-control {
+      height: auto;
+      padding: 5px 10px;
+    }
+
+    .custom-file-label {
+      padding: 14px 16px;
+
+      &:after {
+        padding: 11px 10px 0;
+      }
+    }
+  }
+
+  &--large {
+    font-size: 1.8rem;
+
+    .btn,
+    .input-group__text {
+      font-size: 1.8rem;
+      padding: 2.5rem;
+    }
+
+    .btn ~ .custom-file-label:after {
+      line-height: 1.5;
+    }
+
+    & > .custom-select,
+    & > .custom-file,
+    & > .form-control {
+      height: auto;
+      padding: 15px 25px;
+    }
+
+    .custom-file-label {
+      padding: 29px 1.6rem;
+
+      &:after {
+        padding: 25px 20px;
+      }
+    }
+  }
+}

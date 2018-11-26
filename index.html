@@ -12,85 +12,53 @@
   <link rel="stylesheet" href="./dist/flexigridcss.css">
   <link rel="stylesheet" href="./dist/theme/style.css">
 </head>
-<body>
+<body class="layout-side-header">
 
 <header class="primary-header">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="flex">
-        <div class="primary-header__brand mx-auto">
-          <div class="brand">
-            <a class="brand__link" href="/">
-              <h1 class="brand__title">
-                Flexigrid CSS
-              </h1>
-
-              <img src="#" alt="Flexigrid logo" class="brand__img">
-            </a>
-
-          </div>
-
-          <div class="primary-header__menu-toggle">
-            <button type="button" id="js-menu-toggle" class="menu-toggle">
-              <span class="menu-toggle__line"></span>
-              <span class="menu-toggle__line"></span>
-              <span class="menu-toggle__line"></span>
-            </button>
-          </div>
-
-          <div class="primary-header__nav">
-            <nav class="nav" role="navigation">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a class="nav__link nav__link--active" rel="noopener noreferrer" href="/">
-                    Home
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </header>
 
-<main class="main" role="main">
+<main class="primary-main"
+      role="main">
 
-  <section class="pt-5 pb-5">
-    <div class="container-fluid">
-      <div class="row">
+  <section class="py-10 bg-warning">
+    <div class="container">
 
-        <div class="flex-md-3 text-center">
-          <a href="#" class="btn btn--xs btn--primary">Test Anchor</a>
-          <button class="btn btn--xs btn--primary">Test Button</button>
+      <div class="row justify-content-center">
+        <div class="flex-lg-10">
+          <h3>
+            Join our Newsletter
+          </h3>
         </div>
+      </div>
 
-        <div class="flex-md-3 text-center">
-          <a href="#" class="btn btn--sm btn--primary">Test Anchor</a>
-          <button class="btn btn--sm btn--primary">Test Button</button>
+      <div class="row justify-content-center">
+        <div class="flex-lg-10">
+
+          <form action="//thewombroom.us15.list-manage.com/subscribe/post?u=6c1b8b4dd5151fce0a52847dd&amp;id=436286395d"
+                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                class="validate newsletter__form" target="_blank" novalidate>
+            <div class="row">
+              <div class="flex-lg-8">
+
+                <input type="email" value="" name="EMAIL" class="newsletter__input form-control"
+                       id="mce-EMAIL" placeholder="Email Address" required>
+
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text"
+                         name="b_6c1b8b4dd5151fce0a52847dd_436286395d"
+                         tabindex="-1"
+                         value="">
+                </div>
+
+              </div>
+              <div class="flex-lg-4">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                       class="btn btn--full newsletter__button">
+              </div>
+            </div>
+          </form>
+
         </div>
-
-        <div class="flex-md-3 text-center">
-          <a href="#" class="btn btn--md btn--primary">Test Anchor</a>
-          <button class="btn btn--md btn--primary">Test Button</button>
-        </div>
-
-        <div class="flex-md-3 text-center">
-          <a href="#" class="btn btn--lg btn--primary">Test Anchor</a>
-          <button class="btn btn--lg btn--primary">Test Button</button>
-        </div>
-
-        <div class="flex-md-3 text-center">
-          <a href="#" class="btn btn--xl btn--primary">Test Anchor</a>
-          <button class="btn btn--xl btn--primary">Test Button</button>
-        </div>
-
-        <div class="flex-md-3 text-center">
-          <a href="#" class="btn btn--full btn--primary">Test Anchor</a>
-          <button class="btn btn--full btn--primary">Test Button</button>
-        </div>
-
       </div>
     </div>
   </section>
@@ -98,11 +66,6 @@
 </main>
 
 <footer class="primary-footer">
-  <div class="container-fluid">
-    <div class="row">
-
-    </div>
-  </div>
 </footer>
 
 </body>

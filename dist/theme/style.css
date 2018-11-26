@@ -3,7 +3,8 @@
   height: auto;
   -webkit-box-align: center;
           align-items: center;
-  position: relative; }
+  position: relative;
+  padding: 5px 0; }
   .primary-header__brand {
     overflow: hidden; }
   .primary-header__menu-toggle {
@@ -86,7 +87,7 @@
   padding: 3rem 0; }
 
 .primary-footer {
-  background-color: #ff5c5c;
+  background-color: #B3E5FC;
   padding: 2rem 0 2rem; }
 
 .legal__heading {

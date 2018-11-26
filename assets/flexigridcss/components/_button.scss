@@ -6,19 +6,11 @@
   display: inline-flex;
   border: none;
   cursor: pointer;
-  margin: 1rem 0;
-  transition: $transition-all;
+  transition: background-color $transition-normal, color $transition-normal;
 
   &:hover, &:focus {
     text-decoration: none;
     color: inherit;
-  }
-
-  &--full {
-    display: block;
-    width: 100%;
-    font-size: 100%;
-    padding: 8px 0;
   }
 
   &--xs {
@@ -44,6 +36,28 @@
   &--xl {
     font-size: 120%;
     padding: 10px 30px;
+  }
+
+  &--full {
+    display: block;
+    width: 100%;
+    font-size: 100%;
+    padding: 8px 0;
+  }
+
+  &--small {
+    height: 30px;
+    font-size: 1.4rem;
+  }
+
+  &--medium {
+    height: 40px;
+    font-size: 1.6rem;
+  }
+
+  &--large {
+    height: 50px;
+    font-size: 1.8rem;
   }
 }
 
