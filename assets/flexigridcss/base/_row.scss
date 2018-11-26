@@ -1,6 +1,5 @@
 %row-core {
   display: flex;
-  flex: 0 1 100%;
   flex-direction: row;
   flex-wrap: wrap;
   min-width: 0;
@@ -30,21 +29,26 @@
 
   @include mobile-only {
     margin: 0 #{-$grid-space-mobile};
+    max-width: calc(100% + (2 * #{$grid-space-mobile}));
   }
 
   @include tablet-portrait-up {
     margin: 0 #{-$grid-space-portrait-tablet};
+    max-width: calc(100% + (2 * #{$grid-space-portrait-tablet}));
   }
 
   @include tablet-landscape-up {
     margin: 0 #{-$grid-space-landscape-tablet};
+    max-width: calc(100% + (2 * #{$grid-space-landscape-tablet}));
   }
 
   @include desktop-up {
     margin: 0 #{-$grid-space-desktop};
+    max-width: calc(100% + (2 * #{$grid-space-desktop}));
   }
 
   @include big-desktop-up {
     margin: 0 #{-$grid-space-big-desktop};
+    max-width: calc(100% + (2 * #{$grid-space-big-desktop}));
   }
 }
