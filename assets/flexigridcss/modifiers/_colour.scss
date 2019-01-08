@@ -1,152 +1,152 @@
 // Border Color
 .border {
-  &-primary {
+  &--primary {
     border-color: $color-primary;
   }
 
-  &-secondary {
+  &--secondary {
     border-color: $color-secondary;
   }
 
-  &-success {
+  &--success {
     border-color: $color-success;
   }
 
-  &-warning {
+  &--warning {
     border-color: $color-warning;
   }
 
-  &-danger {
+  &--danger {
     border-color: $color-danger;
   }
 
-  &-info {
+  &--info {
     border-color: $color-info;
   }
 
-  &-default {
+  &--default {
     border-color: $color-default;
   }
 
-  &-white {
+  &--white {
     border-color: $color-white;
   }
 
-  &-black {
+  &--black {
     border-color: $color-black;
   }
 
-  &-light {
+  &--light {
     border-color: $color-light-gray-1;
   }
 
-  &-dark {
+  &--dark {
     border-color: $color-dark-gray-2;
   }
 
-  &-transparent {
+  &--transparent {
     border-color: transparent;
   }
 }
 
 // Text Color
 .text {
-  &-primary {
+  &--primary {
     §color: $color-primary;
   }
 
-  &-secondary {
+  &--secondary {
     color: $color-secondary;
   }
 
-  &-success {
+  &--success {
     color: $color-success;
   }
 
-  &-warning {
+  &--warning {
     color: $color-warning;
   }
 
-  &-danger {
+  &--danger {
     color: $color-danger;
   }
 
-  &-info {
+  &--info {
     color: $color-info;
   }
 
-  &-default {
+  &--default {
     color: $color-default;
   }
 
-  &-white {
+  &--white {
     color: $color-white;
   }
 
-  &-black {
+  &--black {
     color: $color-black;
   }
 
-  &-light {
+  &--light {
     color: $color-light-gray-1;
   }
 
-  &-dark {
+  &--dark {
     color: $color-dark-gray-2;
   }
 
-  &-transparent {
+  &--transparent {
     color: transparent;
   }
 }
 
 // Background Color
 .bg {
-  &-primary {
+  &--primary {
     background-color: $color-primary;
   }
 
-  &-secondary {
+  &--secondary {
     background-color: $color-secondary;
   }
 
-  &-success {
+  &--success {
     background-color: $color-success;
   }
 
-  &-warning {
+  &--warning {
     background-color: $color-warning;
   }
 
-  &-danger {
+  &--danger {
     background-color: $color-danger;
   }
 
-  &-info {
+  &--info {
     background-color: $color-info;
   }
 
-  &-default {
+  &--default {
     background-color: $color-default;
   }
 
-  &-white {
+  &--white {
     background-color: $color-white;
   }
 
-  &-black {
+  &--black {
     background-color: $color-black;
   }
 
-  &-light {
+  &--light {
     background-color: $color-light-gray-1;
   }
 
-  &-dark {
+  &--dark {
     background-color: $color-dark-gray-2;
   }
 
-  &-transparent {
+  &--transparent {
     background-color: transparent;
   }
 }

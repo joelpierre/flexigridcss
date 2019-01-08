@@ -10,24 +10,28 @@
     @include dynamic-property('xs', 'position', 'fixed');
     @include dynamic-property('xs', 'position', 'static');
   }
+
   @include tablet-portrait-up {
     @include dynamic-property('sm', 'position', 'absolute');
     @include dynamic-property('sm', 'position', 'relative');
     @include dynamic-property('sm', 'position', 'fixed');
     @include dynamic-property('sm', 'position', 'static');
   }
+
   @include tablet-landscape-up {
     @include dynamic-property('md', 'position', 'absolute');
     @include dynamic-property('md', 'position', 'relative');
     @include dynamic-property('md', 'position', 'fixed');
     @include dynamic-property('md', 'position', 'static');
   }
+
   @include desktop-up {
     @include dynamic-property('lg', 'position', 'absolute');
     @include dynamic-property('lg', 'position', 'relative');
     @include dynamic-property('lg', 'position', 'fixed');
     @include dynamic-property('lg', 'position', 'static');
   }
+
   @include big-desktop-up {
     @include dynamic-property('xl', 'position', 'absolute');
     @include dynamic-property('xl', 'position', 'relative');

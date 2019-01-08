@@ -1,44 +1,66 @@
 .align-items {
   @include dynamic-property(null, 'align-items', 'center');
   @include dynamic-property(null, 'align-items', 'stretch');
-  @include dynamic-property(null, 'align-items', 'baseline');
+  @include dynamic-property(null, 'align-items', 'space-between');
+  @include dynamic-property(null, 'align-items', 'space-around');
   @include dynamic-property(null, 'align-items', 'flex-start');
   @include dynamic-property(null, 'align-items', 'flex-end');
-
+  @include dynamic-property(null, 'align-items', 'initial');
+  @include dynamic-property(null, 'align-items', 'inherit');
 
   @include mobile-only {
     @include dynamic-property('xs', 'align-items', 'center');
     @include dynamic-property('xs', 'align-items', 'stretch');
-    @include dynamic-property('xs', 'align-items', 'baseline');
+    @include dynamic-property('xs', 'align-items', 'space-between');
+    @include dynamic-property('xs', 'align-items', 'space-around');
     @include dynamic-property('xs', 'align-items', 'flex-start');
     @include dynamic-property('xs', 'align-items', 'flex-end');
+    @include dynamic-property('xs', 'align-items', 'initial');
+    @include dynamic-property('xs', 'align-items', 'inherit');
   }
+
   @include tablet-portrait-up {
     @include dynamic-property('sm', 'align-items', 'center');
     @include dynamic-property('sm', 'align-items', 'stretch');
-    @include dynamic-property('sm', 'align-items', 'baseline');
+    @include dynamic-property('sm', 'align-items', 'space-between');
+    @include dynamic-property('sm', 'align-items', 'space-around');
     @include dynamic-property('sm', 'align-items', 'flex-start');
     @include dynamic-property('sm', 'align-items', 'flex-end');
+    @include dynamic-property('sm', 'align-items', 'initial');
+    @include dynamic-property('sm', 'align-items', 'inherit');
   }
+
   @include tablet-landscape-up {
     @include dynamic-property('md', 'align-items', 'center');
     @include dynamic-property('md', 'align-items', 'stretch');
-    @include dynamic-property('md', 'align-items', 'baseline');
+    @include dynamic-property('md', 'align-items', 'space-between');
+    @include dynamic-property('md', 'align-items', 'space-around');
     @include dynamic-property('md', 'align-items', 'flex-start');
     @include dynamic-property('md', 'align-items', 'flex-end');
+    @include dynamic-property('md', 'align-items', 'initial');
+    @include dynamic-property('md', 'align-items', 'inherit');
   }
+
   @include desktop-up {
     @include dynamic-property('lg', 'align-items', 'center');
     @include dynamic-property('lg', 'align-items', 'stretch');
-    @include dynamic-property('lg', 'align-items', 'baseline');
+    @include dynamic-property('lg', 'align-items', 'space-between');
+    @include dynamic-property('lg', 'align-items', 'space-around');
     @include dynamic-property('lg', 'align-items', 'flex-start');
     @include dynamic-property('lg', 'align-items', 'flex-end');
+    @include dynamic-property('lg', 'align-items', 'initial');
+    @include dynamic-property('lg', 'align-items', 'inherit');
   }
+
   @include big-desktop-up {
     @include dynamic-property('xl', 'align-items', 'center');
     @include dynamic-property('xl', 'align-items', 'stretch');
-    @include dynamic-property('xl', 'align-items', 'baseline');
+    @include dynamic-property('xl', 'align-items', 'space-between');
+    @include dynamic-property('xl', 'align-items', 'space-around');
     @include dynamic-property('xl', 'align-items', 'flex-start');
     @include dynamic-property('xl', 'align-items', 'flex-end');
+    @include dynamic-property('xl', 'align-items', 'initial');
+    @include dynamic-property('xl', 'align-items', 'inherit');
   }
+
 }

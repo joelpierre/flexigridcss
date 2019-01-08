@@ -1,11 +1,11 @@
 .img {
-  &-fluid {
+  &--fluid {
     width: 100%;
     max-width: 100% !important;
     height: auto !important;
   }
 
-  &-thumbnail {
+  &--thumbnail {
     padding: .5rem;
     background-color: white;
     border: 1px solid $color-mid-gray-1;
