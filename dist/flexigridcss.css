@@ -2713,7 +2713,7 @@ form {
         padding-left: calc(1.2rem / 2);
         padding-right: calc(1.2rem / 2); } }
   .form-group {
-    margin-bottom: 2rem; }
+    margin-bottom: 0; }
   .form-control {
     width: 100%;
     border-radius: 5px;
@@ -2721,7 +2721,8 @@ form {
     background-color: white;
     line-height: 1.2;
     padding: 8px 16px;
-    height: 40px; }
+    height: 40px;
+    margin-bottom: 2rem; }
     .form-control--small {
       height: 30px;
       padding: 2px 10px; }

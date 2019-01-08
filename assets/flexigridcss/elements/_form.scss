@@ -69,7 +69,7 @@ form {
   }
 
   &-group {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 
   &-control {
@@ -80,6 +80,7 @@ form {
     line-height: 1.2;
     padding: 8px 16px;
     height: 40px;
+    margin-bottom: 2rem;
 
     &--small {
       height: 30px;
