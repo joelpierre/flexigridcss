@@ -37,14 +37,14 @@ FlexigridCSS is a **CSS** framework. As a result, the sole output is a single CS
 
 You can either use that file or download the Sass source files to customize the variables and change the default grid structure.
 
-There is **no** JavaScript included. This is just a helpful style layer to add to your development and is not a full proof solution. It was made for developers needing a solid foundation and a foundation only. 
+There is **no** JavaScript included. This is just a helpful style layer to add to your development and is not a full proof solution. It was made for developers needing a solid foundation and a foundation only.
 
-There are planned components to be styled and built however not enough to build a site from like bootstrap or foundation.
+There are planned elements to be styled and built however not enough to build a site from like bootstrap or foundation.
 
 ## The Grid
 
 #### What do we have as of now?
-At present we have the basic ``.container > .row > .flex-x-x`` setup. 
+At present we have the basic ``.container > .row > .flex-x-x`` setup.
 
 ##### Container/Container-fluid
 All ``.container / .container-fluid``'s are ``display: flex;``. With ``.container`` having a fixed width and ``.container-fluid`` having the width of the entire viewport.
@@ -52,11 +52,11 @@ All ``.container / .container-fluid``'s are ``display: flex;``. With ``.containe
 There is an optional modifier of ```.container--grid```, ```.container-fluid--grid``` which applies a grid layout to the container following our column structure.
 
 ##### Rows
-All ``.row``'s are 
+All ``.row``'s are
 ```scss
 .row {
   ...
-  display: flex; 
+  display: flex;
   flex-direction: row;
   ...
 }
@@ -201,7 +201,7 @@ Y
 </tbody>
 </table>
 
-We cater for both desktop first builds and mobile first build. 
+We cater for both desktop first builds and mobile first build.
 
 #### Whats to come?
 We are working on "out-of-the-box" layout bodies using CSS Grid alone. These will typically follow the following markup:
@@ -211,9 +211,9 @@ We are working on "out-of-the-box" layout bodies using CSS Grid alone. These wil
 
 <body class="some-grid-class-name">
   <header class="header"></header>
-  
+
   <main class="main" role="main"></main>
-  
+
   <footer class="footer"></footer>
 </body>
 
@@ -227,11 +227,11 @@ and at times...
 
 <body class="some-grid-class-name">
   <header class="header"></header>
-  
+
   <nav class="nav" role="navigation"></nav>
-  
+
   <main class="main" role="main"></main>
-  
+
   <footer class="footer"></footer>
 </body>
 

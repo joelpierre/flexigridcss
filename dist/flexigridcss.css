@@ -2654,21 +2654,15 @@ form {
   width: 100%; }
 
 .flex-form-label {
-  height: 40px;
-  padding: 8px 16px;
-  line-height: 1.5; }
+  padding: 0;
+  line-height: 1.3;
+  margin-bottom: 1rem; }
   .flex-form-label--small {
-    font-size: 1.4rem;
-    height: 30px;
-    padding: 3px 10px; }
+    font-size: 1.4rem; }
   .flex-form-label--medium {
-    font-size: 1.6rem;
-    height: 40px;
-    padding: 8px 16px; }
+    font-size: 1.6rem; }
   .flex-form-label--large {
-    font-size: 1.8rem;
-    height: 50px;
-    padding: 10px 20px; }
+    font-size: 1.8rem; }
 
 .form {
   width: 100%;
@@ -6939,118 +6933,118 @@ form {
     -ms-grid-column-align: inherit !important;
         justify-self: inherit !important; } }
 
-.border-primary {
+.border--primary {
   border-color: #ff5c5c; }
 
-.border-secondary {
+.border--secondary {
   border-color: #3F51B5; }
 
-.border-success {
+.border--success {
   border-color: #4CAF50; }
 
-.border-warning {
+.border--warning {
   border-color: #FFEB3B; }
 
-.border-danger {
+.border--danger {
   border-color: #FF3D00; }
 
-.border-info {
+.border--info {
   border-color: #B3E5FC; }
 
-.border-default {
+.border--default {
   border-color: #CFD8DC; }
 
-.border-white {
+.border--white {
   border-color: white; }
 
-.border-black {
+.border--black {
   border-color: black; }
 
-.border-light {
+.border--light {
   border-color: #F5F5F5; }
 
-.border-dark {
+.border--dark {
   border-color: #212121; }
 
-.border-transparent {
+.border--transparent {
   border-color: transparent; }
 
-.text-primary {
+.text--primary {
   §color: #ff5c5c; }
 
-.text-secondary {
+.text--secondary {
   color: #3F51B5; }
 
-.text-success {
+.text--success {
   color: #4CAF50; }
 
-.text-warning {
+.text--warning {
   color: #FFEB3B; }
 
-.text-danger {
+.text--danger {
   color: #FF3D00; }
 
-.text-info {
+.text--info {
   color: #B3E5FC; }
 
-.text-default {
+.text--default {
   color: #CFD8DC; }
 
-.text-white {
+.text--white {
   color: white; }
 
-.text-black {
+.text--black {
   color: black; }
 
-.text-light {
+.text--light {
   color: #F5F5F5; }
 
-.text-dark {
+.text--dark {
   color: #212121; }
 
-.text-transparent {
+.text--transparent {
   color: transparent; }
 
-.bg-primary {
+.bg--primary {
   background-color: #ff5c5c; }
 
-.bg-secondary {
+.bg--secondary {
   background-color: #3F51B5; }
 
-.bg-success {
+.bg--success {
   background-color: #4CAF50; }
 
-.bg-warning {
+.bg--warning {
   background-color: #FFEB3B; }
 
-.bg-danger {
+.bg--danger {
   background-color: #FF3D00; }
 
-.bg-info {
+.bg--info {
   background-color: #B3E5FC; }
 
-.bg-default {
+.bg--default {
   background-color: #CFD8DC; }
 
-.bg-white {
+.bg--white {
   background-color: white; }
 
-.bg-black {
+.bg--black {
   background-color: black; }
 
-.bg-light {
+.bg--light {
   background-color: #F5F5F5; }
 
-.bg-dark {
+.bg--dark {
   background-color: #212121; }
 
-.bg-transparent {
+.bg--transparent {
   background-color: transparent; }
 
-.bg-cover {
+.bg--cover {
   background-size: cover !important; }
 
-.bg-contain {
+.bg--contain {
   background-size: contain !important; }
 
 .o-hidden {
@@ -7145,12 +7139,12 @@ form {
   .o-xl-auto {
     overflow: auto !important; } }
 
-.img-fluid {
+.img--fluid {
   width: 100%;
   max-width: 100% !important;
   height: auto !important; }
 
-.img-thumbnail {
+.img--thumbnail {
   padding: .5rem;
   background-color: white;
   border: 1px solid #BDBDBD;
