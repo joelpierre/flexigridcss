@@ -1,0 +1,65 @@
+.justify-content {
+  @include dynamic-property(null, 'justify-content', 'stretch');
+  @include dynamic-property(null, 'justify-content', 'center');
+  @include dynamic-property(null, 'justify-content', 'flex-start');
+  @include dynamic-property(null, 'justify-content', 'flex-end');
+  @include dynamic-property(null, 'justify-content', 'space-between');
+  @include dynamic-property(null, 'justify-content', 'space-around');
+  @include dynamic-property(null, 'justify-content', 'initial');
+  @include dynamic-property(null, 'justify-content', 'inherit');
+
+  @include mobile-only {
+    @include dynamic-property('xs', 'justify-content', 'stretch');
+    @include dynamic-property('xs', 'justify-content', 'center');
+    @include dynamic-property('xs', 'justify-content', 'flex-start');
+    @include dynamic-property('xs', 'justify-content', 'flex-end');
+    @include dynamic-property('xs', 'justify-content', 'space-between');
+    @include dynamic-property('xs', 'justify-content', 'space-around');
+    @include dynamic-property('xs', 'justify-content', 'initial');
+    @include dynamic-property('xs', 'justify-content', 'inherit');
+  }
+
+  @include tablet-portrait-up {
+    @include dynamic-property('sm', 'justify-content', 'stretch');
+    @include dynamic-property('sm', 'justify-content', 'center');
+    @include dynamic-property('sm', 'justify-content', 'flex-start');
+    @include dynamic-property('sm', 'justify-content', 'flex-end');
+    @include dynamic-property('sm', 'justify-content', 'space-between');
+    @include dynamic-property('sm', 'justify-content', 'space-around');
+    @include dynamic-property('sm', 'justify-content', 'initial');
+    @include dynamic-property('sm', 'justify-content', 'inherit');
+  }
+
+  @include tablet-landscape-up {
+    @include dynamic-property('md', 'justify-content', 'stretch');
+    @include dynamic-property('md', 'justify-content', 'center');
+    @include dynamic-property('md', 'justify-content', 'flex-start');
+    @include dynamic-property('md', 'justify-content', 'flex-end');
+    @include dynamic-property('md', 'justify-content', 'space-between');
+    @include dynamic-property('md', 'justify-content', 'space-around');
+    @include dynamic-property('md', 'justify-content', 'initial');
+    @include dynamic-property('md', 'justify-content', 'inherit');
+  }
+
+  @include desktop-up {
+    @include dynamic-property('lg', 'justify-content', 'stretch');
+    @include dynamic-property('lg', 'justify-content', 'center');
+    @include dynamic-property('lg', 'justify-content', 'flex-start');
+    @include dynamic-property('lg', 'justify-content', 'flex-end');
+    @include dynamic-property('lg', 'justify-content', 'space-between');
+    @include dynamic-property('lg', 'justify-content', 'space-around');
+    @include dynamic-property('lg', 'justify-content', 'initial');
+    @include dynamic-property('lg', 'justify-content', 'inherit');
+  }
+
+  @include big-desktop-up {
+    @include dynamic-property('xl', 'justify-content', 'stretch');
+    @include dynamic-property('xl', 'justify-content', 'center');
+    @include dynamic-property('xl', 'justify-content', 'flex-start');
+    @include dynamic-property('xl', 'justify-content', 'flex-end');
+    @include dynamic-property('xl', 'justify-content', 'space-between');
+    @include dynamic-property('xl', 'justify-content', 'space-around');
+    @include dynamic-property('xl', 'justify-content', 'initial');
+    @include dynamic-property('xl', 'justify-content', 'inherit');
+  }
+}

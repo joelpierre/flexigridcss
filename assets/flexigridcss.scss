@@ -14,8 +14,6 @@
 @import "utlities/mixins/hover";
 /* Base Styles */
 @import "flexigridcss/base/reset";
-// These are temp styles for colours
-@import "utlities/temp";
 // Delete this after
 @import "flexigridcss/base/container";
 @import "flexigridcss/base/row";
@@ -41,6 +39,7 @@
 @import "flexigridcss/components/pagination";
 /* Modifier Styles */
 @import "flexigridcss/modifiers/offset";
+@import "flexigridcss/modifiers/offset";
 @import "flexigridcss/modifiers/order";
 @import "flexigridcss/modifiers/border";
 @import "flexigridcss/modifiers/border-radius";
@@ -48,9 +47,12 @@
 @import "flexigridcss/modifiers/padding";
 @import "flexigridcss/modifiers/text";
 @import "flexigridcss/modifiers/align";
+@import "flexigridcss/modifiers/align-content";
 @import "flexigridcss/modifiers/align-items";
 @import "flexigridcss/modifiers/align-self";
-@import "flexigridcss/modifiers/justify";
+@import "flexigridcss/modifiers/justify-content";
+@import "flexigridcss/modifiers/justify-items";
+@import "flexigridcss/modifiers/justify-self";
 @import "flexigridcss/modifiers/colour";
 @import "flexigridcss/modifiers/background";
 @import "flexigridcss/modifiers/overflow";
