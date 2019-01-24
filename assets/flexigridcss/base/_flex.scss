@@ -10,6 +10,56 @@
 
 .flex {
   @include column-flex-base;
+
+  &-xs {
+    @include mobile-only {
+      box-sizing: border-box;
+      flex: 1 0 0;
+      min-width: 0;
+      min-height: 0;
+      max-width: 100%;
+    }
+  }
+
+  &-sm {
+    @include tablet-portrait-up {
+      box-sizing: border-box;
+      flex: 1 0 0;
+      min-width: 0;
+      min-height: 0;
+      max-width: 100%;
+    }
+  }
+
+  &-md {
+    @include tablet-landscape-up {
+      box-sizing: border-box;
+      flex: 1 0 0;
+      min-width: 0;
+      min-height: 0;
+      max-width: 100%;
+    }
+  }
+
+  &-lg {
+    @include desktop-up {
+      box-sizing: border-box;
+      flex: 1 0 0;
+      min-width: 0;
+      min-height: 0;
+      max-width: 100%;
+    }
+  }
+
+  &-xl {
+    @include big-desktop-up {
+      box-sizing: border-box;
+      flex: 1 0 0;
+      min-width: 0;
+      min-height: 0;
+      max-width: 100%;
+    }
+  }
 }
 
 .flex {
