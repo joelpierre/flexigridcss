@@ -290,89 +290,89 @@ template {
     .container-fluid--grid {
       -ms-grid-columns: (1fr)[4];
           grid-template-columns: repeat(4, 1fr);
-      grid-column-gap: calc(0.8rem * 2);
-      padding: 0 0.8rem; } }
+      grid-column-gap: calc(1rem * 2);
+      padding: 0 1rem; } }
   @media (min-width: 600px) {
     .container--grid,
     .container-fluid--grid {
       -ms-grid-columns: (1fr)[8];
           grid-template-columns: repeat(8, 1fr);
-      grid-column-gap: calc(0.8rem * 2);
-      padding: 0 0.8rem; } }
+      grid-column-gap: calc(1rem * 2);
+      padding: 0 1rem; } }
   @media (min-width: 900px) {
     .container--grid,
     .container-fluid--grid {
       -ms-grid-columns: (1fr)[10];
           grid-template-columns: repeat(10, 1fr);
-      grid-column-gap: calc(1.2rem * 2);
-      padding: 0 1.2rem; } }
+      grid-column-gap: calc(1.5rem * 2);
+      padding: 0 1.5rem; } }
   @media (min-width: 1200px) {
     .container--grid,
     .container-fluid--grid {
       -ms-grid-columns: (1fr)[12];
           grid-template-columns: repeat(12, 1fr);
-      grid-column-gap: calc(1.2rem * 2);
-      padding: 0 1.2rem; } }
+      grid-column-gap: calc(1.5rem * 2);
+      padding: 0 1.5rem; } }
   @media (min-width: 1800px) {
     .container--grid,
     .container-fluid--grid {
       -ms-grid-columns: (1fr)[16];
           grid-template-columns: repeat(16, 1fr);
-      grid-column-gap: calc(1.2rem * 2);
-      padding: 0 1.2rem; } }
+      grid-column-gap: calc(1.8rem * 2);
+      padding: 0 1.8rem; } }
   .container--grid .row,
   .container-fluid--grid .row {
     grid-column: 1 / -1; }
     @media (max-width: 599px) {
       .container--grid .row,
       .container-fluid--grid .row {
-        margin: 0 -0.8rem; } }
+        margin: 0 -1rem; } }
     @media (min-width: 600px) {
       .container--grid .row,
       .container-fluid--grid .row {
-        margin: 0 -0.8rem; } }
+        margin: 0 -1rem; } }
     @media (min-width: 900px) {
       .container--grid .row,
       .container-fluid--grid .row {
-        margin: 0 -1.2rem; } }
+        margin: 0 -1.5rem; } }
     @media (min-width: 1200px) {
       .container--grid .row,
       .container-fluid--grid .row {
-        margin: 0 -1.2rem; } }
+        margin: 0 -1.5rem; } }
     @media (min-width: 1800px) {
       .container--grid .row,
       .container-fluid--grid .row {
-        margin: 0 -1.2rem; } }
+        margin: 0 -1.8rem; } }
 
 .container {
   width: 100%;
   max-width: 100%;
-  padding: 0 1.2rem; }
+  padding: 0 1.8rem; }
   @media (max-width: 599px) {
     .container {
       width: 100%;
       max-width: 100%;
-      padding: 0 0.8rem; } }
+      padding: 0 1rem; } }
   @media (min-width: 600px) {
     .container {
       width: 600px;
       max-width: 600px;
-      padding: 0 0.8rem; } }
+      padding: 0 1rem; } }
   @media (min-width: 900px) {
     .container {
       width: 900px;
       max-width: 900px;
-      padding: 0 1.2rem; } }
+      padding: 0 1.5rem; } }
   @media (min-width: 1200px) {
     .container {
       width: 1200px;
       max-width: 1200px;
-      padding: 0 1.2rem; } }
+      padding: 0 1.5rem; } }
   @media (min-width: 1800px) {
     .container {
       width: 1800px;
       max-width: 1800px;
-      padding: 0 1.2rem; } }
+      padding: 0 1.8rem; } }
   @supports not ((display: -ms-grid) or (display: grid)) {
     .container {
       display: block; } }
@@ -382,42 +382,42 @@ template {
   max-width: 100%; }
   @media (max-width: 599px) {
     .container-fluid {
-      padding: 0 0.8rem; } }
+      padding: 0 1rem; } }
   @media (min-width: 600px) {
     .container-fluid {
-      padding: 0 0.8rem; } }
+      padding: 0 1rem; } }
   @media (min-width: 900px) {
     .container-fluid {
-      padding: 0 1.2rem; } }
+      padding: 0 1.5rem; } }
   @media (min-width: 1200px) {
     .container-fluid {
-      padding: 0 1.2rem; } }
+      padding: 0 1.5rem; } }
   @media (min-width: 1800px) {
     .container-fluid {
-      padding: 0 1.2rem; } }
+      padding: 0 1.8rem; } }
   @supports not ((display: -ms-grid) or (display: grid)) {
     .container-fluid {
       display: block; } }
 
 @media (max-width: 599px) {
   .grid-gap {
-    grid-gap: calc(0.8rem * 2); } }
+    grid-gap: calc(1rem * 2); } }
 
 @media (min-width: 600px) {
   .grid-gap {
-    grid-gap: calc(0.8rem * 2); } }
+    grid-gap: calc(1rem * 2); } }
 
 @media (min-width: 900px) {
   .grid-gap {
-    grid-gap: calc(1.2rem * 2); } }
+    grid-gap: calc(1.5rem * 2); } }
 
 @media (min-width: 1200px) {
   .grid-gap {
-    grid-gap: calc(1.2rem * 2); } }
+    grid-gap: calc(1.5rem * 2); } }
 
 @media (min-width: 1800px) {
   .grid-gap {
-    grid-gap: calc(1.2rem * 2); } }
+    grid-gap: calc(1.8rem * 2); } }
 
 .row, .row--reverse, .row--column, .row--column-reverse {
   display: -webkit-box;
@@ -450,28 +450,28 @@ template {
 
 @media (max-width: 599px) {
   .row {
-    margin: 0 -0.8rem;
-    max-width: calc(100% + (2 * 0.8rem)); } }
+    margin: 0 -1rem;
+    max-width: calc(100% + (2 * 1rem)); } }
 
 @media (min-width: 600px) {
   .row {
-    margin: 0 -0.8rem;
-    max-width: calc(100% + (2 * 0.8rem)); } }
+    margin: 0 -1rem;
+    max-width: calc(100% + (2 * 1rem)); } }
 
 @media (min-width: 900px) {
   .row {
-    margin: 0 -1.2rem;
-    max-width: calc(100% + (2 * 1.2rem)); } }
+    margin: 0 -1.5rem;
+    max-width: calc(100% + (2 * 1.5rem)); } }
 
 @media (min-width: 1200px) {
   .row {
-    margin: 0 -1.2rem;
-    max-width: calc(100% + (2 * 1.2rem)); } }
+    margin: 0 -1.5rem;
+    max-width: calc(100% + (2 * 1.5rem)); } }
 
 @media (min-width: 1800px) {
   .row {
-    margin: 0 -1.2rem;
-    max-width: calc(100% + (2 * 1.2rem)); } }
+    margin: 0 -1.8rem;
+    max-width: calc(100% + (2 * 1.8rem)); } }
 
 /*
  * Flex Item.
@@ -488,28 +488,28 @@ template {
   @media (max-width: 599px) {
     [class|="flex"],
     [class*="flex-"] {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     [class|="flex"],
     [class*="flex-"] {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     [class|="flex"],
     [class*="flex-"] {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     [class|="flex"],
     [class*="flex-"] {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     [class|="flex"],
     [class*="flex-"] {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex {
   box-sizing: border-box;
@@ -520,24 +520,24 @@ template {
   max-width: 100%; }
   @media (max-width: 599px) {
     .flex {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
   @media (max-width: 599px) {
     .flex-xs {
       box-sizing: border-box;
@@ -588,24 +588,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 1))); }
   @media (max-width: 599px) {
     .flex-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-2 {
   box-sizing: border-box;
@@ -616,24 +616,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 2))); }
   @media (max-width: 599px) {
     .flex-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-3 {
   box-sizing: border-box;
@@ -644,24 +644,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 3))); }
   @media (max-width: 599px) {
     .flex-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-4 {
   box-sizing: border-box;
@@ -672,24 +672,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 4))); }
   @media (max-width: 599px) {
     .flex-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-5 {
   box-sizing: border-box;
@@ -700,24 +700,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 5))); }
   @media (max-width: 599px) {
     .flex-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-6 {
   box-sizing: border-box;
@@ -728,24 +728,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 6))); }
   @media (max-width: 599px) {
     .flex-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-7 {
   box-sizing: border-box;
@@ -756,24 +756,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 7))); }
   @media (max-width: 599px) {
     .flex-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-8 {
   box-sizing: border-box;
@@ -784,24 +784,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 8))); }
   @media (max-width: 599px) {
     .flex-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-9 {
   box-sizing: border-box;
@@ -812,24 +812,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 9))); }
   @media (max-width: 599px) {
     .flex-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-10 {
   box-sizing: border-box;
@@ -840,24 +840,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 10))); }
   @media (max-width: 599px) {
     .flex-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-11 {
   box-sizing: border-box;
@@ -868,24 +868,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 11))); }
   @media (max-width: 599px) {
     .flex-11 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-11 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-12 {
   box-sizing: border-box;
@@ -896,24 +896,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 12))); }
   @media (max-width: 599px) {
     .flex-12 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-12 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-13 {
   box-sizing: border-box;
@@ -924,24 +924,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 13))); }
   @media (max-width: 599px) {
     .flex-13 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-13 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-13 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-13 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-13 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-14 {
   box-sizing: border-box;
@@ -952,24 +952,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 14))); }
   @media (max-width: 599px) {
     .flex-14 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-14 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-14 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-14 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-14 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-15 {
   box-sizing: border-box;
@@ -980,24 +980,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 15))); }
   @media (max-width: 599px) {
     .flex-15 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-15 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-15 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-15 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-15 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex-16 {
   box-sizing: border-box;
@@ -1008,24 +1008,24 @@ template {
   max-width: calc(100% - ((100% / 16) * (16 - 16))); }
   @media (max-width: 599px) {
     .flex-16 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) {
     .flex-16 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) {
     .flex-16 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) {
     .flex-16 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) {
     .flex-16 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .flex--auto {
   -webkit-box-flex: 0;
@@ -1046,24 +1046,24 @@ template {
     max-width: calc(100% - ((100% / 4) * (4 - 1))); } }
   @media (max-width: 599px) and (max-width: 599px) {
     .flex-xs-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 600px) {
     .flex-xs-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 900px) {
     .flex-xs-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1200px) {
     .flex-xs-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1800px) {
     .flex-xs-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (max-width: 599px) {
   .flex-xs-2 {
@@ -1075,24 +1075,24 @@ template {
     max-width: calc(100% - ((100% / 4) * (4 - 2))); } }
   @media (max-width: 599px) and (max-width: 599px) {
     .flex-xs-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 600px) {
     .flex-xs-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 900px) {
     .flex-xs-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1200px) {
     .flex-xs-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1800px) {
     .flex-xs-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (max-width: 599px) {
   .flex-xs-3 {
@@ -1104,24 +1104,24 @@ template {
     max-width: calc(100% - ((100% / 4) * (4 - 3))); } }
   @media (max-width: 599px) and (max-width: 599px) {
     .flex-xs-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 600px) {
     .flex-xs-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 900px) {
     .flex-xs-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1200px) {
     .flex-xs-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1800px) {
     .flex-xs-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (max-width: 599px) {
   .flex-xs-4 {
@@ -1133,24 +1133,24 @@ template {
     max-width: calc(100% - ((100% / 4) * (4 - 4))); } }
   @media (max-width: 599px) and (max-width: 599px) {
     .flex-xs-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 600px) {
     .flex-xs-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (max-width: 599px) and (min-width: 900px) {
     .flex-xs-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1200px) {
     .flex-xs-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (max-width: 599px) and (min-width: 1800px) {
     .flex-xs-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-1 {
@@ -1162,24 +1162,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 1))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-2 {
@@ -1191,24 +1191,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 2))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-3 {
@@ -1220,24 +1220,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 3))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-4 {
@@ -1249,24 +1249,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 4))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-5 {
@@ -1278,24 +1278,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 5))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-6 {
@@ -1307,24 +1307,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 6))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-7 {
@@ -1336,24 +1336,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 7))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 600px) {
   .flex-sm-8 {
@@ -1365,24 +1365,24 @@ template {
     max-width: calc(100% - ((100% / 8) * (8 - 8))); } }
   @media (min-width: 600px) and (max-width: 599px) {
     .flex-sm-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 600px) {
     .flex-sm-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 600px) and (min-width: 900px) {
     .flex-sm-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1200px) {
     .flex-sm-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 600px) and (min-width: 1800px) {
     .flex-sm-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-1 {
@@ -1394,24 +1394,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 1))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-2 {
@@ -1423,24 +1423,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 2))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-3 {
@@ -1452,24 +1452,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 3))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-4 {
@@ -1481,24 +1481,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 4))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-5 {
@@ -1510,24 +1510,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 5))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-6 {
@@ -1539,24 +1539,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 6))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-7 {
@@ -1568,24 +1568,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 7))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-8 {
@@ -1597,24 +1597,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 8))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-9 {
@@ -1626,24 +1626,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 9))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 900px) {
   .flex-md-10 {
@@ -1655,24 +1655,24 @@ template {
     max-width: calc(100% - ((100% / 10) * (10 - 10))); } }
   @media (min-width: 900px) and (max-width: 599px) {
     .flex-md-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 600px) {
     .flex-md-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 900px) and (min-width: 900px) {
     .flex-md-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1200px) {
     .flex-md-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 900px) and (min-width: 1800px) {
     .flex-md-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-1 {
@@ -1684,24 +1684,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 1))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-2 {
@@ -1713,24 +1713,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 2))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-3 {
@@ -1742,24 +1742,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 3))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-4 {
@@ -1771,24 +1771,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 4))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-5 {
@@ -1800,24 +1800,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 5))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-6 {
@@ -1829,24 +1829,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 6))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-7 {
@@ -1858,24 +1858,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 7))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-8 {
@@ -1887,24 +1887,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 8))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-9 {
@@ -1916,24 +1916,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 9))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-10 {
@@ -1945,24 +1945,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 10))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-11 {
@@ -1974,24 +1974,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 11))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-11 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-11 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1200px) {
   .flex-lg-12 {
@@ -2003,24 +2003,24 @@ template {
     max-width: calc(100% - ((100% / 12) * (12 - 12))); } }
   @media (min-width: 1200px) and (max-width: 599px) {
     .flex-lg-12 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 600px) {
     .flex-lg-12 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1200px) and (min-width: 900px) {
     .flex-lg-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1200px) {
     .flex-lg-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1200px) and (min-width: 1800px) {
     .flex-lg-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-1 {
@@ -2032,24 +2032,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 1))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-1 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-1 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-2 {
@@ -2061,24 +2061,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 2))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-2 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-2 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-3 {
@@ -2090,24 +2090,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 3))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-3 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-3 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-4 {
@@ -2119,24 +2119,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 4))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-4 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-4 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-5 {
@@ -2148,24 +2148,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 5))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-5 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-5 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-6 {
@@ -2177,24 +2177,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 6))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-6 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-6 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-7 {
@@ -2206,24 +2206,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 7))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-7 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-7 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-8 {
@@ -2235,24 +2235,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 8))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-8 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-8 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-9 {
@@ -2264,24 +2264,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 9))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-9 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-9 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-10 {
@@ -2293,24 +2293,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 10))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-10 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-10 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-11 {
@@ -2322,24 +2322,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 11))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-11 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-11 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-11 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-12 {
@@ -2351,24 +2351,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 12))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-12 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-12 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-12 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-13 {
@@ -2380,24 +2380,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 13))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-13 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-13 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-13 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-13 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-13 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-14 {
@@ -2409,24 +2409,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 14))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-14 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-14 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-14 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-14 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-14 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-15 {
@@ -2438,24 +2438,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 15))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-15 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-15 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-15 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-15 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-15 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 @media (min-width: 1800px) {
   .flex-xl-16 {
@@ -2467,24 +2467,24 @@ template {
     max-width: calc(100% - ((100% / 16) * (16 - 16))); } }
   @media (min-width: 1800px) and (max-width: 599px) {
     .flex-xl-16 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 600px) {
     .flex-xl-16 {
-      padding-left: 0.8rem;
-      padding-right: 0.8rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
   @media (min-width: 1800px) and (min-width: 900px) {
     .flex-xl-16 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1200px) {
     .flex-xl-16 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.5rem;
+      padding-right: 1.5rem; } }
   @media (min-width: 1800px) and (min-width: 1800px) {
     .flex-xl-16 {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem; } }
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
 
 .primary-header {
   -ms-grid-row: 1;
@@ -2660,21 +2660,21 @@ dl dd {
   .layout-side-header--reverse .container {
     width: 800px;
     max-width: 900px;
-    padding: 0 1.2rem; } }
+    padding: 0 1.5rem; } }
 
 @media (min-width: 1200px) {
   .layout-side-header .container,
   .layout-side-header--reverse .container {
     width: 1100px;
     max-width: 1200px;
-    padding: 0 1.2rem; } }
+    padding: 0 1.5rem; } }
 
 @media (min-width: 1800px) {
   .layout-side-header .container,
   .layout-side-header--reverse .container {
     width: 1600px;
     max-width: 1800px;
-    padding: 0 1.2rem; } }
+    padding: 0 1.8rem; } }
 
 @supports not ((display: -ms-grid) or (display: grid)) {
   .layout-default {
@@ -2730,28 +2730,28 @@ form {
     @media (max-width: 599px) {
       .form-row > .flex,
       .form-row > [class*="flex-"] {
-        padding-left: calc(0.8rem / 2);
-        padding-right: calc(0.8rem / 2); } }
+        padding-left: calc(1rem / 2);
+        padding-right: calc(1rem / 2); } }
     @media (min-width: 600px) {
       .form-row > .flex,
       .form-row > [class*="flex-"] {
-        padding-left: calc(0.8rem / 2);
-        padding-right: calc(0.8rem / 2); } }
+        padding-left: calc(1rem / 2);
+        padding-right: calc(1rem / 2); } }
     @media (min-width: 900px) {
       .form-row > .flex,
       .form-row > [class*="flex-"] {
-        padding-left: calc(1.2rem / 2);
-        padding-right: calc(1.2rem / 2); } }
+        padding-left: calc(1.5rem / 2);
+        padding-right: calc(1.5rem / 2); } }
     @media (min-width: 1200px) {
       .form-row > .flex,
       .form-row > [class*="flex-"] {
-        padding-left: calc(1.2rem / 2);
-        padding-right: calc(1.2rem / 2); } }
+        padding-left: calc(1.5rem / 2);
+        padding-right: calc(1.5rem / 2); } }
     @media (min-width: 1800px) {
       .form-row > .flex,
       .form-row > [class*="flex-"] {
-        padding-left: calc(1.2rem / 2);
-        padding-right: calc(1.2rem / 2); } }
+        padding-left: calc(1.8rem / 2);
+        padding-right: calc(1.8rem / 2); } }
   .form-group {
     margin-bottom: 0; }
   .form-control {
