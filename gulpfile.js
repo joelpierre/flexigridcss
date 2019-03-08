@@ -13,7 +13,7 @@ gulp.task('sass', () => {
     .pipe(sourcemaps.init())
     .pipe(plumber())
     .pipe(sass({
-      outputStyle: 'nested' // nested, expanded, compact, compressed
+      outputStyle: 'expanded' // nested, expanded, compact, compressed
     }))
     .pipe(plumber.stop())
     .pipe(prefix({
@@ -28,7 +28,9 @@ gulp.task('sass', () => {
 
 gulp.task('cleanCSS', () => {
   gulp.src('dist/flexigridcss.css')
-    .pipe(cleanCSS({keepBreaks: true}))
+    .pipe(cleanCSS({
+      keepBreaks: false
+    }))
     .pipe(rename({
       basename: 'flexigridcss.min'
     }))
