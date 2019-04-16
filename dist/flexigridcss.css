@@ -333,8 +333,7 @@ template {
 }
 
 .container,
-.container-fluid, .container--grid,
-.container-fluid--grid {
+.container-fluid {
   margin: auto;
   min-height: 0;
   min-width: 0;
@@ -342,102 +341,6 @@ template {
   max-height: 100%;
   height: 100%;
   position: relative;
-}
-
-.container--grid,
-.container-fluid--grid {
-  display: -ms-grid;
-  display: grid;
-}
-
-@media (max-width: 599px) {
-  .container--grid,
-  .container-fluid--grid {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: calc(1rem * 2);
-    padding: 0 1rem;
-  }
-}
-
-@media (min-width: 600px) {
-  .container--grid,
-  .container-fluid--grid {
-    -ms-grid-columns: (1fr)[8];
-        grid-template-columns: repeat(8, 1fr);
-    grid-column-gap: calc(1rem * 2);
-    padding: 0 1rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .container--grid,
-  .container-fluid--grid {
-    -ms-grid-columns: (1fr)[10];
-        grid-template-columns: repeat(10, 1fr);
-    grid-column-gap: calc(1.5rem * 2);
-    padding: 0 1.5rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container--grid,
-  .container-fluid--grid {
-    -ms-grid-columns: (1fr)[12];
-        grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: calc(1.5rem * 2);
-    padding: 0 1.5rem;
-  }
-}
-
-@media (min-width: 1800px) {
-  .container--grid,
-  .container-fluid--grid {
-    -ms-grid-columns: (1fr)[16];
-        grid-template-columns: repeat(16, 1fr);
-    grid-column-gap: calc(1.8rem * 2);
-    padding: 0 1.8rem;
-  }
-}
-
-.container--grid .row,
-.container-fluid--grid .row {
-  grid-column: 1 / -1;
-}
-
-@media (max-width: 599px) {
-  .container--grid .row,
-  .container-fluid--grid .row {
-    margin: 0 -1rem;
-  }
-}
-
-@media (min-width: 600px) {
-  .container--grid .row,
-  .container-fluid--grid .row {
-    margin: 0 -1rem;
-  }
-}
-
-@media (min-width: 900px) {
-  .container--grid .row,
-  .container-fluid--grid .row {
-    margin: 0 -1.5rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container--grid .row,
-  .container-fluid--grid .row {
-    margin: 0 -1.5rem;
-  }
-}
-
-@media (min-width: 1800px) {
-  .container--grid .row,
-  .container-fluid--grid .row {
-    margin: 0 -1.8rem;
-  }
 }
 
 .container {
