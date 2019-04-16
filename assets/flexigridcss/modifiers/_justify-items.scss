@@ -3,8 +3,8 @@
   @include dynamic-property(null, 'justify-items', 'center');
   @include dynamic-property(null, 'justify-items', 'flex-start');
   @include dynamic-property(null, 'justify-items', 'flex-end');
-  @include dynamic-property(null, 'justify-items', 'space-between');
-  @include dynamic-property(null, 'justify-items', 'space-around');
+  //@include dynamic-property(null, 'justify-items', 'space-between');
+  //@include dynamic-property(null, 'justify-items', 'space-around');
   @include dynamic-property(null, 'justify-items', 'initial');
   @include dynamic-property(null, 'justify-items', 'inherit');
 
@@ -13,8 +13,8 @@
     @include dynamic-property('xs', 'justify-items', 'center');
     @include dynamic-property('xs', 'justify-items', 'flex-start');
     @include dynamic-property('xs', 'justify-items', 'flex-end');
-    @include dynamic-property('xs', 'justify-items', 'space-between');
-    @include dynamic-property('xs', 'justify-items', 'space-around');
+    //@include dynamic-property('xs', 'justify-items', 'space-between');
+    //@include dynamic-property('xs', 'justify-items', 'space-around');
     @include dynamic-property('xs', 'justify-items', 'initial');
     @include dynamic-property('xs', 'justify-items', 'inherit');
   }
@@ -24,8 +24,8 @@
     @include dynamic-property('sm', 'justify-items', 'center');
     @include dynamic-property('sm', 'justify-items', 'flex-start');
     @include dynamic-property('sm', 'justify-items', 'flex-end');
-    @include dynamic-property('sm', 'justify-items', 'space-between');
-    @include dynamic-property('sm', 'justify-items', 'space-around');
+    //@include dynamic-property('sm', 'justify-items', 'space-between');
+    //@include dynamic-property('sm', 'justify-items', 'space-around');
     @include dynamic-property('sm', 'justify-items', 'initial');
     @include dynamic-property('sm', 'justify-items', 'inherit');
   }
@@ -35,8 +35,8 @@
     @include dynamic-property('md', 'justify-items', 'center');
     @include dynamic-property('md', 'justify-items', 'flex-start');
     @include dynamic-property('md', 'justify-items', 'flex-end');
-    @include dynamic-property('md', 'justify-items', 'space-between');
-    @include dynamic-property('md', 'justify-items', 'space-around');
+    //@include dynamic-property('md', 'justify-items', 'space-between');
+    //@include dynamic-property('md', 'justify-items', 'space-around');
     @include dynamic-property('md', 'justify-items', 'initial');
     @include dynamic-property('md', 'justify-items', 'inherit');
   }
@@ -46,8 +46,8 @@
     @include dynamic-property('lg', 'justify-items', 'center');
     @include dynamic-property('lg', 'justify-items', 'flex-start');
     @include dynamic-property('lg', 'justify-items', 'flex-end');
-    @include dynamic-property('lg', 'justify-items', 'space-between');
-    @include dynamic-property('lg', 'justify-items', 'space-around');
+    //@include dynamic-property('lg', 'justify-items', 'space-between');
+    //@include dynamic-property('lg', 'justify-items', 'space-around');
     @include dynamic-property('lg', 'justify-items', 'initial');
     @include dynamic-property('lg', 'justify-items', 'inherit');
   }
@@ -57,8 +57,8 @@
     @include dynamic-property('xl', 'justify-items', 'center');
     @include dynamic-property('xl', 'justify-items', 'flex-start');
     @include dynamic-property('xl', 'justify-items', 'flex-end');
-    @include dynamic-property('xl', 'justify-items', 'space-between');
-    @include dynamic-property('xl', 'justify-items', 'space-around');
+    //@include dynamic-property('xl', 'justify-items', 'space-between');
+    //@include dynamic-property('xl', 'justify-items', 'space-around');
     @include dynamic-property('xl', 'justify-items', 'initial');
     @include dynamic-property('xl', 'justify-items', 'inherit');
   }

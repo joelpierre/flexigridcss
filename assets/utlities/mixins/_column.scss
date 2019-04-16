@@ -106,18 +106,18 @@
   }
 }
 
-@mixin dynamic-flex-rows($size: null, $columns: null) {
-  @if ($size == null) {
-    @for $i from 1 through $columns {
-      &-#{$i} {
-        @include rows(#{$i}, #{$columns});
-      }
-    }
-  } @else {
-    @for $i from 1 through $columns {
-      &-#{$size}-#{$i} {
-        @include rows(#{$i}, #{$columns});
-      }
-    }
-  }
-}
+//@mixin dynamic-flex-rows($size: null, $columns: null) {
+//  @if ($size == null) {
+//    @for $i from 1 through $columns {
+//      &-#{$i} {
+//        @include rows(#{$i}, #{$columns});
+//      }
+//    }
+//  } @else {
+//    @for $i from 1 through $columns {
+//      &-#{$size}-#{$i} {
+//        @include rows(#{$i}, #{$columns});
+//      }
+//    }
+//  }
+//}

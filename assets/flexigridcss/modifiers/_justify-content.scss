@@ -1,5 +1,4 @@
 .justify-content {
-  @include dynamic-property(null, 'justify-content', 'stretch');
   @include dynamic-property(null, 'justify-content', 'center');
   @include dynamic-property(null, 'justify-content', 'flex-start');
   @include dynamic-property(null, 'justify-content', 'flex-end');
@@ -9,7 +8,6 @@
   @include dynamic-property(null, 'justify-content', 'inherit');
 
   @include mobile-only {
-    @include dynamic-property('xs', 'justify-content', 'stretch');
     @include dynamic-property('xs', 'justify-content', 'center');
     @include dynamic-property('xs', 'justify-content', 'flex-start');
     @include dynamic-property('xs', 'justify-content', 'flex-end');
@@ -20,7 +18,6 @@
   }
 
   @include tablet-portrait-up {
-    @include dynamic-property('sm', 'justify-content', 'stretch');
     @include dynamic-property('sm', 'justify-content', 'center');
     @include dynamic-property('sm', 'justify-content', 'flex-start');
     @include dynamic-property('sm', 'justify-content', 'flex-end');
@@ -31,7 +28,6 @@
   }
 
   @include tablet-landscape-up {
-    @include dynamic-property('md', 'justify-content', 'stretch');
     @include dynamic-property('md', 'justify-content', 'center');
     @include dynamic-property('md', 'justify-content', 'flex-start');
     @include dynamic-property('md', 'justify-content', 'flex-end');
@@ -42,7 +38,6 @@
   }
 
   @include desktop-up {
-    @include dynamic-property('lg', 'justify-content', 'stretch');
     @include dynamic-property('lg', 'justify-content', 'center');
     @include dynamic-property('lg', 'justify-content', 'flex-start');
     @include dynamic-property('lg', 'justify-content', 'flex-end');
@@ -53,7 +48,6 @@
   }
 
   @include big-desktop-up {
-    @include dynamic-property('xl', 'justify-content', 'stretch');
     @include dynamic-property('xl', 'justify-content', 'center');
     @include dynamic-property('xl', 'justify-content', 'flex-start');
     @include dynamic-property('xl', 'justify-content', 'flex-end');

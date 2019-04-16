@@ -1,65 +1,65 @@
-.justify-self {
-  @include dynamic-property(null, 'justify-self', 'stretch');
-  @include dynamic-property(null, 'justify-self', 'center');
-  @include dynamic-property(null, 'justify-self', 'flex-start');
-  @include dynamic-property(null, 'justify-self', 'flex-end');
-  @include dynamic-property(null, 'justify-self', 'space-between');
-  @include dynamic-property(null, 'justify-self', 'space-around');
-  @include dynamic-property(null, 'justify-self', 'initial');
-  @include dynamic-property(null, 'justify-self', 'inherit');
-
-  @include mobile-only {
-    @include dynamic-property('xs', 'justify-self', 'stretch');
-    @include dynamic-property('xs', 'justify-self', 'center');
-    @include dynamic-property('xs', 'justify-self', 'flex-start');
-    @include dynamic-property('xs', 'justify-self', 'flex-end');
-    @include dynamic-property('xs', 'justify-self', 'space-between');
-    @include dynamic-property('xs', 'justify-self', 'space-around');
-    @include dynamic-property('xs', 'justify-self', 'initial');
-    @include dynamic-property('xs', 'justify-self', 'inherit');
-  }
-
-  @include tablet-portrait-up {
-    @include dynamic-property('sm', 'justify-self', 'stretch');
-    @include dynamic-property('sm', 'justify-self', 'center');
-    @include dynamic-property('sm', 'justify-self', 'flex-start');
-    @include dynamic-property('sm', 'justify-self', 'flex-end');
-    @include dynamic-property('sm', 'justify-self', 'space-between');
-    @include dynamic-property('sm', 'justify-self', 'space-around');
-    @include dynamic-property('sm', 'justify-self', 'initial');
-    @include dynamic-property('sm', 'justify-self', 'inherit');
-  }
-
-  @include tablet-landscape-up {
-    @include dynamic-property('md', 'justify-self', 'stretch');
-    @include dynamic-property('md', 'justify-self', 'center');
-    @include dynamic-property('md', 'justify-self', 'flex-start');
-    @include dynamic-property('md', 'justify-self', 'flex-end');
-    @include dynamic-property('md', 'justify-self', 'space-between');
-    @include dynamic-property('md', 'justify-self', 'space-around');
-    @include dynamic-property('md', 'justify-self', 'initial');
-    @include dynamic-property('md', 'justify-self', 'inherit');
-  }
-
-  @include desktop-up {
-    @include dynamic-property('lg', 'justify-self', 'stretch');
-    @include dynamic-property('lg', 'justify-self', 'center');
-    @include dynamic-property('lg', 'justify-self', 'flex-start');
-    @include dynamic-property('lg', 'justify-self', 'flex-end');
-    @include dynamic-property('lg', 'justify-self', 'space-between');
-    @include dynamic-property('lg', 'justify-self', 'space-around');
-    @include dynamic-property('lg', 'justify-self', 'initial');
-    @include dynamic-property('lg', 'justify-self', 'inherit');
-  }
-
-  @include big-desktop-up {
-    @include dynamic-property('xl', 'justify-self', 'stretch');
-    @include dynamic-property('xl', 'justify-self', 'center');
-    @include dynamic-property('xl', 'justify-self', 'flex-start');
-    @include dynamic-property('xl', 'justify-self', 'flex-end');
-    @include dynamic-property('xl', 'justify-self', 'space-between');
-    @include dynamic-property('xl', 'justify-self', 'space-around');
-    @include dynamic-property('xl', 'justify-self', 'initial');
-    @include dynamic-property('xl', 'justify-self', 'inherit');
-  }
-}
+//.justify-self {
+//  @include dynamic-property(null, 'justify-self', 'stretch');
+//  @include dynamic-property(null, 'justify-self', 'center');
+//  @include dynamic-property(null, 'justify-self', 'flex-start');
+//  @include dynamic-property(null, 'justify-self', 'flex-end');
+//  @include dynamic-property(null, 'justify-self', 'space-between');
+//  @include dynamic-property(null, 'justify-self', 'space-around');
+//  @include dynamic-property(null, 'justify-self', 'initial');
+//  @include dynamic-property(null, 'justify-self', 'inherit');
+//
+//  @include mobile-only {
+//    @include dynamic-property('xs', 'justify-self', 'stretch');
+//    @include dynamic-property('xs', 'justify-self', 'center');
+//    @include dynamic-property('xs', 'justify-self', 'flex-start');
+//    @include dynamic-property('xs', 'justify-self', 'flex-end');
+//    @include dynamic-property('xs', 'justify-self', 'space-between');
+//    @include dynamic-property('xs', 'justify-self', 'space-around');
+//    @include dynamic-property('xs', 'justify-self', 'initial');
+//    @include dynamic-property('xs', 'justify-self', 'inherit');
+//  }
+//
+//  @include tablet-portrait-up {
+//    @include dynamic-property('sm', 'justify-self', 'stretch');
+//    @include dynamic-property('sm', 'justify-self', 'center');
+//    @include dynamic-property('sm', 'justify-self', 'flex-start');
+//    @include dynamic-property('sm', 'justify-self', 'flex-end');
+//    @include dynamic-property('sm', 'justify-self', 'space-between');
+//    @include dynamic-property('sm', 'justify-self', 'space-around');
+//    @include dynamic-property('sm', 'justify-self', 'initial');
+//    @include dynamic-property('sm', 'justify-self', 'inherit');
+//  }
+//
+//  @include tablet-landscape-up {
+//    @include dynamic-property('md', 'justify-self', 'stretch');
+//    @include dynamic-property('md', 'justify-self', 'center');
+//    @include dynamic-property('md', 'justify-self', 'flex-start');
+//    @include dynamic-property('md', 'justify-self', 'flex-end');
+//    @include dynamic-property('md', 'justify-self', 'space-between');
+//    @include dynamic-property('md', 'justify-self', 'space-around');
+//    @include dynamic-property('md', 'justify-self', 'initial');
+//    @include dynamic-property('md', 'justify-self', 'inherit');
+//  }
+//
+//  @include desktop-up {
+//    @include dynamic-property('lg', 'justify-self', 'stretch');
+//    @include dynamic-property('lg', 'justify-self', 'center');
+//    @include dynamic-property('lg', 'justify-self', 'flex-start');
+//    @include dynamic-property('lg', 'justify-self', 'flex-end');
+//    @include dynamic-property('lg', 'justify-self', 'space-between');
+//    @include dynamic-property('lg', 'justify-self', 'space-around');
+//    @include dynamic-property('lg', 'justify-self', 'initial');
+//    @include dynamic-property('lg', 'justify-self', 'inherit');
+//  }
+//
+//  @include big-desktop-up {
+//    @include dynamic-property('xl', 'justify-self', 'stretch');
+//    @include dynamic-property('xl', 'justify-self', 'center');
+//    @include dynamic-property('xl', 'justify-self', 'flex-start');
+//    @include dynamic-property('xl', 'justify-self', 'flex-end');
+//    @include dynamic-property('xl', 'justify-self', 'space-between');
+//    @include dynamic-property('xl', 'justify-self', 'space-around');
+//    @include dynamic-property('xl', 'justify-self', 'initial');
+//    @include dynamic-property('xl', 'justify-self', 'inherit');
+//  }
+//}
