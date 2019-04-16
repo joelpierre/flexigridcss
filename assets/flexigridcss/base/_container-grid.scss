@@ -12,6 +12,59 @@
 .container,
 .container-fluid {
   @extend %container-core;
+
+  &--grid {
+    display: grid;
+    @extend %container-core;
+
+    @include mobile-only {
+      grid-template-columns: repeat($grid-columns-mobile, 1fr);
+      grid-column-gap: calc(#{$grid-space-mobile} * 2);
+      padding: 0 $grid-space-mobile;
+    }
+    @include tablet-portrait-up {
+      grid-template-columns: repeat($grid-columns-portrait-tablet, 1fr);
+      grid-column-gap: calc(#{$grid-space-portrait-tablet} * 2);
+      padding: 0 $grid-space-portrait-tablet;
+    }
+
+    @include tablet-landscape-up {
+      grid-template-columns: repeat($grid-columns-landscape-tablet, 1fr);
+      grid-column-gap: calc(#{$grid-space-landscape-tablet} * 2);
+      padding: 0 $grid-space-landscape-tablet;
+    }
+    @include desktop-up {
+      grid-template-columns: repeat($grid-columns-desktop, 1fr);
+      grid-column-gap: calc(#{$grid-space-desktop} * 2);
+      padding: 0 $grid-space-desktop;
+    }
+    @include big-desktop-up {
+      grid-template-columns: repeat($grid-columns-big-desktop, 1fr);
+      grid-column-gap: calc(#{$grid-space-big-desktop} * 2);
+      padding: 0 $grid-space-big-desktop;
+    }
+
+    .row {
+      grid-column: 1 / -1;
+
+      @include mobile-only {
+        margin: 0 #{-$grid-space-mobile};
+      }
+      @include tablet-portrait-up {
+        margin: 0 #{-$grid-space-portrait-tablet};
+      }
+
+      @include tablet-landscape-up {
+        margin: 0 #{-$grid-space-landscape-tablet};
+      }
+      @include desktop-up {
+        margin: 0 #{-$grid-space-desktop};
+      }
+      @include big-desktop-up {
+        margin: 0 #{-$grid-space-big-desktop};
+      }
+    }
+  }
 }
 
 .container {
