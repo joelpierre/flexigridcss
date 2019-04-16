@@ -4,14 +4,15 @@
   "homepage": "https://github.com/joelpierre/flexigridcss",
   "description": "A Modern CSS framework that incorporates grid and flex box",
   "devDependencies": {
+    "flexbox-grid-mixins": "^0.1.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
     "gulp-livereload": "^4.0.0",
     "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-clean-css": "^3.10.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-rename": "^1.4.0"
+    "gulp-sourcemaps": "^2.6.4"
   },
   "scripts": {
     "build": "gulp",

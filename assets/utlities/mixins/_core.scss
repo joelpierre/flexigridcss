@@ -3,30 +3,10 @@
     &-#{$value} {
       #{$property}: #{$value} !important;
     }
-  } @else {
+  }
+  @if ($size != null) {
     &-#{$size}-#{$value} {
       #{$property}: #{$value} !important;
     }
   }
 }
-
-//@include mobile-only {
-//  &-xs {
-//  }
-//}
-//@include tablet-portrait-up {
-//  &-sm {
-//  }
-//}
-//@include tablet-landscape-up {
-//  &-md {
-//  }
-//}
-//@include desktop-up {
-//  &-lg {
-//  }
-//}
-//@include big-desktop-up {
-//  &-xl {
-//  }
-//}
