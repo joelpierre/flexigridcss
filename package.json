@@ -56,7 +56,8 @@
   ],
   "husky": {
     "hooks": {
-      "pre-push": "gulp build"
+      "pre-push": "gulp build",
+      "post-push": "npm publish"
     }
   }
 }
