@@ -544,6 +544,20 @@ template {
           flex: 1 0 100%;
 }
 
+[class|='flex'],
+[class*='flex-'] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 900px) {
+  [class|='flex'],
+  [class*='flex-'] {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
 .flex--auto {
   -webkit-box-flex: 0;
           flex: 0 0 auto;
