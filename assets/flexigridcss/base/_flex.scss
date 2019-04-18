@@ -35,12 +35,14 @@
   flex: 1 0 100%;
 }
 
-[class|='col'],
-[class*='col-'] {
+[class|='flex'],
+[class*='flex-'] {
   @extend %column-core;
 }
 
 .flex {
+  @extend %column-core;
+
   &--auto {
     flex: 0 0 auto;
     width: auto;
