@@ -38,6 +38,13 @@
 [class|='flex'],
 [class*='flex-'] {
   @extend %column-core;
+  padding-left: $grid-space-mobile;
+  padding-right: $grid-space-mobile;
+
+  @include tablet-landscape-up {
+    padding-left: $grid-space-desktop;
+    padding-right: $grid-space-desktop;
+  }
 }
 
 .flex {
