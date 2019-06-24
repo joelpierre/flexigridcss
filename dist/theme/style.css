@@ -1,8 +1,7 @@
 .primary-header {
   background-color: #ff5c5c;
   height: auto;
-  -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
   padding: 5px 0;
 }

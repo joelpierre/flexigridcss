@@ -152,7 +152,7 @@
   }
 }
 
-@supports not ((display: -ms-grid) or (display: grid)) {
+@supports not (display: grid) {
   .container {
     display: block;
   }
@@ -193,7 +193,7 @@
   }
 }
 
-@supports not ((display: -ms-grid) or (display: grid)) {
+@supports not (display: grid) {
   .container-fluid {
     display: block;
   }

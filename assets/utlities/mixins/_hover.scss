@@ -1,5 +1,19 @@
+@mixin can-hover {
+  @media (hover: hover) {
+    @content;
+  }
+}
+
+@mixin no-hover {
+  @media (hover: none) {
+    @content;
+  }
+}
+
 @mixin hover {
-  &:hover { @content; }
+  &:hover {
+    @content;
+  }
 }
 
 @mixin hover-focus {

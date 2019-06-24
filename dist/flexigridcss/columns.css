@@ -4,8 +4,7 @@
   min-width: 0;
   min-height: 0;
   max-width: 100%;
-  -webkit-box-flex: 1;
-          flex: 1 0 100%;
+  flex: 1 0 100%;
 }
 
 [class|='flex'],
@@ -23,82 +22,69 @@
 }
 
 .flex--auto {
-  -webkit-box-flex: 0;
-          flex: 0 0 auto;
+  flex: 0 0 auto;
   width: auto;
   max-width: none;
 }
 
 .flex-1 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 8.33333%;
+  flex: 0 0 8.33333%;
 }
 
 .flex-2 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
 }
 
 .flex-3 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 25%;
+  flex: 0 0 25%;
 }
 
 .flex-4 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
 }
 
 .flex-5 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 41.66667%;
+  flex: 0 0 41.66667%;
 }
 
 .flex-6 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 50%;
+  flex: 0 0 50%;
 }
 
 .flex-7 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 58.33333%;
+  flex: 0 0 58.33333%;
 }
 
 .flex-8 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 66.66667%;
+  flex: 0 0 66.66667%;
 }
 
 .flex-9 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 75%;
+  flex: 0 0 75%;
 }
 
 .flex-10 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 83.33333%;
+  flex: 0 0 83.33333%;
 }
 
 .flex-11 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 91.66667%;
+  flex: 0 0 91.66667%;
 }
 
 .flex-12 {
   box-sizing: border-box;
-  -webkit-box-flex: 0;
-          flex: 0 0 100%;
+  flex: 0 0 100%;
 }
 
 @media only screen and (min-width: 375px) {
@@ -107,13 +93,11 @@
     min-width: 0;
     min-height: 0;
     max-width: 100%;
-    -webkit-box-flex: 1;
-            flex: 1 0 100%;
+    flex: 1 0 100%;
   }
   .flex-xs-1 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 8.33333%;
+    flex: 0 0 8.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -129,8 +113,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-2 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -146,8 +129,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-3 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 25%;
+    flex: 0 0 25%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -163,8 +145,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-4 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -180,8 +161,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-5 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -197,8 +177,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-6 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 50%;
+    flex: 0 0 50%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -214,8 +193,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-7 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -231,8 +209,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-8 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -248,8 +225,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-9 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 75%;
+    flex: 0 0 75%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -265,8 +241,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-10 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -282,8 +257,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-11 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 91.66667%;
+    flex: 0 0 91.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -299,8 +273,7 @@
 @media only screen and (min-width: 375px) {
   .flex-xs-12 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -319,13 +292,11 @@
     min-width: 0;
     min-height: 0;
     max-width: 100%;
-    -webkit-box-flex: 1;
-            flex: 1 0 100%;
+    flex: 1 0 100%;
   }
   .flex-sm-1 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 8.33333%;
+    flex: 0 0 8.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -341,8 +312,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-2 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -358,8 +328,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-3 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 25%;
+    flex: 0 0 25%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -375,8 +344,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-4 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -392,8 +360,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-5 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -409,8 +376,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-6 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 50%;
+    flex: 0 0 50%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -426,8 +392,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-7 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -443,8 +408,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-8 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -460,8 +424,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-9 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 75%;
+    flex: 0 0 75%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -477,8 +440,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-10 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -494,8 +456,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-11 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 91.66667%;
+    flex: 0 0 91.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -511,8 +472,7 @@
 @media only screen and (min-width: 568px) {
   .flex-sm-12 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -531,13 +491,11 @@
     min-width: 0;
     min-height: 0;
     max-width: 100%;
-    -webkit-box-flex: 1;
-            flex: 1 0 100%;
+    flex: 1 0 100%;
   }
   .flex-md-1 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 8.33333%;
+    flex: 0 0 8.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -553,8 +511,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-2 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -570,8 +527,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-3 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 25%;
+    flex: 0 0 25%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -587,8 +543,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-4 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -604,8 +559,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-5 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -621,8 +575,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-6 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 50%;
+    flex: 0 0 50%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -638,8 +591,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-7 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -655,8 +607,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-8 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -672,8 +623,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-9 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 75%;
+    flex: 0 0 75%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -689,8 +639,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-10 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -706,8 +655,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-11 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 91.66667%;
+    flex: 0 0 91.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -723,8 +671,7 @@
 @media only screen and (min-width: 768px) {
   .flex-md-12 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -743,13 +690,11 @@
     min-width: 0;
     min-height: 0;
     max-width: 100%;
-    -webkit-box-flex: 1;
-            flex: 1 0 100%;
+    flex: 1 0 100%;
   }
   .flex-lg-1 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 8.33333%;
+    flex: 0 0 8.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -765,8 +710,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-2 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -782,8 +726,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-3 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 25%;
+    flex: 0 0 25%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -799,8 +742,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-4 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -816,8 +758,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-5 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -833,8 +774,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-6 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 50%;
+    flex: 0 0 50%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -850,8 +790,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-7 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -867,8 +806,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-8 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -884,8 +822,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-9 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 75%;
+    flex: 0 0 75%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -901,8 +838,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-10 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -918,8 +854,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-11 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 91.66667%;
+    flex: 0 0 91.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -935,8 +870,7 @@
 @media only screen and (min-width: 1024px) {
   .flex-lg-12 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -955,13 +889,11 @@
     min-width: 0;
     min-height: 0;
     max-width: 100%;
-    -webkit-box-flex: 1;
-            flex: 1 0 100%;
+    flex: 1 0 100%;
   }
   .flex-xl-1 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 8.33333%;
+    flex: 0 0 8.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -977,8 +909,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-2 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -994,8 +925,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-3 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 25%;
+    flex: 0 0 25%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1011,8 +941,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-4 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1028,8 +957,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-5 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 41.66667%;
+    flex: 0 0 41.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1045,8 +973,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-6 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 50%;
+    flex: 0 0 50%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1062,8 +989,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-7 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 58.33333%;
+    flex: 0 0 58.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1079,8 +1005,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-8 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1096,8 +1021,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-9 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 75%;
+    flex: 0 0 75%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1113,8 +1037,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-10 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 83.33333%;
+    flex: 0 0 83.33333%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1130,8 +1053,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-11 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 91.66667%;
+    flex: 0 0 91.66667%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1147,8 +1069,7 @@
 @media only screen and (min-width: 1280px) {
   .flex-xl-12 {
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
+    flex: 0 0 100%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
