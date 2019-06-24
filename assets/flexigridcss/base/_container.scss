@@ -25,7 +25,7 @@
     padding: 0 #{$grid-space-mobile};
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     width: 600px;
     max-width: 600px;
     padding: 0 #{$grid-space-portrait-tablet};
@@ -61,7 +61,7 @@
     padding: 0 #{$grid-space-mobile};
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     padding: 0 #{$grid-space-portrait-tablet};
   }
 
@@ -86,7 +86,7 @@
     grid-gap: calc(#{$grid-space-mobile} * 2);
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     grid-gap: calc(#{$grid-space-portrait-tablet} * 2);
   }
 

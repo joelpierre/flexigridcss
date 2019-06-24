@@ -77,17 +77,17 @@ $spacing-base: 5rem;
 $spacing-large: 8rem;
 
 // Media Query Values
-$mobile-only: (max-width: 599px);
 
-$tablet-portrait-up: (min-width: 600px);
-$tablet-landscape-up: (min-width: 900px);
-$desktop-up: (min-width: 1200px);
-$big-desktop-up: (min-width: 1800px);
+$tablet-portrait-up: (min-width: 568px);
+$tablet-landscape-up: (min-width: 768px);
+$desktop-up: (min-width: 1024px);
+$big-desktop-up: (min-width: 1280px);
 
-$tablet-portrait-down: (max-width: 600px);
-$tablet-landscape-down: (max-width: 900px);
-$desktop-down: (max-width: 1200px);
-$big-desktop-down: (max-width: 1800px);
+$mobile-only: (max-width: 375px);
+$tablet-portrait-down: (max-width: 568px);
+$tablet-landscape-down: (max-width: 768px);
+$desktop-down: (max-width: 1024px);
+$big-desktop-down: (max-width: 1280px);
 
 $center: translate(-50%, -50%);
 $centerY: translateY(-50%);

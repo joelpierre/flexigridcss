@@ -16,7 +16,7 @@
           padding-left: $grid-space-mobile;
           padding-right: $grid-space-mobile;
 
-          @include tablet-landscape-up {
+          @include breakpoint(768) {
             padding-left: $grid-space-desktop;
             padding-right: $grid-space-desktop;
           }
@@ -41,7 +41,7 @@
   padding-left: $grid-space-mobile;
   padding-right: $grid-space-mobile;
 
-  @include tablet-landscape-up {
+  @include breakpoint(768) {
     padding-left: $grid-space-desktop;
     padding-right: $grid-space-desktop;
   }
@@ -58,7 +58,7 @@
 
   @include dynamic-flex-columns();
 
-  @include mobile-only {
+  @include breakpoint(375) {
     &-xs {
       box-sizing: border-box;
       min-width: 0;
@@ -70,7 +70,7 @@
     @include dynamic-flex-columns('xs');
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm {
       box-sizing: border-box;
       min-width: 0;
@@ -82,7 +82,7 @@
     @include dynamic-flex-columns('sm');
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(768) {
     &-md {
       box-sizing: border-box;
       min-width: 0;
@@ -94,7 +94,7 @@
     @include dynamic-flex-columns('md');
   }
 
-  @include desktop-up {
+  @include breakpoint(1024) {
     &-lg {
       box-sizing: border-box;
       min-width: 0;
@@ -106,7 +106,7 @@
     @include dynamic-flex-columns('lg');
   }
 
-  @include big-desktop-up {
+  @include breakpoint(1280) {
     &-xl {
       box-sizing: border-box;
       min-width: 0;
@@ -118,101 +118,3 @@
     @include dynamic-flex-columns('xl');
   }
 }
-
-///*
-// * Flex Item.
-// */
-//
-//[class|="flex"],
-//[class*="flex-"] {
-//  @include column-flex-base;
-//  flex: 1 0 100%;
-//}
-//
-//.flex {
-//  @include column-flex-base;
-//
-//  &-xs {
-//    @include mobile-only {
-//      box-sizing: border-box;
-//      flex: 1 0 0;
-//      min-width: 0;
-//      min-height: 0;
-//      max-width: 100%;
-//    }
-//  }
-//
-//  &-sm {
-//    @include tablet-portrait-up {
-//      box-sizing: border-box;
-//      flex: 1 0 0;
-//      min-width: 0;
-//      min-height: 0;
-//      max-width: 100%;
-//    }
-//  }
-//
-//  &-md {
-//    @include tablet-landscape-up {
-//      box-sizing: border-box;
-//      flex: 1 0 0;
-//      min-width: 0;
-//      min-height: 0;
-//      max-width: 100%;
-//    }
-//  }
-//
-//  &-lg {
-//    @include desktop-up {
-//      box-sizing: border-box;
-//      flex: 1 0 0;
-//      min-width: 0;
-//      min-height: 0;
-//      max-width: 100%;
-//    }
-//  }
-//
-//  &-xl {
-//    @include big-desktop-up {
-//      box-sizing: border-box;
-//      flex: 1 0 0;
-//      min-width: 0;
-//      min-height: 0;
-//      max-width: 100%;
-//    }
-//  }
-//}
-//
-//.flex {
-//  @include dynamic-flex-columns(null, $grid-columns-big-desktop);
-//
-//  &--auto {
-//    flex: 0 0 auto;
-//    width: auto;
-//    max-width: none;
-//
-//    @supports (display: grid) {
-//      grid-column: auto;
-//    }
-//  }
-//
-//  @include mobile-only {
-//    @include dynamic-flex-columns('xs', $grid-columns-mobile);
-//  }
-//
-//  @include tablet-portrait-up {
-//    @include dynamic-flex-columns('sm', $grid-columns-portrait-tablet);
-//  }
-//
-//  @include tablet-landscape-up {
-//    @include dynamic-flex-columns('md', $grid-columns-landscape-tablet);
-//  }
-//
-//  @include desktop-up {
-//    @include dynamic-flex-columns('lg', $grid-columns-desktop);
-//  }
-//
-//  @include big-desktop-up {
-//    @include dynamic-flex-columns('xl', $grid-columns-big-desktop);
-//  }
-//}

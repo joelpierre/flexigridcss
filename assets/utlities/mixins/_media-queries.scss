@@ -1,60 +1,109 @@
-// (max-width: 599px)
+// ----------------------------------------------------------------------
+// BREAKPOINTS
+// ----------------------------------------------------------------------
+
+$break-xxs: 375 !default; // from "phone portrait" size
+$break-xs: 568 !default; // from "phone landscape" size
+$break-small: 768 !default; // from "tablet portrait" size
+$break-medium: 1024 !default; // from "desktop" size
+$break-large: 1280 !default; // from bigger desktop size
+
+$break-points-map: (
+  xxs: $break-xxs,
+  xs: $break-xs,
+  small: $break-small,
+  medium: $break-medium,
+  large: $break-large
+);
+
+@function getBreakpoint($key) {
+  @return map-get($break-points-map, $key);
+}
+
+@mixin breakpoint($width) {
+  @if type-of($width) == number {
+    @media only screen and (min-width: $width*1px) {
+      @content;
+    }
+  } @else {
+    $break: getBreakpoint($width);
+    @media only screen and (min-width: $break*1px) {
+      @content;
+    }
+  }
+}
+
+@mixin breakpoint-between($min, $max) {
+  $minWidth: $min;
+  $maxWidth: $max;
+  @if type-of($min) != number {
+    $minWidth: getBreakpoint($min);
+  }
+  @if type-of($max) != number {
+    $maxWidth: getBreakpoint($max);
+  }
+  @media only screen and (min-width: $minWidth*1px) and (max-width: ($maxWidth*1px) - 1) {
+    @content;
+  }
+}
+
+// (max-width: 567px)
 @mixin mobile-only {
   @media #{$mobile-only} {
     @content;
   }
 }
 
-// (min-width: 600px)
+// (min-width: 568px)
 @mixin tablet-portrait-up {
-  @media #{$tablet-portrait-up} {
+  @include breakpoint(568) {
     @content;
   }
 }
 
-// (max-width: 600px)
+// (max-width: 568px)
 @mixin tablet-portrait-down {
   @media #{$tablet-portrait-down} {
     @content;
   }
 }
 
-// (min-width: 900px)
+// (min-width: 768px)
 @mixin tablet-landscape-up {
-  @media #{$tablet-landscape-up} {
+  @include breakpoint(768) {
     @content;
   }
 }
 
-// (max-width: 900px)
+// (max-width: 768px)
 @mixin tablet-landscape-down {
   @media #{$tablet-landscape-down} {
     @content;
   }
 }
 
-// (min-width: 1200px)
+// (min-width: 1024ox)
 @mixin desktop-up {
-  @media #{$desktop-up} {
+  @include breakpoint(1024) {
     @content;
   }
 }
 
-// (max-width: 1200px)
+// (max-width: 1024px)
 @mixin desktop-down {
   @media #{$desktop-down} {
     @content;
   }
 }
 
-// (min-width: 1800px)
+// (min-width: 1280px)
 @mixin big-desktop-up {
-  @media #{$big-desktop-up} {
+  @include breakpoint(1280) {
     @content;
   }
 }
 
-// (max-width: 1800px)
+// (max-width: 1280px)
 @mixin big-desktop-down {
   @media #{$big-desktop-up} {
     @content;

@@ -9,7 +9,7 @@
     padding-left: $grid-space-mobile;
     padding-right: $grid-space-mobile;
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     padding-left: $grid-space-portrait-tablet;
     padding-right: $grid-space-portrait-tablet;
   }
@@ -47,7 +47,7 @@
     padding-left: $grid-space-mobile;
     padding-right: $grid-space-mobile;
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     padding-left: $grid-space-portrait-tablet;
     padding-right: $grid-space-portrait-tablet;
   }

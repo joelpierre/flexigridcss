@@ -46,7 +46,7 @@ form {
         padding-right: calc(#{$grid-space-mobile} / 2);
       }
 
-      @include tablet-portrait-up {
+      @include breakpoint(568) {
         padding-left: calc(#{$grid-space-portrait-tablet} / 2);
         padding-right: calc(#{$grid-space-portrait-tablet} / 2);
       }

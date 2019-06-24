@@ -31,35 +31,35 @@
           flex-direction: row-reverse;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 375px) {
   .row {
     margin: 0 -1rem;
     max-width: calc(100% + (2 * 1rem));
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .row {
     margin: 0 -1rem;
     max-width: calc(100% + (2 * 1rem));
   }
 }
 
-@media (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .row {
     margin: 0 -1.5rem;
     max-width: calc(100% + (2 * 1.5rem));
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .row {
     margin: 0 -1.5rem;
     max-width: calc(100% + (2 * 1.5rem));
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .row {
     margin: 0 -1.8rem;
     max-width: calc(100% + (2 * 1.8rem));

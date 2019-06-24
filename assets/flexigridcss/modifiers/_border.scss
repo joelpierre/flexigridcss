@@ -15,7 +15,7 @@
     }
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm {
       border: $border-width $border-style $color-mid-gray-1 !important;
 
@@ -72,7 +72,7 @@
     }
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-left {
       border-left: $border-width $border-style $color-mid-gray-1 !important;
 
@@ -129,7 +129,7 @@
     }
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-right {
       border-right: $border-width $border-style $color-mid-gray-1 !important;
 
@@ -186,7 +186,7 @@
     }
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-top {
       border-top: $border-width $border-style $color-mid-gray-1 !important;
 
@@ -243,7 +243,7 @@
     }
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-bottom {
       border-bottom: $border-width $border-style $color-mid-gray-1 !important;
 

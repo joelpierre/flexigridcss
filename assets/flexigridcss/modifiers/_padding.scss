@@ -1,7 +1,7 @@
 .pl {
   @include dynamic-sizing(null, 'padding-left', 'rem');
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include dynamic-sizing('sm', 'padding-left', 'rem');
   }
 
@@ -21,7 +21,7 @@
 .pr {
   @include dynamic-sizing(null, 'padding-right', 'rem');
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include dynamic-sizing('sm', 'padding-right', 'rem');
   }
 
@@ -41,7 +41,7 @@
 .pt {
   @include dynamic-sizing(null, 'padding-top', 'rem');
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include dynamic-sizing('sm', 'padding-top', 'rem');
   }
 
@@ -61,7 +61,7 @@
 .pb {
   @include dynamic-sizing(null, 'padding-bottom', 'rem');
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include dynamic-sizing('sm', 'padding-bottom', 'rem');
   }
 
@@ -81,7 +81,7 @@
 .px {
   @include sizing-axis('padding', null, 'x');
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include sizing-axis('padding', 'sm', 'x');
   }
 
@@ -101,7 +101,7 @@
 .py {
   @include sizing-axis('padding', null, 'y');
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include sizing-axis('padding', 'sm', 'y');
   }
 

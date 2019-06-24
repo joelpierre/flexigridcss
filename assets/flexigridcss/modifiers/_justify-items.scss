@@ -19,7 +19,7 @@
     @include dynamic-property('xs', 'justify-items', 'inherit');
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include dynamic-property('sm', 'justify-items', 'stretch');
     @include dynamic-property('sm', 'justify-items', 'center');
     @include dynamic-property('sm', 'justify-items', 'flex-start');

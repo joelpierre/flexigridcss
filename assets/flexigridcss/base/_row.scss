@@ -32,7 +32,7 @@
     max-width: calc(100% + (2 * #{$grid-space-mobile}));
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     margin: 0 #{-$grid-space-portrait-tablet};
     max-width: calc(100% + (2 * #{$grid-space-portrait-tablet}));
   }

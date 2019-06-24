@@ -8,7 +8,7 @@
       overflow: hidden !important;
     }
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-hidden {
       overflow: hidden !important;
     }
@@ -38,7 +38,7 @@
       overflow: scroll !important;
     }
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-scroll {
       overflow: scroll !important;
     }
@@ -68,7 +68,7 @@
       overflow: visible !important;
     }
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-visible {
       overflow: visible !important;
     }
@@ -98,7 +98,7 @@
       overflow: auto !important;
     }
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm-auto {
       overflow: auto !important;
     }

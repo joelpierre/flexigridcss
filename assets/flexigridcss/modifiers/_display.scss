@@ -27,7 +27,7 @@
       }
     }
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm {
       &-block {
         display: block !important;
@@ -107,7 +107,7 @@
       }
     }
   }
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     &-sm {
       &-flex {
         display: flex !important;
@@ -168,7 +168,7 @@
         }
       }
     }
-    @include tablet-portrait-up {
+    @include breakpoint(568) {
       &-sm {
         &-grid {
           display: grid !important;

@@ -31,7 +31,7 @@
     @include dynamic-property('xs', 'text-decoration', 'underline');
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include dynamic-property('sm', 'text-align', 'center');
     @include dynamic-property('sm', 'text-align', 'left');
     @include dynamic-property('sm', 'text-align', 'right');

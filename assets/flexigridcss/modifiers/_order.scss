@@ -13,7 +13,7 @@
     @include dynamic-order('xs', null, $grid-columns-mobile);
   }
 
-  @include tablet-portrait-up {
+  @include breakpoint(568) {
     @include dynamic-order('sm', 'first', $grid-columns-portrait-tablet);
     @include dynamic-order('sm', 'last', $grid-columns-portrait-tablet);
     @include dynamic-order('sm', null, $grid-columns-portrait-tablet);

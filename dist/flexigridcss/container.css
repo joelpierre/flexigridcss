@@ -15,7 +15,7 @@
   padding: 0 1.8rem;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 375px) {
   .container {
     width: 100%;
     max-width: 100%;
@@ -23,7 +23,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .container {
     width: 600px;
     max-width: 600px;
@@ -31,7 +31,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .container {
     width: 900px;
     max-width: 900px;
@@ -39,7 +39,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .container {
     width: 1200px;
     max-width: 1200px;
@@ -47,7 +47,7 @@
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .container {
     width: 1800px;
     max-width: 1800px;
@@ -66,31 +66,31 @@
   max-width: 100%;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 375px) {
   .container-fluid {
     padding: 0 1rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .container-fluid {
     padding: 0 1rem;
   }
 }
 
-@media (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .container-fluid {
     padding: 0 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .container-fluid {
     padding: 0 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .container-fluid {
     padding: 0 1.8rem;
   }
@@ -102,31 +102,31 @@
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 375px) {
   .grid-gap {
     grid-gap: calc(1rem * 2);
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .grid-gap {
     grid-gap: calc(1rem * 2);
   }
 }
 
-@media (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .grid-gap {
     grid-gap: calc(1.5rem * 2);
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .grid-gap {
     grid-gap: calc(1.5rem * 2);
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .grid-gap {
     grid-gap: calc(1.8rem * 2);
   }

@@ -14,7 +14,7 @@
   padding-right: 1rem;
 }
 
-@media (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   [class|='flex'],
   [class*='flex-'] {
     padding-left: 1.5rem;
@@ -101,7 +101,7 @@
           flex: 0 0 100%;
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs {
     box-sizing: border-box;
     min-width: 0;
@@ -119,14 +119,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-2 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -136,14 +136,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-3 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -153,14 +153,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-3 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-4 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -170,14 +170,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-4 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-5 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -187,14 +187,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-5 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-6 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -204,14 +204,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-7 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -221,14 +221,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-7 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-8 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -238,14 +238,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-8 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-9 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -255,14 +255,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-9 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-10 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -272,14 +272,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-10 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-11 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -289,14 +289,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-11 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (max-width: 599px) {
+@media only screen and (min-width: 375px) {
   .flex-xs-12 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -306,14 +306,14 @@
   }
 }
 
-@media (max-width: 599px) and (min-width: 900px) {
+@media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-12 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm {
     box-sizing: border-box;
     min-width: 0;
@@ -331,14 +331,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-2 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -348,14 +348,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-3 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -365,14 +365,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-3 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-4 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -382,14 +382,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-4 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-5 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -399,14 +399,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-5 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-6 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -416,14 +416,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-7 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -433,14 +433,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-7 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-8 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -450,14 +450,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-8 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-9 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -467,14 +467,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-9 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-10 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -484,14 +484,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-10 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-11 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -501,14 +501,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-11 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 568px) {
   .flex-sm-12 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -518,14 +518,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-12 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md {
     box-sizing: border-box;
     min-width: 0;
@@ -543,14 +543,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-2 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -560,14 +560,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-3 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -577,14 +577,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-3 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-4 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -594,14 +594,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-4 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-5 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -611,14 +611,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-5 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-6 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -628,14 +628,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-7 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -645,14 +645,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-7 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-8 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -662,14 +662,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-8 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-9 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -679,14 +679,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-9 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-10 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -696,14 +696,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-10 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-11 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -713,14 +713,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-11 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .flex-md-12 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -730,14 +730,14 @@
   }
 }
 
-@media (min-width: 600px) and (min-width: 900px) {
+@media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-12 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg {
     box-sizing: border-box;
     min-width: 0;
@@ -755,14 +755,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-2 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -772,14 +772,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-3 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -789,14 +789,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-3 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-4 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -806,14 +806,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-4 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-5 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -823,14 +823,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-5 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-6 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -840,14 +840,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-7 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -857,14 +857,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-7 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-8 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -874,14 +874,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-8 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-9 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -891,14 +891,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-9 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-10 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -908,14 +908,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-10 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-11 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -925,14 +925,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-11 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .flex-lg-12 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -942,14 +942,14 @@
   }
 }
 
-@media (min-width: 1200px) and (min-width: 900px) {
+@media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-12 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl {
     box-sizing: border-box;
     min-width: 0;
@@ -967,14 +967,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-1 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-2 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -984,14 +984,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-3 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1001,14 +1001,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-3 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-4 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1018,14 +1018,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-4 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-5 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1035,14 +1035,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-5 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-6 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1052,14 +1052,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-7 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1069,14 +1069,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-7 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-8 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1086,14 +1086,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-8 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-9 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1103,14 +1103,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-9 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-10 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1120,14 +1120,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-10 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-11 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1137,14 +1137,14 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-11 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media (min-width: 1800px) {
+@media only screen and (min-width: 1280px) {
   .flex-xl-12 {
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -1154,7 +1154,7 @@
   }
 }
 
-@media (min-width: 1800px) and (min-width: 900px) {
+@media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-12 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
