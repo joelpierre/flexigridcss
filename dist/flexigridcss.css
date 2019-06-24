@@ -346,7 +346,7 @@ template {
 .container {
   width: 100%;
   max-width: 100%;
-  padding: 0 2.1rem;
+  padding: 0 1.6rem;
 }
 
 @media (max-width: 375px) {
@@ -385,7 +385,7 @@ template {
   .container {
     width: 1280px;
     max-width: 1280px;
-    padding: 0 2.1rem;
+    padding: 0 1.6rem;
   }
 }
 
@@ -426,7 +426,7 @@ template {
 
 @media only screen and (min-width: 1280px) {
   .container-fluid {
-    padding: 0 2.1rem;
+    padding: 0 1.6rem;
   }
 }
 
@@ -462,7 +462,7 @@ template {
 
 @media only screen and (min-width: 1280px) {
   .grid-gap {
-    grid-gap: calc(2.1rem * 2);
+    grid-gap: calc(1.6rem * 2);
   }
 }
 
@@ -519,8 +519,8 @@ template {
 
 @media only screen and (min-width: 1280px) {
   .row {
-    margin: 0 -2.1rem;
-    max-width: calc(100% + (2 * 2.1rem));
+    margin: 0 -1.6rem;
+    max-width: calc(100% + (2 * 1.6rem));
   }
 }
 
@@ -1837,7 +1837,7 @@ dl dd {
   .layout-side-header--reverse .container {
     width: 1600px;
     max-width: 1800px;
-    padding: 0 2.1rem;
+    padding: 0 1.6rem;
   }
 }
 
@@ -1934,8 +1934,8 @@ form {
 @media only screen and (min-width: 1280px) {
   .form-row > .flex,
   .form-row > [class*="flex-"] {
-    padding-left: calc(2.1rem / 2);
-    padding-right: calc(2.1rem / 2);
+    padding-left: calc(1.6rem / 2);
+    padding-right: calc(1.6rem / 2);
   }
 }
 

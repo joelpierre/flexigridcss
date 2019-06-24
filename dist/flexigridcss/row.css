@@ -51,8 +51,8 @@
 
 @media only screen and (min-width: 1280px) {
   .row {
-    margin: 0 -2.1rem;
-    max-width: calc(100% + (2 * 2.1rem));
+    margin: 0 -1.6rem;
+    max-width: calc(100% + (2 * 1.6rem));
   }
 }
 

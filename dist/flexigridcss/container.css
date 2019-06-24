@@ -12,7 +12,7 @@
 .container {
   width: 100%;
   max-width: 100%;
-  padding: 0 2.1rem;
+  padding: 0 1.6rem;
 }
 
 @media (max-width: 375px) {
@@ -51,7 +51,7 @@
   .container {
     width: 1280px;
     max-width: 1280px;
-    padding: 0 2.1rem;
+    padding: 0 1.6rem;
   }
 }
 
@@ -92,7 +92,7 @@
 
 @media only screen and (min-width: 1280px) {
   .container-fluid {
-    padding: 0 2.1rem;
+    padding: 0 1.6rem;
   }
 }
 
@@ -128,7 +128,7 @@
 
 @media only screen and (min-width: 1280px) {
   .grid-gap {
-    grid-gap: calc(2.1rem * 2);
+    grid-gap: calc(1.6rem * 2);
   }
 }
 
