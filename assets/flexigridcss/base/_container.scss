@@ -26,24 +26,24 @@
   }
 
   @include breakpoint(568) {
-    width: 600px;
-    max-width: 600px;
+    width: 568px;
+    max-width: 568px;
     padding: 0 #{$grid-space-portrait-tablet};
   }
 
   @include tablet-landscape-up {
-    width: 900px;
-    max-width: 900px;
+    width: 768px;
+    max-width: 768px;
     padding: 0 #{$grid-space-landscape-tablet};
   }
   @include desktop-up {
-    width: 1200px;
-    max-width: 1200px;
+    width: 1024px;
+    max-width: 1024px;
     padding: 0 #{$grid-space-desktop};
   }
   @include big-desktop-up {
-    width: 1800px;
-    max-width: 1800px;
+    width: 1280px;
+    max-width: 1280px;
     padding: 0 #{$grid-space-big-desktop};
   }
 
