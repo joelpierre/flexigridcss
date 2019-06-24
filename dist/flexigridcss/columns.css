@@ -16,8 +16,8 @@
 @media only screen and (min-width: 768px) {
   [class|='flex'],
   [class*='flex-'] {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -105,8 +105,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-1 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -121,8 +121,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-2 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -137,8 +137,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-3 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -153,8 +153,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-4 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -169,8 +169,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-5 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -185,8 +185,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -201,8 +201,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-7 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -217,8 +217,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-8 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -233,8 +233,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-9 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -249,8 +249,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-10 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -265,8 +265,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-11 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -281,8 +281,8 @@
 
 @media only screen and (min-width: 375px) and (min-width: 768px) {
   .flex-xs-12 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -304,8 +304,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-1 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -320,8 +320,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-2 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -336,8 +336,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-3 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -352,8 +352,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-4 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -368,8 +368,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-5 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -384,8 +384,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -400,8 +400,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-7 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -416,8 +416,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-8 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -432,8 +432,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-9 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -448,8 +448,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-10 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -464,8 +464,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-11 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -480,8 +480,8 @@
 
 @media only screen and (min-width: 568px) and (min-width: 768px) {
   .flex-sm-12 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -503,8 +503,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-1 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -519,8 +519,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-2 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -535,8 +535,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-3 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -551,8 +551,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-4 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -567,8 +567,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-5 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -583,8 +583,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -599,8 +599,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-7 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -615,8 +615,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-8 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -631,8 +631,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-9 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -647,8 +647,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-10 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -663,8 +663,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-11 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -679,8 +679,8 @@
 
 @media only screen and (min-width: 768px) and (min-width: 768px) {
   .flex-md-12 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -702,8 +702,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-1 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -718,8 +718,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-2 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -734,8 +734,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-3 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -750,8 +750,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-4 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -766,8 +766,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-5 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -782,8 +782,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -798,8 +798,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-7 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -814,8 +814,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-8 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -830,8 +830,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-9 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -846,8 +846,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-10 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -862,8 +862,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-11 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -878,8 +878,8 @@
 
 @media only screen and (min-width: 1024px) and (min-width: 768px) {
   .flex-lg-12 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -901,8 +901,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-1 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -917,8 +917,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-2 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -933,8 +933,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-3 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -949,8 +949,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-4 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -965,8 +965,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-5 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -981,8 +981,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -997,8 +997,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-7 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -1013,8 +1013,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-8 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -1029,8 +1029,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-9 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -1045,8 +1045,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-10 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -1061,8 +1061,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-11 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
@@ -1077,8 +1077,8 @@
 
 @media only screen and (min-width: 1280px) and (min-width: 768px) {
   .flex-xl-12 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
   }
 }
 
