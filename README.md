@@ -81,11 +81,11 @@ We swap the ``.col-`` for ``.flex-`` and in turn we introduce ``.grid-`` for new
 Similar to Bootstrap our flex items are named:
 
 ```scss
-.flex-1 ... 16 {} // No Breakpoint - Has 16 columns
-.flex-xl-1 ... 16 {} // Big desktop
+.flex-1 ... 12 {} // No Breakpoint - Has 12 columns
+.flex-xl-1 ... 12 {} // Big desktop
 .flex-lg-1 ... 12 {} // Desktop
-.flex-md-1 ... 8 {} // Tablet Landscape
-.flex-sm-1 ... 4 {} // Tablet Portrait
+.flex-md-1 ... 12 {} // Tablet Landscape
+.flex-sm-1 ... 12 {} // Tablet Portrait
 ```
 
 ##### Grid Items
