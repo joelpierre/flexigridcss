@@ -1619,12 +1619,14 @@ template {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
 }
 
 .layout-side-header--reverse > .primary-header {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 12;
+  -ms-grid-column-span: 1;
 }
 
 .primary-sidebar {
@@ -1766,12 +1768,12 @@ dl dd {
   .layout-default {
     display: -ms-grid;
     display: grid;
-        -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-        -ms-grid-rows: -webkit-min-content;
-        -ms-grid-rows: min-content;
-        grid-template-rows: -webkit-min-content;
-        grid-template-rows: min-content;
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: -webkit-min-content;
+    -ms-grid-rows: min-content;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
         grid-template-areas: "header header header header header header header header header header header header" "main main main main main main main main main main main main" "footer footer footer footer footer footer footer footer footer footer footer footer";
   }
 }
@@ -1780,12 +1782,12 @@ dl dd {
   .layout-side-header {
     display: -ms-grid;
     display: grid;
-        -ms-grid-columns: 100px (1fr)[11];
-        grid-template-columns: 100px repeat(11, 1fr);
-        -ms-grid-rows: -webkit-min-content;
-        -ms-grid-rows: min-content;
-        grid-template-rows: -webkit-min-content;
-        grid-template-rows: min-content;
+    -ms-grid-columns: 100px (1fr)[11];
+    grid-template-columns: 100px repeat(11, 1fr);
+    -ms-grid-rows: -webkit-min-content;
+    -ms-grid-rows: min-content;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
         grid-template-areas: "header main main main main main main main main main main main" "header main main main main main main main main main main main" "header footer footer footer footer footer footer footer footer footer footer footer";
   }
   @media (max-width: 375px) {
@@ -1799,12 +1801,12 @@ dl dd {
   .layout-side-header--reverse {
     display: -ms-grid;
     display: grid;
-        -ms-grid-columns: (1fr)[11] 100px;
-        grid-template-columns: repeat(11, 1fr) 100px;
-        -ms-grid-rows: -webkit-min-content;
-        -ms-grid-rows: min-content;
-        grid-template-rows: -webkit-min-content;
-        grid-template-rows: min-content;
+    -ms-grid-columns: (1fr)[11] 100px;
+    grid-template-columns: repeat(11, 1fr) 100px;
+    -ms-grid-rows: -webkit-min-content;
+    -ms-grid-rows: min-content;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
         grid-template-areas: "main main main main main main main main main main main header" "main main main main main main main main main main main header" "footer footer footer footer footer footer footer footer footer footer footer header";
   }
   @media (max-width: 375px) {
@@ -2036,8 +2038,7 @@ form {
   left: 0;
   right: 0;
   padding: 18px 16px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 1;
   line-height: 1;
   color: black;
@@ -2118,8 +2119,10 @@ form {
 
 .input-group .btn, .input-group__text {
   display: flex;
-  justify-self: center;
-  align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
   white-space: nowrap;
   font-size: inherit;
   padding: 1.5rem;
